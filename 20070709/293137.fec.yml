@@ -1,0 +1,120 @@
+countraw: 3
+countrows: 1
+filename: 293137.fec
+header: {}
+rows:
+- input: '"F2","H4AZ04024","","12416 N. 57th Drive","","Glendale","AZ","85304   ","REP","H","AZ",2
+    ,2008,"","Committee To Re-Elect Trent Franks To Congress","12416 N. 57th Drive","","Glendale","AZ","85304   ","        ","","","","","
+    ","       ","Trent Franks",20070709,0.00,0.00,"Franks","Trent","","",""'
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4AZ04024
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 12416 N. 57th Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Glendale
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85304   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: AZ
+  - name: CAN/DIST
+    number: '12'
+    value: '2 '
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Committee To Re-Elect Trent Franks To Congress
+  - name: STREET 1
+    number: '16'
+    value: 12416 N. 57th Drive
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Glendale
+  - name: STATE
+    number: '19'
+    value: AZ
+  - name: ZIP
+    number: '20'
+    value: '85304   '
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '        '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ' '
+  - name: ZIP
+    number: '27'
+    value: '       '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Trent Franks
+  - name: Signed
+    number: 29-
+    value: '20070709'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: Franks
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Trent
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20070709
+type: single
