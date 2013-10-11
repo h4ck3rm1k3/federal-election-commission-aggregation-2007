@@ -1,0 +1,128 @@
+countraw: 3
+countrows: 1
+filename: 289330.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2IN05025
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 200 North Main St.
+  - name: STREET 2
+    number: '5'
+    value: ' P.O. Box 712'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Monticello
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: PTY/CODE
+    number: '9'
+    value: IN
+  - name: CAN/OFFICE
+    number: '10'
+    value: '47960   '
+  - name: CAN/STATE
+    number: '11'
+    value: REP
+  - name: CAN/DIST
+    number: '12'
+    value: H
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: IN
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '4 '
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: '2008'
+  - name: STREET 1
+    number: '16'
+    value: ''
+  - name: STREET 2
+    number: '17'
+    value: Hoosiers Supporting Buyer For Congress
+  - name: CITY
+    number: '18'
+    value: 200 North Main St.
+  - name: STATE
+    number: '19'
+    value: '  P.O. Box 712'
+  - name: ZIP
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: Monticello
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: IN
+  - name: STREET 2
+    number: '24'
+    value: '47960   '
+  - name: CITY
+    number: '25'
+    value: '        '
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: ' '
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '       '
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: Congressman Steve Buyer
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '20070521'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: '0.00'
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Steve Buyer
+  - value: Congressman
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H2IN05025","","200 North Main St., P.O. Box 712","","Monticello,","IN","47960   ","REP","H","IN",4
+    ,2008,"","Hoosiers Supporting Buyer For Congress","200 North Main St.,  P.O. Box
+    712","","Monticello,","IN","47960   ","        ","","","",""," ","       ","Congressman
+    Steve Buyer",20070521,0.00,0.00,"Steve Buyer","Congressman","","",""'
+  input_count: 40
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070521
+type: single
