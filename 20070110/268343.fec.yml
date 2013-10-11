@@ -1,0 +1,231 @@
+countraw: 4
+countrows: 2
+filename: 268343.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00035451
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Air Line Pilots Association PAC
+  - name: STREET 1
+    number: '4'
+    value: 1625 Massachusetts Ave. NW
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: Submitted
+    number: 9-
+    value: '20070110'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: United Pilots PAC (UP-PAC)
+  - name: STREET 1
+    number: 22-6.
+    value: 6400 Shafer Court
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Rosemont
+  - name: STATE
+    number: 25-6.
+    value: IL
+  - name: ZIP
+    number: 26-6.
+    value: '60018'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Affiliated Committee
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: L
+  - name: Custodian Name
+    number: '29-7. '
+    value: Rice^Paul^^
+  - name: STREET 1
+    number: 30-7.
+    value: 1625 Massachusetts Avenue
+  - name: STREET 2
+    number: 31-7.
+    value: ' NW'
+  - name: CITY
+    number: 32-7.
+    value: 8th Floor
+  - name: STATE
+    number: 33-7.
+    value: Washington
+  - name: ZIP
+    number: 34-7.
+    value: DC
+  - name: TITLE
+    number: 35-7.
+    value: '20036'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Airline Pilot
+  - name: Treasurer
+    number: '37-8. '
+    value: '2027974033'
+  - name: STREET 1
+    number: 38-8.
+    value: Rice^Paul^^
+  - name: STREET 2
+    number: 39-8.
+    value: 1625 Massachusetts Ave.  NW
+  - name: CITY
+    number: 40-8.
+    value: 8th Floor
+  - name: STATE
+    number: 41-8.
+    value: Washington
+  - name: ZIP
+    number: 42-8.
+    value: DC
+  - name: TITLE
+    number: 43-8.
+    value: '20036'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Airline Pilot
+  - name: Designated Agent
+    number: '45-8. '
+    value: '2027974033'
+  - name: STREET 1
+    number: 46-8.
+    value: Rice^Paul^^
+  - name: STREET 2
+    number: 47-8.
+    value: 1625 Massachusetts Avenue
+  - name: CITY
+    number: 48-8.
+    value: ' NW'
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: Washington
+  - name: TITLE
+    number: 51-8.
+    value: DC
+  - name: TELEPHONE
+    number: 52-8.
+    value: '20036'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Secretary-Treasurer
+  - name: STREET 1
+    number: 54-9.
+    value: '2027974033'
+  - name: STREET 2
+    number: 55-9.
+    value: Sun Trust Bank
+  - name: CITY
+    number: 56-9.
+    value: PO Box 85024
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: Richmond
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: VA
+  - name: Signed
+    number: 60-
+    value: '23285'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Rice^Paul^^
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20070110'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: governmentaffairs@alpa.org
+  - value: ''
+  - value: 202-797-4030
+  expected_count: 63
+  input: '"F1A","C00035451","Air Line Pilots Association PAC","1625 Massachusetts
+    Ave. NW","","Washington","DC","20036","20070110","","","E","","","","",0,"","","","United
+    Pilots PAC (UP-PAC)","6400 Shafer Court","","Rosemont","IL","60018","Affiliated
+    Committee","L","Rice^Paul^^","1625 Massachusetts Avenue, NW","8th Floor","Washington","DC","20036","Airline
+    Pilot",2027974033,"Rice^Paul^^","1625 Massachusetts Ave.  NW","8th Floor","Washington","DC","20036","Airline
+    Pilot",2027974033,"Rice^Paul^^","1625 Massachusetts Avenue, NW","","Washington","DC","20036","Secretary-Treasurer",2027974033,"Sun
+    Trust Bank","PO Box 85024","","Richmond","VA","23285","Rice^Paul^^","20070110","governmentaffairs@alpa.org","","202-797-4030"'
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Changing Chairman and Secretary Treasurer names
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: '"TEXT","F1A","","Changing Chairman and Secretary Treasurer names"'
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070110
+type: single
