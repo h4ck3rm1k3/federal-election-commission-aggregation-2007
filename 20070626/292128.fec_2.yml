@@ -1,0 +1,6166 @@
+countraw: 2049
+countrows: 2047
+filename: 292128.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Halton-irwin^Rachel
+  - name: STREET 1
+    number: '5'
+    value: 1752 U Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20009'
+  - name: DATE
+    number: '11'
+    value: Office Supplies Reimbursement
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '20061116'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '418.74'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '87.93'
+  - name: SPACE HOLDER
+    number: '15'
+    value: '330.81'
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: '890042.46'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: Administrative
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: D8394H4
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: X
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: H4,"C00010033","IND","Halton-irwin^Rachel","1752 U Street, NW","","Washington","DC","20009","Office
+    Supplies Reimbursement",20061116,"418.74","87.93","330.81","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8394H4","","","","","X",,,,
+  input_count: 44
+  record: fec.version.v5_3.SH4
+  result: []
+- input: H4,"C00010033","ORG","UPS","55 Glenlake Parkway NE","","Atlanta","GA","303283474","Shipping",20061116,"23.58","4.95","18.63","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9387H4","X","","D8394H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: UPS
+  - name: STREET 1
+    number: '5'
+    value: 55 Glenlake Parkway NE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Atlanta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '303283474'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Shipping
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '23.58'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '4.95'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '18.63'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9387H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8394H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Staples","2930 Prospect Avenue","","Helena","MT","596019726","Office
+    Supplies",20061116,"252.89","53.1","199.79","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9385H4","X","","D8394H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Staples
+  - name: STREET 1
+    number: '5'
+    value: 2930 Prospect Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596019726'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '252.89'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '53.1'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '199.79'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9385H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8394H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Staples","2930 Prospect Avenue","","Helena","MT","596019726","Office
+    Supplies",20061116,"40.96","8.6","32.36","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9384H4","X","","D8394H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Staples
+  - name: STREET 1
+    number: '5'
+    value: 2930 Prospect Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596019726'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '40.96'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '8.6'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '32.36'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9384H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8394H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Staples","2930 Prospect Avenue","","Helena","MT","596019726","Office
+    Supplies",20061116,"73.32","15.39","57.93","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9383H4","X","","D8394H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Staples
+  - name: STREET 1
+    number: '5'
+    value: 2930 Prospect Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596019726'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '73.32'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '15.39'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '57.93'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9383H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8394H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Staples","2930 Prospect Avenue","","Helena","MT","596019726","Office
+    Supplies",20061116,"27.99","5.87","22.12","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9386H4","X","","D8394H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Staples
+  - name: STREET 1
+    number: '5'
+    value: 2930 Prospect Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596019726'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '27.99'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '5.87'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '22.12'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9386H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8394H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Elliott^Preston","441 S Park Avenue","Apt. A1","Helena","MT","596016320","Office
+    Supplies Reimbursement",20061116,"168.12","35.3","132.82","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8402H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Elliott^Preston
+  - name: STREET 1
+    number: '5'
+    value: 441 S Park Avenue
+  - name: STREET 2
+    number: '6'
+    value: Apt. A1
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596016320'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '168.12'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '35.3'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '132.82'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8402H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Motel 6","800 Oregon Street","","Helena","MT","59601","Lodging",20061116,"63.12","13.25","49.87","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8519H4","X","","D8402H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Motel 6
+  - name: STREET 1
+    number: '5'
+    value: 800 Oregon Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59601'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Lodging
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '63.12'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '13.25'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '49.87'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8519H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8402H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Elliott^Preston","441 S Park Avenue","Apt. A1","Helena","MT","596016320","Mileage",20061116,"105","22.05","82.95","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8518H4","X","","D8402H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Elliott^Preston
+  - name: STREET 1
+    number: '5'
+    value: 441 S Park Avenue
+  - name: STREET 2
+    number: '6'
+    value: Apt. A1
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596016320'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mileage
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '105'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '22.05'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '82.95'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8518H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8402H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Parenteau^Stacey","534 Hurdle Circle","Apt. 428","Billings","MT","591027260","Postage
+    Reimbursement",20061116,"26.8","5.62","21.18","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8404H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Parenteau^Stacey
+  - name: STREET 1
+    number: '5'
+    value: 534 Hurdle Circle
+  - name: STREET 2
+    number: '6'
+    value: Apt. 428
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '591027260'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Postage Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '26.8'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '5.62'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '21.18'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8404H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","United States Postal Service","Last Chance Station","","Helena","MT","59624","Postage",20061116,"26.8","5.62","21.18","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8521H4","X","","D8404H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: United States Postal Service
+  - name: STREET 1
+    number: '5'
+    value: Last Chance Station
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59624'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Postage
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '26.8'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '5.62'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '21.18'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8521H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8404H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Whitting-sorrell^Anna","124 3rd Ave SE","","Ronan","MT","59864","Expense
+    Reimbursement",20061116,"195.31","41.01","154.3","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8406H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Whitting-sorrell^Anna
+  - name: STREET 1
+    number: '5'
+    value: 124 3rd Ave SE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ronan
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59864'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Expense Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '195.31'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '41.01'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '154.3'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8406H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Rod's Harvest Foods","146 Main Street","","Saint Ignatius","MT","59865","Food
+    and Beverage",20061116,"90.31","18.96","71.35","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9324H4","X","","D8406H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Rod's Harvest Foods
+  - name: STREET 1
+    number: '5'
+    value: 146 Main Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Saint Ignatius
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59865'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Food and Beverage
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '90.31'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '18.96'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '71.35'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9324H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8406H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Subway","875 Grand Avenue","","Billings","MT","591023401","Food
+    and Beverage",20061116,"105","22.05","82.95","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9325H4","X","","D8406H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Subway
+  - name: STREET 1
+    number: '5'
+    value: 875 Grand Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '591023401'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Food and Beverage
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '105'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '22.05'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '82.95'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9325H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8406H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Berg^Sunny","302 Miles Ave","","Billings","MT","59101","Expense
+    Reimbursement",20061116,"1983.05","416.44","1566.61","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8407H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Berg^Sunny
+  - name: STREET 1
+    number: '5'
+    value: 302 Miles Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59101'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Expense Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '1983.05'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '416.44'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '1566.61'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8407H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Buffalo Chips","327 South 24th Street West","","Billings","MT","59102","Office
+    supplies",20061116,"160","33.6","126.4","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9321H4","X","","D8407H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Buffalo Chips
+  - name: STREET 1
+    number: '5'
+    value: 327 South 24th Street West
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59102'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '160'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '33.6'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '126.4'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9321H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8407H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Mountain Valley Inn and Suites","301 East 11th Ave","","Helena","MT","59601","Lodging",20061116,"96.3","20.22","76.08","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9319H4","X","","D8407H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Mountain Valley Inn and Suites
+  - name: STREET 1
+    number: '5'
+    value: 301 East 11th Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59601'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Lodging
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '96.3'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '20.22'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '76.08'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9319H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8407H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Mountain Valley Inn and Suites","301 East 11th Ave","","Helena","MT","59601","Lodging",20061116,"64.2","13.48","50.72","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9318H4","X","","D8407H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Mountain Valley Inn and Suites
+  - name: STREET 1
+    number: '5'
+    value: 301 East 11th Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59601'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Lodging
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '64.2'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '13.48'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '50.72'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9318H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8407H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Berg^Sunny","302 Miles Ave","","Billings","MT","59101","Mileage",20061116,"1649.55","346.4","1303.15","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8525H4","X","","D8407H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Berg^Sunny
+  - name: STREET 1
+    number: '5'
+    value: 302 Miles Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59101'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mileage
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '1649.55'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '346.4'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '1303.15'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8525H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8407H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Western Awards & Engraving Co. Inc.","670 King Park
+    Dr. Ste. 5","","Billings","MT","591026257","Office Supplies",20061116,"13","2.73","10.27","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9320H4","X","","D8407H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Western Awards & Engraving Co. Inc.
+  - name: STREET 1
+    number: '5'
+    value: 670 King Park Dr. Ste. 5
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '591026257'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '13'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '2.73'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '10.27'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9320H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8407H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Hamwi^Diane","4307 North Star Blvd","","Great Falls","MT","59406","Office
+    Supplies Reimbursement",20061116,"325.28","68.3","256.98","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8412H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Hamwi^Diane
+  - name: STREET 1
+    number: '5'
+    value: 4307 North Star Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Great Falls
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59406'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '325.28'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '68.3'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '256.98'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8412H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Target","3303 N Montana Avenue","","Helena","MT","596027817","Office
+    Supplies",20061116,"128.38","26.95","101.43","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8530H4","X","","D8412H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Target
+  - name: STREET 1
+    number: '5'
+    value: 3303 N Montana Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596027817'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '128.38'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '26.95'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '101.43'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8530H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8412H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Albertson's","600 N Fee Street","","Helena","MT","596013148","Office
+    Supplies",20061116,"91.43","19.2","72.23","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8529H4","X","","D8412H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Albertson's
+  - name: STREET 1
+    number: '5'
+    value: 600 N Fee Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596013148'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '91.43'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '19.2'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '72.23'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8529H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8412H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Papa John's Pizza","1433   11th Avenue","","Helena","MT","596014524","food
+    and beverage",20061116,"105.47","22.14","83.33","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8531H4","X","","D8412H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Papa John's Pizza
+  - name: STREET 1
+    number: '5'
+    value: 1433   11th Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Helena
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '596014524'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: food and beverage
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '105.47'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '22.14'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '83.33'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8531H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8412H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Derby^Kendra Sue","3234 W. Fairview Place","","Denver","CO","80203","Expense
+    Reimbursement",20061119,"113.36","23.8","89.56","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8419H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Derby^Kendra Sue
+  - name: STREET 1
+    number: '5'
+    value: 3234 W. Fairview Place
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Denver
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80203'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Expense Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061119'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '113.36'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '23.8'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '89.56'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8419H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Conoco","3150 King Ave West","","Billings","MT","59102","Office
+    Supplies",20061119,"65.87","13.83","52.04","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8534H4","X","","D8419H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Conoco
+  - name: STREET 1
+    number: '5'
+    value: 3150 King Ave West
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59102'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061119'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '65.87'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '13.83'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '52.04'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8534H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8419H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Rent A Center","1212 Grand Ave","","Billings","MT","59102","Equipment
+    Rental",20061119,"47.49","9.97","37.52","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8535H4","X","","D8419H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Rent A Center
+  - name: STREET 1
+    number: '5'
+    value: 1212 Grand Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59102'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Equipment Rental
+  - name: DATE
+    number: '11'
+    value: '20061119'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '47.49'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '9.97'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '37.52'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8535H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8419H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Farrell^Jim","2   10th Avenue W","","Kalispell","MT","599014320","Expense
+    Reimbursement",20061030,"430.19","90.33","339.86","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8452H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Farrell^Jim
+  - name: STREET 1
+    number: '5'
+    value: 2   10th Avenue W
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kalispell
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '599014320'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Expense Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '430.19'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '90.33'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '339.86'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8452H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Uhaul","1145 Main Street","","Billings","MT","591052541","Equipment
+    Rental",20061030,"41.39","8.69","32.7","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9413H4","X","","D8452H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Uhaul
+  - name: STREET 1
+    number: '5'
+    value: 1145 Main Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '591052541'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Equipment Rental
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '41.39'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '8.69'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '32.7'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9413H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8452H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Verizon Wireless","PO Box 96088","","Bellevue","WA","980098800","Cell
+    Phone Service",20061030,"133.36","28","105.36","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8450H4","X","","D8452H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Verizon Wireless
+  - name: STREET 1
+    number: '5'
+    value: PO Box 96088
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bellevue
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '980098800'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Cell Phone Service
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '133.36'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '28'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '105.36'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8450H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8452H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Verizon Wireless","PO Box 96088","","Bellevue","WA","980098800","Cell
+    Phone Service",20061030,"96.55","20.27","76.28","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9412H4","X","","D8452H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Verizon Wireless
+  - name: STREET 1
+    number: '5'
+    value: PO Box 96088
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bellevue
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '980098800'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Cell Phone Service
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '96.55'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '20.27'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '76.28'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9412H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8452H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Verizon Wireless","PO Box 96088","","Bellevue","WA","980098800","Cell
+    Phone Service",20061030,"158.89","33.36","125.53","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9411H4","X","","D8452H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Verizon Wireless
+  - name: STREET 1
+    number: '5'
+    value: PO Box 96088
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bellevue
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '980098800'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Cell Phone Service
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '158.89'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '33.36'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '125.53'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9411H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8452H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Woodwick^Allen","619 - 4th Avenue","","Havre","MT","595014018","Expense
+    Reimbursement",20061022,"180.85","37.97","142.88","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8476H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Woodwick^Allen
+  - name: STREET 1
+    number: '5'
+    value: 619 - 4th Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '595014018'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Expense Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '180.85'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '37.97'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '142.88'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8476H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Woodwick^Allen","619 - 4th Avenue","","Havre","MT","595014018","Mileage
+    Reimbursement",20061022,"63","13.23","49.77","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8478H4","X","","D8476H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Woodwick^Allen
+  - name: STREET 1
+    number: '5'
+    value: 619 - 4th Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '595014018'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mileage Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '63'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '13.23'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '49.77'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8478H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8476H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Woodwick^Allen","619 - 4th Avenue","","Havre","MT","595014018","Techology
+    Stipend",20061022,"35","7.35","27.65","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8477H4","X","","D8476H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Woodwick^Allen
+  - name: STREET 1
+    number: '5'
+    value: 619 - 4th Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '595014018'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Techology Stipend
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '35'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '7.35'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '27.65'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8477H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8476H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","KMart","3180 Hwy 2 West","","Havre","MT","59501","Office
+    Supplies",20061022,"56.17","11.79","44.38","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D8479H4","X","","D8476H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: KMart
+  - name: STREET 1
+    number: '5'
+    value: 3180 Hwy 2 West
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59501'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '56.17'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '11.79'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '44.38'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D8479H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8476H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","New Media Broadcasters Inc.","2210 31st St. N.","","Havre","MT","59501","Copies",20061022,".5",".1",".4","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9338H4","X","","D8476H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: New Media Broadcasters Inc.
+  - name: STREET 1
+    number: '5'
+    value: 2210 31st St. N.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59501'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copies
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '.5'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '.1'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '.4'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9338H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8476H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","New Media Broadcasters Inc.","2210 31st St. N.","","Havre","MT","59501","Copies",20061022,"1",".21",".79","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9337H4","X","","D8476H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: New Media Broadcasters Inc.
+  - name: STREET 1
+    number: '5'
+    value: 2210 31st St. N.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59501'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copies
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '1'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '.21'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '.79'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9337H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8476H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Office Equipment Co. Inc.","200 2nd St.","","Havre","MT","59501","Office
+    Supplies",20061022,"25.18","5.28","19.9","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9336H4","X","","D8476H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Office Equipment Co. Inc.
+  - name: STREET 1
+    number: '5'
+    value: 200 2nd St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Havre
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59501'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061022'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '25.18'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '5.28'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '19.9'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9336H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D8476H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: 'H4,"C00010033","IND","Kravitz^Jason","511 E Anapanu Street #C","","Santa
+    Barbara","CA","93103","Travel Reimbursement",20061116,"526.5","110.56","415.94","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9322H4","","","","","X",,,,'
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Kravitz^Jason
+  - name: STREET 1
+    number: '5'
+    value: '511 E Anapanu Street #C'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Santa Barbara
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93103'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Travel Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '526.5'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '110.56'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '415.94'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9322H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Alaska Airlines","PO Box 68900","","Seattle","WA","98168","Airfare",20061116,"526.5","110.56","415.94","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9323H4","X","","D9322H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Alaska Airlines
+  - name: STREET 1
+    number: '5'
+    value: PO Box 68900
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98168'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Airfare
+  - name: DATE
+    number: '11'
+    value: '20061116'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '526.5'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '110.56'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '415.94'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9323H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D9322H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","IND","Jacobs^Megan","445 Daniel Street","","Billings","MT","591013218","Expense
+    Reimbursement",20061110,"15.8","3.31","12.49","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9329H4","","","","","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Jacobs^Megan
+  - name: STREET 1
+    number: '5'
+    value: 445 Daniel Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Billings
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '591013218'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Expense Reimbursement
+  - name: DATE
+    number: '11'
+    value: '20061110'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '15.8'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '3.31'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '12.49'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9329H4
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Boss Inc.","123 W. Towne St.","","Glendive","MT","59330","Office
+    Supplies",20061110,"7.9","1.65","6.25","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9330H4","X","","D9329H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Boss Inc.
+  - name: STREET 1
+    number: '5'
+    value: 123 W. Towne St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Glendive
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59330'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061110'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '7.9'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '1.65'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '6.25'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9330H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D9329H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: H4,"C00010033","ORG","Boss Inc.","123 W. Towne St.","","Glendive","MT","59330","Office
+    Supplies",20061110,"7.9","1.65","6.25","",,,,890042.46,"Administrative","","","","","","","","","","","","","","D9331H4","X","","D9329H4","H4","X",,,,
+  record: fec.version.v5_3.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Boss Inc.
+  - name: STREET 1
+    number: '5'
+    value: 123 W. Towne St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Glendive
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59330'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office Supplies
+  - name: DATE
+    number: '11'
+    value: '20061110'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '7.9'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '1.65'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '6.25'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '890042.46'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: D9331H4
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: D9329H4
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: H4
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: X
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+- input: SL,"C00010033","Levin Funds","Levin",20061019,20061127,"10000","0","10000","0","10000","0","0","0","0","0","0","0","5000","10000","15000","0","15000","0","15000","0","15000","0","0","0","0","0","0","0","0","15000","15000","0","15000","","SchedL20"
+  record: fec.version.v5_3.SL
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SL
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: NAME OF ACCOUNT
+    number: '3'
+    value: Levin Funds
+  - name: 'System code for account named in Field #3'
+    number: '4'
+    value: Levin
+  - name: Coverage From
+    number: 5-
+    value: '20061019'
+  - name: Coverage To
+    number: 6-
+    value: '20061127'
+  - name: Itemized Receipts From Persons
+    number: 7-1a.
+    value: '10000'
+  - name: Unitemized Receipts From Persons
+    number: 8-1b.
+    value: '0'
+  - name: Total Receipts From Persons
+    number: 9-1c.
+    value: '10000'
+  - name: Other Receipts
+    number: 10-2.
+    value: '0'
+  - name: Total Receipts
+    number: 11-3.
+    value: '10000'
+  - name: Voter Registration DISBURSEMENTS
+    number: 12-4(a).
+    value: '0'
+  - name: Voter ID DISBURSEMENTS
+    number: 13-4(b).
+    value: '0'
+  - name: GOTV DISBURSEMENTS
+    number: 14-4(c).
+    value: '0'
+  - name: Generic Campaign DISBURSEMENTS
+    number: 15-4(d).
+    value: '0'
+  - name: Line 4 Total
+    number: 16-4(e)
+    value: '0'
+  - name: Other Disbursements
+    number: 17-5.
+    value: '0'
+  - name: Total Disbursements
+    number: 18-6.
+    value: '0'
+  - name: Cash on Hand beginning
+    number: 19-7.
+    value: '5000'
+  - name: Receipts
+    number: 20-8.
+    value: '10000'
+  - name: Subtotal
+    number: 21-9.
+    value: '15000'
+  - name: Disbursements
+    number: 22-10.
+    value: '0'
+  - name: Itemized Receipts From Persons
+    number: 23-1a.
+    value: '15000'
+  - name: Unitemized Receipts From Persons
+    number: 24-1b.
+    value: '0'
+  - name: Total Receipts From Persons
+    number: 25-1c.
+    value: '15000'
+  - name: Other Receipts
+    number: 26-2.
+    value: '0'
+  - name: Total Receipts
+    number: 27-3.
+    value: '15000'
+  - name: Voter Registration DISBURSEMENTS
+    number: 28-4(a).
+    value: '0'
+  - name: Voter ID DISBURSEMENTS
+    number: 29-4(b).
+    value: '0'
+  - name: GOTV DISBURSEMENTS
+    number: 30-4(c).
+    value: '0'
+  - name: Generic Campaign DISBURSEMENTS
+    number: 31-4(d).
+    value: '0'
+  - name: Line 4 Total
+    number: 32-4(e)
+    value: '0'
+  - name: Other Disbursements
+    number: 33-5.
+    value: '0'
+  - name: Total Disbursements
+    number: 34-6.
+    value: '0'
+  - name: Cash on Hand Jan 1, 19
+    number: 35-7.
+    value: '0'
+  - name: Receipts
+    number: 36-8.
+    value: '15000'
+  - name: Subtotal
+    number: 37-9.
+    value: '15000'
+  - name: Disbursements
+    number: 38-10.
+    value: '0'
+  - name: ENDING CASH ON HAND
+    number: 39-11.
+    value: '15000'
+  - name: AMENDED CODE
+    number: '40'
+    value: ''
+  - name: TRAN ID
+    number: '41'
+    value: SchedL20
+- input: SASL1A,"C00010033","PAC","","555 New Jersey Avenue NW","","Washington","DC","20001","","","","","10000",20061024,"10000","","","","","","","","","","","","","","","",,"","C200461","","","Levin","","AMERICAN
+    FEDERATION OF TEACHERS AFL-CIO COMMITTEE ON POLITICAL EDUCATION",,,,"",
+  record: fec.version.v5_3.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SASL1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010033
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 555 New Jersey Avenue NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '10000'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20061024'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '10000'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: C200461
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: Levin
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: AMERICAN FEDERATION OF TEACHERS AFL-CIO COMMITTEE ON POLITICAL EDUCATION
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is in response to the Commission's letter dated May 2
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2007. Additional addresses have been provided. The payment to Ann Olson
+      on Schedule H4 has been moved to Schedule B for Line 30b. The original payment
+      was not part of an allocation transfer'
+  - value: ' thus no non-federal funds were used. During the course of the 2006 election
+      cycle'
+  - value: ' the Committee established separate bank accounts for its receipts from
+      National Party Committees; these funds were segregated from other federal funds.
+      Expenditures from these accounts were only for permissible purchases. No payments
+      for ''Artwork Exempt/Tester'
+  - value: ''' ''Direct Mail/Volunteer Exempt'
+  - value: ''' ''Grassroots Campaign Materials/Tester'
+  - value: ''' ''Postage Exempt/Tester'
+  - value: ''' ''Postage Exempt/Tester Reimbursement'
+  - value: ''' or ''Printing Exempt/Tester'' were paid from these accounts. The Committee
+      has discovered errors in the previously reported Schedule D for Line 10. Corrections
+      to those errors are reflected in this amendment. The debt for Artcraft Printers
+      has decreased due to a payment made on 10/31/06 that had not been applied to
+      the debt. It is now reflected in the current debt schedule.'
+  expected_count: 5
+  input: TEXT,"F3XA","","This amendment is in response to the Commission's letter
+    dated May 2, 2007. Additional addresses have been provided. The payment to Ann
+    Olson on Schedule H4 has been moved to Schedule B for Line 30b. The original payment
+    was not part of an allocation transfer, thus no non-federal funds were used. During
+    the course of the 2006 election cycle, the Committee established separate bank
+    accounts for its receipts from National Party Committees; these funds were segregated
+    from other federal funds. Expenditures from these accounts were only for permissible
+    purchases. No payments for 'Artwork Exempt/Tester,' 'Direct Mail/Volunteer Exempt,'
+    'Grassroots Campaign Materials/Tester,' 'Postage Exempt/Tester,' 'Postage Exempt/Tester
+    Reimbursement,' or 'Printing Exempt/Tester' were paid from these accounts. The
+    Committee has discovered errors in the previously reported Schedule D for Line
+    10. Corrections to those errors are reflected in this amendment. The debt for
+    Artcraft Printers has decreased due to a payment made on 10/31/06 that had not
+    been applied to the debt. It is now reflected in the current debt schedule."
+  input_count: 12
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070626
+type: chunk
