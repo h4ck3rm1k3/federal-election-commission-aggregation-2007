@@ -1,0 +1,123 @@
+countraw: 3
+countrows: 1
+filename: 277111.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: P80003353
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 585 COMMERCIAL STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BOSTON
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 02109
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: '0'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00431171
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ROMNEY FOR PRESIDENT
+  - name: STREET 1
+    number: '16'
+    value: ' INC.'
+  - name: STREET 2
+    number: '17'
+    value: 585 COMMERCIAL STREET
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: BOSTON
+  - name: ZIP
+    number: '20'
+    value: MA
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: 02109
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: MITT ROMNEY
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070213'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: ROMNEY
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: MITT
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: F2,P80003353,,"585 COMMERCIAL STREET",,"BOSTON",MA,02109,REP,P,,0,2008,C00431171,"ROMNEY
+    FOR PRESIDENT, INC.","585 COMMERCIAL STREET",,"BOSTON",MA,02109,,,,,,,,"MITT ROMNEY",20070213,0.00,0.00,"ROMNEY","MITT",,,
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070214
+type: single
