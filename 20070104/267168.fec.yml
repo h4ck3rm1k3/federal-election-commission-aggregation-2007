@@ -1,0 +1,209 @@
+countraw: 3
+countrows: 1
+filename: 267168.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00148031
+  - name: COMMITTEE NAME
+    number: '3'
+    value: The Caterpillar Employee Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 100 N.E. Adams
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Peoria
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '616291430'
+  - name: Submitted
+    number: 9-
+    value: '20070104'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Caterpillar
+  - name: STREET 1
+    number: 22-6.
+    value: ' Inc.'
+  - name: STREET 2
+    number: 23-6.
+    value: 100 N.E. Adams
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: Peoria
+  - name: ZIP
+    number: 26-6.
+    value: IL
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: '61629'
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: Connected Organization
+  - name: Custodian Name
+    number: '29-7. '
+    value: C
+  - name: STREET 1
+    number: 30-7.
+    value: Crew^Douglas^^
+  - name: STREET 2
+    number: 31-7.
+    value: 100 N.E. Adams
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Peoria
+  - name: ZIP
+    number: 34-7.
+    value: IL
+  - name: TITLE
+    number: 35-7.
+    value: '61629'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Custodian of Records
+  - name: Treasurer
+    number: '37-8. '
+    value: '3096755248'
+  - name: STREET 1
+    number: 38-8.
+    value: Vest^Gary^^
+  - name: STREET 2
+    number: 39-8.
+    value: 100 N.E. Adams Street
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Peoria
+  - name: ZIP
+    number: 42-8.
+    value: IL
+  - name: TITLE
+    number: 43-8.
+    value: '616291430'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Tax Manager
+  - name: Designated Agent
+    number: '45-8. '
+    value: '3096754482'
+  - name: STREET 1
+    number: 46-8.
+    value: Crew^Douglas^^
+  - name: STREET 2
+    number: 47-8.
+    value: 100 N.E. Adams
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: Peoria
+  - name: ZIP
+    number: 50-8.
+    value: IL
+  - name: TITLE
+    number: 51-8.
+    value: '61629'
+  - name: TELEPHONE
+    number: 52-8.
+    value: Govt Affairs Manager
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '3096755248'
+  - name: STREET 1
+    number: 54-9.
+    value: First Bank
+  - name: STREET 2
+    number: 55-9.
+    value: 230 SW Adams Street
+  - name: CITY
+    number: 56-9.
+    value: Suite 100
+  - name: STATE
+    number: 57-9.
+    value: Peoria
+  - name: ZIP
+    number: 58-9.
+    value: IL
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '61602'
+  - name: Signed
+    number: 60-
+    value: Vest^Gary^^
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20070104'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: CAT_PAC@myfecnotices.com
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: 309-675-5815
+  expected_count: 63
+  input: '"F1N","C00148031","The Caterpillar Employee Political Action Committee","100
+    N.E. Adams","","Peoria","IL","616291430","20070104","","","E","","","","",0,"","","","Caterpillar,
+    Inc.","100 N.E. Adams","","Peoria","IL","61629","Connected Organization","C","Crew^Douglas^^","100
+    N.E. Adams","","Peoria","IL","61629","Custodian of Records",3096755248,"Vest^Gary^^","100
+    N.E. Adams Street","","Peoria","IL","616291430","Tax Manager",3096754482,"Crew^Douglas^^","100
+    N.E. Adams","","Peoria","IL","61629","Govt Affairs Manager",3096755248,"First
+    Bank","230 SW Adams Street","Suite 100","Peoria","IL","61602","Vest^Gary^^","20070104","CAT_PAC@myfecnotices.com","","309-675-5815"'
+  input_count: 64
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070104
+type: single
