@@ -1,0 +1,138 @@
+countraw: 4
+countrows: 2
+filename: 290603.fec
+header: {}
+rows:
+- input: '"F6N","C00259374","MATHEWS FOR CONGRESS","555 South Flower Street #4210",,"Los
+    Angeles","CA","90071","H2CA38062","Mathews^E. Peter","H","CA","37","20070611"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00259374
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MATHEWS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: '555 South Flower Street #4210'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Los Angeles
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90071'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA38062
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Mathews^E. Peter
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '37'
+  - name: Signed
+    number: 14-
+    value: '20070611'
+- input: '"F65","C00259374","IND","Nicholas E. Dibs","12826 Bailey Street",,"Garden
+    Grove","CA","92845","Garden Grove Unified School Dist","Educator Teacher","20070610","1000.00","",,"","","","",,,,,,,,F653098'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00259374
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Nicholas E. Dibs
+  - name: STREET 1
+    number: '5'
+    value: 12826 Bailey Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Garden Grove
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92845'
+  - name: INDEMP
+    number: '10'
+    value: Garden Grove Unified School Dist
+  - name: INDOCC
+    number: '11'
+    value: Educator Teacher
+  - name: Of Contribution
+    number: 12-
+    value: '20070610'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653098
+sourceurl: !!python/unicode 20070611
+type: single
