@@ -1,0 +1,608 @@
+countraw: 5
+countrows: 3
+filename: 284149.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN SULLIVAN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: ' INC'
+  - name: STREET 2
+    number: '5'
+    value: Post Office Box 470840
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Tulsa
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: OK
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '74147   '
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: '20070413'
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: X
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ' '
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: A
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H2OK01093
+  - name: CAN/STATE
+    number: 16-5.
+    value: John Sullivan
+  - name: CAN/DIST
+    number: 17-5.
+    value: H
+  - name: PARTY CODE
+    number: 18-5.
+    value: OK
+  - name: PARTY TYPE
+    number: 19-5.
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: REP
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: NAT
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: Steven D. Ralls
+  - name: CITY
+    number: 32-7.
+    value: FEC Financial
+  - name: STATE
+    number: 33-7.
+    value: ' Inc.'
+  - name: ZIP
+    number: 34-7.
+    value: Post Office Box 651374
+  - name: TITLE
+    number: 35-7.
+    value: Potomac Falls
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: VA
+  - name: STREET 1
+    number: 38-8.
+    value: '20165'
+  - name: STREET 2
+    number: 39-8.
+    value: Treasurer
+  - name: CITY
+    number: 40-8.
+    value: '7037076259'
+  - name: STATE
+    number: 41-8.
+    value: Steven D. Ralls
+  - name: ZIP
+    number: 42-8.
+    value: FEC Financial
+  - name: TITLE
+    number: 43-8.
+    value: ' Inc.'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Post Office Box 651374
+  - name: Designated Agent
+    number: '45-8. '
+    value: Potomac Falls
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: VA
+  - name: CITY
+    number: 48-8.
+    value: '20165'
+  - name: STATE
+    number: 49-8.
+    value: Treasurer
+  - name: ZIP
+    number: 50-8.
+    value: '7034306623'
+  - name: TITLE
+    number: 51-8.
+    value: Steven D. Ralls
+  - name: TELEPHONE
+    number: 52-8.
+    value: FEC Financial
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ' Inc.'
+  - name: STREET 1
+    number: 54-9.
+    value: Post Office Box 651374
+  - name: STREET 2
+    number: 55-9.
+    value: Potomac Falls
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: VA
+  - name: ZIP
+    number: 58-9.
+    value: '20165'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Treasurer
+  - name: Signed
+    number: 60-
+    value: '7034306635'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: F & M Bank and Trust
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: 1330 S. Harvard
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: Tulsa
+  - value: ''
+  - value: OK
+  - value: '74112'
+  - value: Steven D. Ralls
+  - value: '20070413'
+  - value: sralls@fecfinancial.com
+  - value: www.johnsullivanforcongress.com
+  - value: '7034306623'
+  expected_count: 63
+  input: '"F1N","C00366773","JOHN SULLIVAN FOR CONGRESS, INC","Post Office Box 470840","","Tulsa,","OK","74147   ",20070413,"X","
+    ","A","H2OK01093","John Sullivan","H","OK","01","REP","NAT","","","","","","","","","","Steven
+    D. Ralls","FEC Financial, Inc.","Post Office Box 651374","Potomac Falls,","VA","20165","Treasurer",7037076259,"Steven
+    D. Ralls","FEC Financial, Inc.","Post Office Box 651374","Potomac Falls,","VA","20165","Treasurer",7034306623,"Steven
+    D. Ralls","FEC Financial, Inc.","Post Office Box 651374","Potomac Falls,","VA","20165","Treasurer",7034306635,"F
+    & M Bank and Trust","1330 S. Harvard","","Tulsa,","OK","74112","Steven D. Ralls",20070413,"sralls@fecfinancial.com","www.johnsullivanforcongress.com","7034306623"'
+  input_count: 72
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '                              '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: BB&T Bank
+  - name: STREET 1
+    number: 54-9.
+    value: PO Box 200
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Wilson
+  - name: STATE
+    number: 57-9.
+    value: NC
+  - name: ZIP
+    number: 58-9.
+    value: '27894'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NO VALUE!
+  expected_count: 63
+  input: '"F1S","C00366773","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",,"","","","","","","",,"","","","","","","",                              ,"BB&T
+    Bank","PO Box 200","","Wilson","NC","27894","",,"",""'
+  input_count: 62
+  record: fec.version.v5_3.F1S
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '                              '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: American Bank of Oklahoma
+  - name: STREET 1
+    number: 54-9.
+    value: 200 East Main Street
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Collinsville
+  - name: STATE
+    number: 57-9.
+    value: OK
+  - name: ZIP
+    number: 58-9.
+    value: '74021'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NO VALUE!
+  expected_count: 63
+  input: '"F1S","C00366773","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",,"","","","","","","",,"","","","","","","",                              ,"American
+    Bank of Oklahoma","200 East Main Street","","Collinsville","OK","74021","",,"",""'
+  input_count: 62
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20070413
+type: single
