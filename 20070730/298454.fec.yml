@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 298454.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8LA04134
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 7820 Millicent Way
+  - name: STREET 2
+    number: '5'
+    value: ' #701'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Shreveport
+  - name: ZIP
+    number: '8'
+    value: LA
+  - name: PTY/CODE
+    number: '9'
+    value: '71105   '
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: LA
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '4 '
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ''
+  - name: STREET 1
+    number: '16'
+    value: McCrery for Congress Committee
+  - name: STREET 2
+    number: '17'
+    value: Post Office Box 52956
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Shreveport
+  - name: ZIP
+    number: '20'
+    value: LA
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '71135   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '        '
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ' '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '       '
+  - name: Signed
+    number: 29-
+    value: James O McCrery III
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070730'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: O McCrery III
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: James
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H8LA04134","","7820 Millicent Way, #701","","Shreveport","LA","71105   ","REP","H","LA",4
+    ,2008,"","McCrery for Congress Committee","Post Office Box 52956","","Shreveport","LA","71135   ","        ","","","","","
+    ","       ","James O McCrery III",20070730,0.00,0.00,"O McCrery III","James","","",""'
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070730
+type: single
