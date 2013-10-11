@@ -1,0 +1,208 @@
+countraw: 3
+countrows: 1
+filename: 289667.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365692
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Forbes for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 15100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Chesapeake
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '23328   '
+  - name: Submitted
+    number: 9-
+    value: '20010411'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ' '
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ' '
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H2VA04052
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: J. Randy Forbes
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: VA
+  - name: CAN/DIST
+    number: 17-5.
+    value: '04'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Cheryl L. Freauff
+  - name: STREET 1
+    number: 30-7.
+    value: 2875 Towerview Road
+  - name: STREET 2
+    number: 31-7.
+    value: ' Ste. 1000'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Herndon
+  - name: ZIP
+    number: 34-7.
+    value: VA
+  - name: TITLE
+    number: 35-7.
+    value: '20171'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '7034679341'
+  - name: STREET 1
+    number: 38-8.
+    value: Cheryl L. Freauff
+  - name: STREET 2
+    number: 39-8.
+    value: 2875 Towerview Road
+  - name: CITY
+    number: 40-8.
+    value: ' Ste. 1000'
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: Herndon
+  - name: TITLE
+    number: 43-8.
+    value: VA
+  - name: TELEPHONE
+    number: 44-8.
+    value: '20171'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 46-8.
+    value: '7034679341'
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: '          '
+  - name: STREET 2
+    number: 55-9.
+    value: BB&T
+  - name: CITY
+    number: 56-9.
+    value: 1809 Greenbriar Parkway
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: Chesapeake
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: VA
+  - name: Signed
+    number: 60-
+    value: '23320'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Cheryl L. Freauff
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20070523'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: cheryl@morganmeredith.com
+  - value: www.randyforbes.com
+  - value: 703-467-9342
+  expected_count: 63
+  input: '"F1N","C00365692","Forbes for Congress","PO Box 15100","","Chesapeake","VA","23328   ",20010411,"
+    "," ","A","H2VA04052","J. Randy Forbes","H","VA","04","","","","","","","","","","","","Cheryl
+    L. Freauff","2875 Towerview Road, Ste. 1000","","Herndon","VA","20171","Treasurer",7034679341,"Cheryl
+    L. Freauff","2875 Towerview Road, Ste. 1000","","Herndon","VA","20171","Treasurer",7034679341,"","","","","","","",          ,"BB&T","1809
+    Greenbriar Parkway","","Chesapeake","VA","23320","Cheryl L. Freauff",20070523,"cheryl@morganmeredith.com","www.randyforbes.com","703-467-9342"'
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070523
+type: single
