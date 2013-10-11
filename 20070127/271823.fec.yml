@@ -1,0 +1,411 @@
+countraw: 4
+countrows: 2
+filename: 271823.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393512
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Ben Chandler for Congress
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 12678
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lexington
+  - name: STATE
+    number: '7'
+    value: KY
+  - name: ZIP
+    number: '8'
+    value: '40508'
+  - name: Submitted
+    number: 9-
+    value: '20070126'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H4KY06072
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: Ben Chandler
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: KY
+  - name: CAN/DIST
+    number: 17-5.
+    value: '6'
+  - name: PARTY CODE
+    number: 18-5.
+    value: DEM
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00417717
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Kentucky Forward Pac
+  - name: STREET 1
+    number: 22-6.
+    value: P. O. Box 257
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Frankfort
+  - name: STATE
+    number: 25-6.
+    value: KY
+  - name: ZIP
+    number: 26-6.
+    value: '40602'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Joint Fund
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: R. Wayne Stratton
+  - name: STREET 1
+    number: 30-7.
+    value: 642 South Fourth Ave.
+  - name: STREET 2
+    number: 31-7.
+    value: ' Suite 300'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Louisville
+  - name: ZIP
+    number: 34-7.
+    value: KY
+  - name: TITLE
+    number: 35-7.
+    value: '40202'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '5025830248'
+  - name: STREET 1
+    number: 38-8.
+    value: R. Wayne Stratton
+  - name: STREET 2
+    number: 39-8.
+    value: 642 South Fourth Ave.
+  - name: CITY
+    number: 40-8.
+    value: ' #300'
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: Louisville
+  - name: TITLE
+    number: 43-8.
+    value: KY
+  - name: TELEPHONE
+    number: 44-8.
+    value: '40202'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 46-8.
+    value: '5025830248'
+  - name: STREET 2
+    number: 47-8.
+    value: Paula Pasley
+  - name: CITY
+    number: 48-8.
+    value: 642 South Fourth Avenue
+  - name: STATE
+    number: 49-8.
+    value: ' Suite 300'
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: Louisville
+  - name: TELEPHONE
+    number: 52-8.
+    value: KY
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '40202'
+  - name: STREET 1
+    number: 54-9.
+    value: Administrative Assis
+  - name: STREET 2
+    number: 55-9.
+    value: '5025830248'
+  - name: CITY
+    number: 56-9.
+    value: Republic Bank & Trust Company
+  - name: STATE
+    number: 57-9.
+    value: Republic Corporate Center
+  - name: ZIP
+    number: 58-9.
+    value: 601 W. Market St.
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Louisville
+  - name: Signed
+    number: 60-
+    value: KY
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '40202'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: R. Wayne Stratton
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20070126'
+  - value: paula@jnmcpa.com
+  - value: ''
+  - value: '5025891680'
+  expected_count: 63
+  input: '"F1N","C00393512","Ben Chandler for Congress","P. O. Box 12678","","Lexington","KY","40508","20070126","","","A","H4KY06072","Ben
+    Chandler","H","KY","6","DEM","","C00417717","Kentucky Forward Pac","P. O. Box
+    257","","Frankfort","KY","40602","Joint Fund","","R. Wayne Stratton","642 South
+    Fourth Ave., Suite 300","","Louisville","KY","40202","Treasurer","5025830248","R.
+    Wayne Stratton","642 South Fourth Ave., #300","","Louisville","KY","40202","Treasurer","5025830248","Paula
+    Pasley","642 South Fourth Avenue, Suite 300","","Louisville","KY","40202","Administrative
+    Assis","5025830248","Republic Bank & Trust Company","Republic Corporate Center","601
+    W. Market St.","Louisville","KY","40202","R. Wayne Stratton","20070126","paula@jnmcpa.com","","5025891680"'
+  input_count: 66
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393512
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00416883
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Chandler Victory Fund
+  - name: STREET 1
+    number: 22-6.
+    value: P. O. Box 12678
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Lexington
+  - name: STATE
+    number: 25-6.
+    value: KY
+  - name: ZIP
+    number: 26-6.
+    value: '40583'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Joint Fund
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: R. Wayne Stratton
+  - name: STREET 1
+    number: 46-8.
+    value: 642 South Fourth Ave.
+  - name: STREET 2
+    number: 47-8.
+    value: ' Suite 300'
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: Louisville
+  - name: ZIP
+    number: 50-8.
+    value: KY
+  - name: TITLE
+    number: 51-8.
+    value: '40404'
+  - name: TELEPHONE
+    number: 52-8.
+    value: Treasurer
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '5025830248'
+  - name: STREET 1
+    number: 54-9.
+    value: Republic Bank & Trust Company
+  - name: STREET 2
+    number: 55-9.
+    value: 601 W. Market Street
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: Louisville
+  - name: ZIP
+    number: 58-9.
+    value: KY
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '40202'
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: ''
+  expected_count: 63
+  input: '"F1S","C00393512","","","","","","","","","","","","","","","0","","","C00416883","Chandler
+    Victory Fund","P. O. Box 12678","","Lexington","KY","40583","Joint Fund","","","","","","","","","","","","","","","","","","R.
+    Wayne Stratton","642 South Fourth Ave., Suite 300","","Louisville","KY","40404","Treasurer","5025830248","Republic
+    Bank & Trust Company","601 W. Market Street","","Louisville","KY","40202","","","","",""'
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20070127
+type: single
