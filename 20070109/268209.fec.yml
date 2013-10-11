@@ -1,0 +1,126 @@
+countraw: 3
+countrows: 1
+filename: 268209.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6MI01028
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 8503 Marygrove Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Detroit
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '48221'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: MI
+  - name: CAN/DIST
+    number: '12'
+    value: '14'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00409797
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Conyers for Congress
+  - name: STREET 1
+    number: '16'
+    value: 1031 N. Edgewood St.
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Arlington
+  - name: STATE
+    number: '19'
+    value: VA
+  - name: ZIP
+    number: '20'
+    value: '22201'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00008201
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Friends of John Conyers
+  - name: STREET 1
+    number: '23'
+    value: 1831 Bay St.
+  - name: STREET 2
+    number: '24'
+    value: ' SE'
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Washington
+  - name: ZIP
+    number: '27'
+    value: DC
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '20003'
+  - name: Signed
+    number: 29-
+    value: John Conyers
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: ' Jr.'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20070109'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Conyers
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: John
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: Jr.
+  expected_count: 36
+  input: '"F2N","H6MI01028","","8503 Marygrove Drive","","Detroit","MI","48221","DEM","H","MI","14","2008","C00409797","Conyers
+    for Congress","1031 N. Edgewood St.","","Arlington","VA","22201","C00008201","Friends
+    of John Conyers","1831 Bay St., SE","","Washington","DC","20003","John Conyers,
+    Jr.","20070109","0","0","Conyers","John","","","Jr."'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070109
+type: single
