@@ -1,0 +1,405 @@
+countraw: 4
+countrows: 2
+filename: 270458.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00215129
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GREYHOUND LINES POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 15110 N DALLAS PARKWAY
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: DALLAS
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '75248'
+  - name: Submitted
+    number: 9-
+    value: '20050302'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Greyhound Lines
+  - name: STREET 1
+    number: 22-6.
+    value: ' Inc.'
+  - name: STREET 2
+    number: 23-6.
+    value: 15110 North Dallas Parkway
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: Dallas
+  - name: ZIP
+    number: 26-6.
+    value: TX
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: '75248'
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: Connected
+  - name: Custodian Name
+    number: '29-7. '
+    value: C
+  - name: STREET 1
+    number: 30-7.
+    value: Green^Richard T.^Mr.^
+  - name: STREET 2
+    number: 31-7.
+    value: 15110 N. Dallas Parkway
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Dallas
+  - name: ZIP
+    number: 34-7.
+    value: TX
+  - name: TITLE
+    number: 35-7.
+    value: '75248'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '9727897013'
+  - name: STREET 1
+    number: 38-8.
+    value: Green^Richard T.^Mr.^
+  - name: STREET 2
+    number: 39-8.
+    value: 15110 N. Dallas Parkway
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Dallas
+  - name: ZIP
+    number: 42-8.
+    value: TX
+  - name: TITLE
+    number: 43-8.
+    value: '75248'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '9727897013'
+  - name: STREET 1
+    number: 46-8.
+    value: Green^Richard T.^Mr.^
+  - name: STREET 2
+    number: 47-8.
+    value: 15110 N. Dallas Parkway
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: Dallas
+  - name: ZIP
+    number: 50-8.
+    value: TX
+  - name: TITLE
+    number: 51-8.
+    value: '75248'
+  - name: TELEPHONE
+    number: 52-8.
+    value: Treasurer
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '9727897013'
+  - name: STREET 1
+    number: 54-9.
+    value: Bank of America
+  - name: STREET 2
+    number: 55-9.
+    value: ' N.A.'
+  - name: CITY
+    number: 56-9.
+    value: P.O. Box 831547
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: Dallas
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: TX
+  - name: Signed
+    number: 60-
+    value: '75283'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Green^Richard T.^Mr.^
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20070122'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: rgreen@greyhound.com
+  - value: ''
+  - value: '9727897603'
+  expected_count: 63
+  input: F1A,C00215129,GREYHOUND LINES POLITICAL ACTION COMMITTEE,15110 N DALLAS PARKWAY,,DALLAS,TX,75248,20050302,,,E,,,,,,,NAT,,"Greyhound
+    Lines, Inc.",15110 North Dallas Parkway,,Dallas,TX,75248,Connected,C,Green^Richard
+    T.^Mr.^,15110 N. Dallas Parkway,,Dallas,TX,75248,Treasurer,9727897013,Green^Richard
+    T.^Mr.^,15110 N. Dallas Parkway,,Dallas,TX,75248,Treasurer,9727897013,Green^Richard
+    T.^Mr.^,15110 N. Dallas Parkway,,Dallas,TX,75248,Treasurer,9727897013,"Bank of
+    America, N.A.",P.O. Box 831547,,Dallas,TX,75283,Green^Richard T.^Mr.^,20070122,rgreen@greyhound.com,,9727897603
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+- input: F1S,C00215129,GREYHOUND LINES POLITICAL ACTION COMMITTEE,15110 N DALLAS PARKWAY,,DALLAS,TX,75248,20050302,,,E,,,,,,,NAT,,,,,,,,,,Green^Richard
+    T.^Mr.^,15110 N. Dallas Parkway,,Dallas,TX,75248,Treasurer,9727897013,Green^Richard
+    T.^Mr.^,15110 N. Dallas Parkway,,Dallas,TX,75248,Treasurer,9727897013,Cox^Sassy
+    L.^^,15110 North Dallas Parkway,,Dallas,TX,75248,Assistant Treasurer,9727897002,,,,,,,Green^Richard
+    T.^Mr.^,20070122,rgreen@greyhound.com,,9727897603
+  record: fec.version.v5_3.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00215129
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GREYHOUND LINES POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 15110 N DALLAS PARKWAY
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: DALLAS
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '75248'
+  - name: Submitted
+    number: 9-
+    value: '20050302'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Green^Richard T.^Mr.^
+  - name: STREET 1
+    number: 30-7.
+    value: 15110 N. Dallas Parkway
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: Dallas
+  - name: STATE
+    number: 33-7.
+    value: TX
+  - name: ZIP
+    number: 34-7.
+    value: '75248'
+  - name: TITLE
+    number: 35-7.
+    value: Treasurer
+  - name: TELEPHONE
+    number: 36-7.
+    value: '9727897013'
+  - name: Treasurer
+    number: '37-8. '
+    value: Green^Richard T.^Mr.^
+  - name: STREET 1
+    number: 38-8.
+    value: 15110 N. Dallas Parkway
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: Dallas
+  - name: STATE
+    number: 41-8.
+    value: TX
+  - name: ZIP
+    number: 42-8.
+    value: '75248'
+  - name: TITLE
+    number: 43-8.
+    value: Treasurer
+  - name: TELEPHONE
+    number: 44-8.
+    value: '9727897013'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Cox^Sassy L.^^
+  - name: STREET 1
+    number: 46-8.
+    value: 15110 North Dallas Parkway
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: Dallas
+  - name: STATE
+    number: 49-8.
+    value: TX
+  - name: ZIP
+    number: 50-8.
+    value: '75248'
+  - name: TITLE
+    number: 51-8.
+    value: Assistant Treasurer
+  - name: TELEPHONE
+    number: 52-8.
+    value: '9727897002'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Green^Richard T.^Mr.^
+  - name: Signed
+    number: 60-
+    value: '20070122'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: rgreen@greyhound.com
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '9727897603'
+sourceurl: !!python/unicode 20070122
+type: single
