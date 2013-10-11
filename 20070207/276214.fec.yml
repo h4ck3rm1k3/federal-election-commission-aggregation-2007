@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 276214.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H0CA15148
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 50 W. San Fernando St.
+  - name: STREET 2
+    number: '5'
+    value: ' Ste 350'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: San Jose
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: PTY/CODE
+    number: '9'
+    value: '95113'
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: CA
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00351379
+  - name: STREET 1
+    number: '16'
+    value: Mike Honda for Congress
+  - name: STREET 2
+    number: '17'
+    value: 50 W. San Fernando St.
+  - name: CITY
+    number: '18'
+    value: ' Ste. 350'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: San Jose
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: CA
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '95113'
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: Mike Honda
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20070207'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Honda
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Mike
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: F2N,"H0CA15148","","50 W. San Fernando St., Ste 350","","San Jose","CA","95113","DEM","H","CA","15","2008","C00351379","Mike
+    Honda for Congress","50 W. San Fernando St., Ste. 350","","San Jose","CA","95113","","","","","","","","Mike
+    Honda",20070207,"0","0","Honda","Mike","","",""
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070207
+type: single
