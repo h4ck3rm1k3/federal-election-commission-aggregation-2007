@@ -1,0 +1,211 @@
+countraw: 3
+countrows: 1
+filename: 284076.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411777
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Wulsin for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1080 Nimitzview Drive
+  - name: STREET 2
+    number: '5'
+    value: Suite 400
+  - name: CITY
+    number: '6'
+    value: Cincinnati
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45230'
+  - name: Submitted
+    number: 9-
+    value: '20070412'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: X
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H6OH02151
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: Victoria Wulsin
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: OH
+  - name: CAN/DIST
+    number: 17-5.
+    value: '2'
+  - name: PARTY CODE
+    number: 18-5.
+    value: DEM
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Anne C. Zimmerman
+  - name: STREET 1
+    number: 30-7.
+    value: ' CPA'
+  - name: STREET 2
+    number: 31-7.
+    value: 1080 Nimitzview Drive
+  - name: CITY
+    number: 32-7.
+    value: Suite 400
+  - name: STATE
+    number: 33-7.
+    value: Cincinnati
+  - name: ZIP
+    number: 34-7.
+    value: OH
+  - name: TITLE
+    number: 35-7.
+    value: '45230'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '5136243900'
+  - name: STREET 1
+    number: 38-8.
+    value: Anne C. Zimmerman
+  - name: STREET 2
+    number: 39-8.
+    value: ' CPA'
+  - name: CITY
+    number: 40-8.
+    value: 1080 Nimitzview Drive
+  - name: STATE
+    number: 41-8.
+    value: Suite 400
+  - name: ZIP
+    number: 42-8.
+    value: Cincinnati
+  - name: TITLE
+    number: 43-8.
+    value: OH
+  - name: TELEPHONE
+    number: 44-8.
+    value: '45230'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 46-8.
+    value: '5136243900'
+  - name: STREET 2
+    number: 47-8.
+    value: Emily J. Marsh
+  - name: CITY
+    number: 48-8.
+    value: 1080 Nimitzview Drive
+  - name: STATE
+    number: 49-8.
+    value: Suite 400
+  - name: ZIP
+    number: 50-8.
+    value: Cincinnati
+  - name: TITLE
+    number: 51-8.
+    value: OH
+  - name: TELEPHONE
+    number: 52-8.
+    value: '45230'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Assistant Treasurer
+  - name: STREET 1
+    number: 54-9.
+    value: '5136243900'
+  - name: STREET 2
+    number: 55-9.
+    value: U.S. Bank
+  - name: CITY
+    number: 56-9.
+    value: 7137 Miami Avenue
+  - name: STATE
+    number: 57-9.
+    value: Madeira Office
+  - name: ZIP
+    number: 58-9.
+    value: Cincinnati
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: OH
+  - name: Signed
+    number: 60-
+    value: '45243'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Anne C. Zimmerman
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ' CPA'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20070412'
+  - value: anne@zimcom.net
+  - value: http://wulsinforcongress.com
+  - value: '5136243909'
+  expected_count: 63
+  input: '"F1A","C00411777","Wulsin for Congress","1080 Nimitzview Drive","Suite 400","Cincinnati","OH","45230","20070412","","X","A","H6OH02151","Victoria
+    Wulsin","H","OH","2","DEM","","","","","","","","","","","Anne C. Zimmerman, CPA","1080
+    Nimitzview Drive","Suite 400","Cincinnati","OH","45230","Treasurer","5136243900","Anne
+    C. Zimmerman, CPA","1080 Nimitzview Drive","Suite 400","Cincinnati","OH","45230","Treasurer","5136243900","Emily
+    J. Marsh","1080 Nimitzview Drive","Suite 400","Cincinnati","OH","45230","Assistant
+    Treasurer","5136243900","U.S. Bank","7137 Miami Avenue","Madeira Office","Cincinnati","OH","45243","Anne
+    C. Zimmerman, CPA","20070412","anne@zimcom.net","http://wulsinforcongress.com","5136243909"'
+  input_count: 66
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070412
+type: single
