@@ -1,0 +1,120 @@
+countraw: 3
+countrows: 1
+filename: 283845.fec
+header: {}
+rows:
+- input: '"F2N","H6CT05124","","825 Wolf Hill Road","","Cheshire","CT","06410","DEM","H","CT","5","2008","C00411660","Committee
+    to Re-Elect Chris Murphy","P.O. Box 127","","Cheshire","CT","06410","C00427112","Connecticut
+    for Change","P.O. Box 1372","","Vernon","CT","06066","Christopher Murphy","20070410","0.00","0.00","Murphy","Christopher","Scott","Mr.",""'
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6CT05124
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 825 Wolf Hill Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Cheshire
+  - name: STATE
+    number: '7'
+    value: CT
+  - name: ZIP
+    number: '8'
+    value: '06410'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: CT
+  - name: CAN/DIST
+    number: '12'
+    value: '5'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00411660
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Committee to Re-Elect Chris Murphy
+  - name: STREET 1
+    number: '16'
+    value: P.O. Box 127
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Cheshire
+  - name: STATE
+    number: '19'
+    value: CT
+  - name: ZIP
+    number: '20'
+    value: '06410'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00427112
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Connecticut for Change
+  - name: STREET 1
+    number: '23'
+    value: P.O. Box 1372
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: Vernon
+  - name: STATE
+    number: '26'
+    value: CT
+  - name: ZIP
+    number: '27'
+    value: '06066'
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Christopher Murphy
+  - name: Signed
+    number: 29-
+    value: '20070410'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: Murphy
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Christopher
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Scott
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20070412
+type: single
