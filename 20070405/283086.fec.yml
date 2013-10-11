@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 283086.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8NY06048
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 153-01 Jamaica Ave.
+  - name: STREET 2
+    number: '5'
+    value: Suite 535
+  - name: CITY
+    number: '6'
+    value: Jamaica
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11432'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NY
+  - name: CAN/DIST
+    number: '12'
+    value: '6'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00430991
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Friends for Gregory Meeks
+  - name: STREET 1
+    number: '16'
+    value: 153-01 Jamaica Ave.
+  - name: STREET 2
+    number: '17'
+    value: Suite 535
+  - name: CITY
+    number: '18'
+    value: Jamaica
+  - name: STATE
+    number: '19'
+    value: NY
+  - name: ZIP
+    number: '20'
+    value: '11432'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00329375
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Meeks for Congress
+  - name: STREET 1
+    number: '23'
+    value: 1831 Bay St.
+  - name: STREET 2
+    number: '24'
+    value: ' SE'
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Washington
+  - name: ZIP
+    number: '27'
+    value: DC
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '20003'
+  - name: Signed
+    number: 29-
+    value: Gregory W. Meeks
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070305'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Meeks
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Gregory
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: W.
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2N","H8NY06048","","153-01 Jamaica Ave.","Suite 535","Jamaica","NY","11432","DEM","H","NY","6","2008","C00430991","Friends
+    for Gregory Meeks","153-01 Jamaica Ave.","Suite 535","Jamaica","NY","11432","C00329375","Meeks
+    for Congress","1831 Bay St., SE","","Washington","DC","20003","Gregory W. Meeks","20070305","0.00","0.00","Meeks","Gregory","W.","",""'
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070405
+type: single
