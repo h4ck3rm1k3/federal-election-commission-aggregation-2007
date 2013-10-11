@@ -1,0 +1,212 @@
+countraw: 3
+countrows: 1
+filename: 298499.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00273003
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AMERICAN ASSOCIATION OF CLINICAL UROLOGISTS POLITICAL ACTION COMMITTEE
+      (UROPAC)
+  - name: STREET 1
+    number: '4'
+    value: 1100 E. Woodfield Road
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 520'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: SCHAUMBURG
+  - name: ZIP
+    number: '8'
+    value: IL
+  - name: Submitted
+    number: 9-
+    value: '60173'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20070730'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: E
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: NAT
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: C00273003
+  - name: STREET 1
+    number: 22-6.
+    value: AMERICAN ASSOCIATION OF CLINICAL UROLOGISTS POLITICAL ACTION COMMITTEE
+      (UROPAC)
+  - name: STREET 2
+    number: 23-6.
+    value: 1100 E. Woodfield Road
+  - name: CITY
+    number: 24-6.
+    value: ' Suite 520'
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: SCHAUMBURG
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: IL
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: '60173'
+  - name: Custodian Name
+    number: '29-7. '
+    value: Connected
+  - name: STREET 1
+    number: 30-7.
+    value: C
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: Kirsh
+  - name: CITY
+    number: 40-8.
+    value: ' M.D.^Gary^Dr.^'
+  - name: STATE
+    number: 41-8.
+    value: 9771 Carriage Run Court
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: Loveland
+  - name: TELEPHONE
+    number: 44-8.
+    value: OH
+  - name: Designated Agent
+    number: '45-8. '
+    value: '45140'
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: Wendy J. Weiser^^^
+  - name: STATE
+    number: 49-8.
+    value: 1031 N. Ela Road
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: Inverness
+  - name: TELEPHONE
+    number: 52-8.
+    value: IL
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '60067'
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Wendy J. Weiser^^^
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20070730'
+  - value: sam@wjweiser.com
+  - value: www.uropac.org
+  - value: '8475177229'
+  expected_count: 63
+  input: F1N,C00273003,AMERICAN ASSOCIATION OF CLINICAL UROLOGISTS POLITICAL ACTION
+    COMMITTEE (UROPAC),"1100 E. Woodfield Road, Suite 520",,SCHAUMBURG,IL,60173,20070730,,,E,,,,,,,NAT,C00273003,AMERICAN
+    ASSOCIATION OF CLINICAL UROLOGISTS POLITICAL ACTION COMMITTEE (UROPAC),"1100 E.
+    Woodfield Road, Suite 520",,SCHAUMBURG,IL,60173,Connected,C,,,,,,,,,"Kirsh, M.D.^Gary^Dr.^",9771
+    Carriage Run Court,,Loveland,OH,45140,,,Wendy J. Weiser^^^,1031 N. Ela Road,,Inverness,IL,60067,,,,,,,,,Wendy
+    J. Weiser^^^,20070730,sam@wjweiser.com,www.uropac.org,8475177229
+  input_count: 66
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070730
+type: single
