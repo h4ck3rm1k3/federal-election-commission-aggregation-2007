@@ -1,0 +1,213 @@
+countraw: 3
+countrows: 1
+filename: 289309.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003863
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Marine Engineers Beneficial Asociation - Retirees' Group Fund
+  - name: STREET 1
+    number: '4'
+    value: 444 North Capitol Street - Suite 8
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '200011570'
+  - name: Submitted
+    number: 9-
+    value: '20070501'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: District No.1
+  - name: STREET 1
+    number: 22-6.
+    value: ' PCD-MEBA'
+  - name: STREET 2
+    number: 23-6.
+    value: 444 N. Capitol St.
+  - name: CITY
+    number: 24-6.
+    value: ' NW Suite 800'
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: Washington
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: DC
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: '20721'
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: L
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: VAN LOO^BILL^^
+  - name: CITY
+    number: 40-8.
+    value: 444 N. Capitol St
+  - name: STATE
+    number: 41-8.
+    value: ' NW'
+  - name: ZIP
+    number: 42-8.
+    value: ' Suite 800'
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: Washington
+  - name: Designated Agent
+    number: '45-8. '
+    value: DC
+  - name: STREET 1
+    number: 46-8.
+    value: '20001'
+  - name: STREET 2
+    number: 47-8.
+    value: Sec.-Treasurer
+  - name: CITY
+    number: 48-8.
+    value: '2026385355'
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: 444 N. Capitol St.
+  - name: TITLE
+    number: 51-8.
+    value: ' NW  Suite 800'
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Washington
+  - name: STREET 1
+    number: 54-9.
+    value: DC
+  - name: STREET 2
+    number: 55-9.
+    value: '20001'
+  - name: CITY
+    number: 56-9.
+    value: Sec.-Treasurer
+  - name: STATE
+    number: 57-9.
+    value: '2026385355'
+  - name: ZIP
+    number: 58-9.
+    value: Wachovia Bank
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: 444 N. Capitol St
+  - name: Signed
+    number: 60-
+    value: ' NW'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Washington
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: DC
+  - value: '20001'
+  - value: VAN LOO^BILL^^
+  - value: '20070501'
+  - value: ''
+  - value: ''
+  - value: 202-638-5369
+  expected_count: 63
+  input: '"F1N","C00003863","Marine Engineers Beneficial Asociation - Retirees'' Group
+    Fund","444 North Capitol Street - Suite 8","","Washington","DC","200011570","20070501","","","E","","","","",0,"","","","District
+    No.1, PCD-MEBA","444 N. Capitol St., NW Suite 800","","Washington","DC","20721","","L","","","","","","","",,"VAN
+    LOO^BILL^^","444 N. Capitol St, NW, Suite 800","","Washington","DC","20001","Sec.-Treasurer",2026385355,"","444
+    N. Capitol St., NW  Suite 800","","Washington","DC","20001","Sec.-Treasurer",2026385355,"Wachovia
+    Bank","444 N. Capitol St, NW","","Washington","DC","20001","VAN LOO^BILL^^","20070501","","","202-638-5369"'
+  input_count: 69
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070521
+type: single
