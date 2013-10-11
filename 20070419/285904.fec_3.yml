@@ -1,0 +1,4043 @@
+countraw: 4032
+countrows: 4030
+filename: 285904.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2295
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Cloud
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '56302'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Morgan
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' George'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '60.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: MN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32153
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WETTERLING '06
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 2295,,St. Cloud,MN,56302,,"Ermk:by CreditCard-Morgan,
+    George",G2006,,20061103,60.00,,,,H,MN,06,,,,,,,X,,,SB23.32153,,,,,,,WETTERLING
+    '06,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2295
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Cloud
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '56302'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Holt
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Joan'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '35.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: MN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32155
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WETTERLING '06
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 2295,,St. Cloud,MN,56302,,"Ermk:by CreditCard-Holt,
+    Joan",G2006,,20061103,35.00,,,,H,MN,06,,,,,,,X,,,SB23.32155,,,,,,,WETTERLING '06,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2295
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Cloud
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '56302'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Dilley
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Leland'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '25.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: MN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32159
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WETTERLING '06
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 2295,,St. Cloud,MN,56302,,"Ermk:by CreditCard-Dilley,
+    Leland",G2006,,20061103,25.00,,,,H,MN,06,,,,,,,X,,,SB23.32159,,,,,,,WETTERLING
+    '06,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2295
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Cloud
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '56302'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Moffett
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Robert B'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: MN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30780
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WETTERLING '06
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 2295,,St. Cloud,MN,56302,,"Ermk:by ContribCk-Moffett,
+    Robert B",G2006,,20061107,10.00,,,,H,MN,06,,,,,,,X,,,SB23.30780,,,,,,,WETTERLING
+    '06,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2295
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Cloud
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '56302'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Boone
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Vera'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '15.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: MN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30781
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WETTERLING '06
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 2295,,St. Cloud,MN,56302,,"Ermk:by ContribCk-Boone,
+    Vera",G2006,,20061107,15.00,,,,H,MN,06,,,,,,,X,,,SB23.30781,,,,,,,WETTERLING '06,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2295
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Cloud
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '56302'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Davis
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Mildred J'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '25.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: MN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30782
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WETTERLING '06
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 2295,,St. Cloud,MN,56302,,"Ermk:by ContribCk-Davis,
+    Mildred J",G2006,,20061107,25.00,,,,H,MN,06,,,,,,,X,,,SB23.30782,,,,,,,WETTERLING
+    '06,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Hudson
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Mathew'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061026'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '50.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32101
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by CreditCard-Hudson,
+    Mathew",G2006,,20061026,50.00,,,,H,CA,06,,,,,,,X,,,SB23.32101,,,,,,,WOOLSEY FOR
+    CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Moffett
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Robert B'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30605
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by ContribCk-Moffett,
+    Robert B",G2006,,20061107,10.00,,,,H,CA,06,,,,,,,X,,,SB23.30605,,,,,,,WOOLSEY
+    FOR CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Herz
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Helga'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '50.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30606
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by ContribCk-Herz,
+    Helga",G2006,,20061107,50.00,,,,H,CA,06,,,,,,,X,,,SB23.30606,,,,,,,WOOLSEY FOR
+    CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Heymann
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Gary M'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '50.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30607
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by ContribCk-Heymann,
+    Gary M",G2006,,20061107,50.00,,,,H,CA,06,,,,,,,X,,,SB23.30607,,,,,,,WOOLSEY FOR
+    CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Herrick
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Lynn'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '2.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30608
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by ContribCk-Herrick,
+    Lynn",G2006,,20061107,2.00,,,,H,CA,06,,,,,,,X,,,SB23.30608,,,,,,,WOOLSEY FOR CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Miller
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Lawrence MCK'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '25.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30609
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by ContribCk-Miller,
+    Lawrence MCK",G2006,,20061107,25.00,,,,H,CA,06,,,,,,,X,,,SB23.30609,,,,,,,WOOLSEY
+    FOR CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Zepeda
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Barbara'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32100
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by CreditCard-Zepeda,
+    Barbara",G2006,,20061107,10.00,,,,H,CA,06,,,,,,,X,,,SB23.32100,,,,,,,WOOLSEY FOR
+    CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Weingart
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Mary Brizius'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061113'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '35.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.30604
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by ContribCk-Weingart,
+    Mary Brizius",G2006,,20061113,35.00,,,,H,CA,06,,,,,,,X,,,SB23.30604,,,,,,,WOOLSEY
+    FOR CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Elliott
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Lewis'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061113'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32102
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by CreditCard-Elliott,
+    Lewis",G2006,,20061113,20.00,,,,H,CA,06,,,,,,,X,,,SB23.32102,,,,,,,WOOLSEY FOR
+    CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 750176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Petaluma
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94975'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Giles
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Kelly'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061113'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '5.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.32103
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: WOOLSEY FOR CONGRESS
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,P.O. Box 750176,,Petaluma,CA,94975,,"Ermk:by CreditCard-Giles,
+    Kelly",G2006,,20061113,5.00,,,,H,CA,06,,,,,,,X,,,SB23.32103,,,,,,,WOOLSEY FOR
+    CONGRESS,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Webber
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Zachary M'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31466
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by CreditCard-Webber,
+    Zachary M",G2006,,20061019,10.00,,,,H,OH,18,,,,,,,X,,,SB23.31466,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Chiappa
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Francis'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061020'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '50.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31463
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by CreditCard-Chiappa,
+    Francis",G2006,,20061020,50.00,,,,H,OH,18,,,,,,,X,,,SB23.31463,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Prostak
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Arnold'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061030'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '50.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31462
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by CreditCard-Prostak,
+    Arnold",G2006,,20061030,50.00,,,,H,OH,18,,,,,,,X,,,SB23.31462,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Adler
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Richard'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '25.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31465
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by CreditCard-Adler,
+    Richard",G2006,,20061101,25.00,,,,H,OH,18,,,,,,,X,,,SB23.31465,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by CreditCard-Holt
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Joan'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '35.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31464
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by CreditCard-Holt,
+    Joan",G2006,,20061103,35.00,,,,H,OH,18,,,,,,,X,,,SB23.31464,,,,,,,ZACK SPACE FOR
+    CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Allen
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Deborah'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '75.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31725
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Allen,
+    Deborah",G2006,,20061107,75.00,,,,H,OH,18,,,,,,,X,,,SB23.31725,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Porter
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' William L'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31726
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Porter,
+    William L",G2006,,20061107,10.00,,,,H,OH,18,,,,,,,X,,,SB23.31726,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Moffett
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Robert B'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31727
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Moffett,
+    Robert B",G2006,,20061107,10.00,,,,H,OH,18,,,,,,,X,,,SB23.31727,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Herrick
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Lynn'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31728
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Herrick,
+    Lynn",G2006,,20061107,1.00,,,,H,OH,18,,,,,,,X,,,SB23.31728,,,,,,,ZACK SPACE FOR
+    CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Lemon
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Adelle E'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31729
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Lemon,
+    Adelle E",G2006,,20061107,100.00,,,,H,OH,18,,,,,,,X,,,SB23.31729,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Magraw
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Charles E'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31730
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Magraw,
+    Charles E",G2006,,20061107,100.00,,,,H,OH,18,,,,,,,X,,,SB23.31730,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 714 N WOOSTER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DOVER
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44622'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Ermk:by ContribCk-Shaw
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' John W'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '25.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.31731
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: ZACK SPACE FOR CONGRESS COMMITTEE
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ''
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: SB23,C00387555,CCM,,714 N WOOSTER AVENUE,,DOVER,OH,44622,,"Ermk:by ContribCk-Shaw,
+    John W",G2006,,20061107,25.00,,,,H,OH,18,,,,,,,X,,,SB23.31731,,,,,,,ZACK SPACE
+    FOR CONGRESS COMMITTEE,,,,,
+  input_count: 44
+  record: fec.version.v5_3.SB
+  result: []
+- input: SD10,C00387555,ORG,Cantrell/Cutter,1789 Olive Street,,Capital Heights,MD,20743,Printing,3225.55,0.00,3225.55,0.00,C00387555,,,,,,,,,,,,,SD10.29520
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Cantrell/Cutter
+  - name: STREET 1
+    number: '5'
+    value: 1789 Olive Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Capital Heights
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20743'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Printing
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '3225.55'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '3225.55'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00387555
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.29520
+- input: SD10,C00387555,ORG,Sisk Mailing Service Inc.,203 Log Canoe Circle,,Stevensville,MD,21666,Postage
+    & Mailing Expenses,1964.66,0.00,1964.66,0.00,C00387555,,,,,,,,,,,,,SD10.29568
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387555
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Sisk Mailing Service Inc.
+  - name: STREET 1
+    number: '5'
+    value: 203 Log Canoe Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stevensville
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21666'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Postage & Mailing Expenses
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '1964.66'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '1964.66'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00387555
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.29568
+sourceurl: !!python/unicode 20070419
+type: chunk
