@@ -1,0 +1,127 @@
+countraw: 3
+countrows: 1
+filename: 273250.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8CT04057
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 98 East Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' Rear Building'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Norwalk
+  - name: ZIP
+    number: '8'
+    value: CT
+  - name: PTY/CODE
+    number: '9'
+    value: '06851   '
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: CT
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ''
+  - name: STREET 1
+    number: '16'
+    value: Christopher Shays for Congress Committee
+  - name: STREET 2
+    number: '17'
+    value: 98 East Avenue
+  - name: CITY
+    number: '18'
+    value: ' Rear Building'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Norwalk
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: CT
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '06851   '
+  - name: STREET 1
+    number: '23'
+    value: '        '
+  - name: STREET 2
+    number: '24'
+    value: Connecticut Victory 2006
+  - name: CITY
+    number: '25'
+    value: 228 S. Washington Street
+  - name: STATE
+    number: '26'
+    value: ' #115'
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Alexandria
+  - name: Signed
+    number: 29-
+    value: VA
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '22314   '
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: Christopher Shays
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '20070130'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Shays
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Christopher
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H8CT04057","","98 East Avenue, Rear Building","","Norwalk","CT","06851   ","REP","H","CT",04,2008,"","Christopher
+    Shays for Congress Committee","98 East Avenue, Rear Building","","Norwalk","CT","06851   ","        ","Connecticut
+    Victory 2006","228 S. Washington Street, #115","","Alexandria","VA","22314   ","Christopher
+    Shays",20070130,0.00,0.00,"Shays","Christopher","","",""'
+  input_count: 39
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070130
+type: single
