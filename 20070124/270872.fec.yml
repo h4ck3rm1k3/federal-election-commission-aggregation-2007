@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 270872.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6NJ09165
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: Court Plaza North
+  - name: STREET 2
+    number: '5'
+    value: 25 Main Street
+  - name: CITY
+    number: '6'
+    value: Hackensack
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: '07602'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NJ
+  - name: CAN/DIST
+    number: '12'
+    value: '9'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00313494
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Steve Rothman for New Jersey
+  - name: STREET 1
+    number: '16'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '17'
+    value: P.O. Box 714
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Hackensack
+  - name: ZIP
+    number: '20'
+    value: NJ
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '07601'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: Steven R. Rothman
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070124'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Rothman
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Steven
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: R.
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2N","H6NJ09165","","Court Plaza North","25 Main Street","Hackensack","NJ","07602","DEM","H","NJ","9","2008","C00313494","Steve
+    Rothman for New Jersey, Inc.","P.O. Box 714","","Hackensack","NJ","07601","","","","","","","","Steven
+    R. Rothman","20070124","0","0","Rothman","Steven","R.","",""'
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070124
+type: single
