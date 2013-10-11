@@ -1,0 +1,149 @@
+countraw: 4
+countrows: 2
+filename: 282494.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6FL00046
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 15703
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tallahassee
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32317'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: FL
+  - name: CAN/DIST
+    number: '12'
+    value: '2'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00310607
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Boyd for Congress
+  - name: STREET 1
+    number: '16'
+    value: PO Box 15703
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Tallahassee
+  - name: STATE
+    number: '19'
+    value: FL
+  - name: ZIP
+    number: '20'
+    value: '32317'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: F. Allen Boyd
+  - name: Signed
+    number: 29-
+    value: ' Jr.'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070328'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Boyd
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: F.
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Allen
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: Jr.
+  expected_count: 36
+  input: F2N,"H6FL00046","","P.O. Box 15703","","Tallahassee","FL","32317","DEM","H","FL","2","2008","C00310607","Boyd
+    for Congress","PO Box 15703","","Tallahassee","FL","32317","","","","","","","","F.
+    Allen Boyd, Jr.",20070328,"0","0","Boyd","F.","Allen","","Jr."
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F2N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This report addresses the March 8th FEC letter concerning the Statement
+      of Candidacy.  This form amends the declaration to expend personal funds
+  - name: AMENDED CD
+    number: '5'
+    value: ' which was previously .00'
+  - value: ' to read 0.00 as requested.'
+  expected_count: 5
+  input: TEXT,"F2N","","This report addresses the March 8th FEC letter concerning
+    the Statement of Candidacy.  This form amends the declaration to expend personal
+    funds, which was previously .00, to read 0.00 as requested."
+  input_count: 6
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070328
+type: single
