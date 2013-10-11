@@ -1,0 +1,179 @@
+countraw: 4
+countrows: 2
+filename: 294455.fec
+header: {}
+rows:
+- input: F1MN,C00379545,IPSCO ENTERPRISES INC PAC,650 Warrenville Rd,,Lisle,IL,60532,N,,,-,,BONNER^JOSIAH
+    ROBINS JR.^^,,,,20020918,H4TX06117,BARTON^JOE LINUS^^,H,TX,06,20021009,C00254185,GENE
+    GREEN CAMPAIGN^^^,H,TX,29,20020801,C00238378,NUSSLE FOR CONGRESS COMMITTEE^^^,H,IA,01,20020909,C00313734,MARION
+    BERRY FOR CONGRESS^^^,H,AR,01,20020801,20020814,20020703,20030203,Gibbons^Martha^^,20070713
+  record: fec.version.v5_3.F1M
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379545
+  - name: COMMITTEE NAME
+    number: '3'
+    value: IPSCO ENTERPRISES INC PAC
+  - name: STREET 1
+    number: '4'
+    value: 650 Warrenville Rd
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lisle
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60532'
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: N
+  - name: Of Affiliation
+    number: 10-
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: '-'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: BONNER^JOSIAH ROBINS JR.^^
+  - name: CAN/OFFICE
+    number: '15'
+    value: ''
+  - name: CAN/STATE
+    number: '16'
+    value: ''
+  - name: CAN/DIST
+    number: '17'
+    value: ''
+  - name: Of Contribution
+    number: 18-
+    value: '20020918'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: H4TX06117
+  - name: CANDIDATE NAME
+    number: '20'
+    value: BARTON^JOE LINUS^^
+  - name: CAN/OFFICE
+    number: '21'
+    value: H
+  - name: CAN/STATE
+    number: '22'
+    value: TX
+  - name: CAN/DIST
+    number: '23'
+    value: '06'
+  - name: Of Contribution
+    number: 24-
+    value: '20021009'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: C00254185
+  - name: CANDIDATE NAME
+    number: '26'
+    value: GENE GREEN CAMPAIGN^^^
+  - name: CAN/OFFICE
+    number: '27'
+    value: H
+  - name: CAN/STATE
+    number: '28'
+    value: TX
+  - name: CAN/DIST
+    number: '29'
+    value: '29'
+  - name: Of Contribution
+    number: 30-
+    value: '20020801'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: C00238378
+  - name: CANDIDATE NAME
+    number: '32'
+    value: NUSSLE FOR CONGRESS COMMITTEE^^^
+  - name: CAN/OFFICE
+    number: '33'
+    value: H
+  - name: CAN/STATE
+    number: '34'
+    value: IA
+  - name: CAN/DIST
+    number: '35'
+    value: '01'
+  - name: Of Contribution
+    number: 36-
+    value: '20020909'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: C00313734
+  - name: CANDIDATE NAME
+    number: '38'
+    value: MARION BERRY FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '39'
+    value: H
+  - name: CAN/STATE
+    number: '40'
+    value: AR
+  - name: CAN/DIST
+    number: '41'
+    value: '01'
+  - name: Of Contribution
+    number: 42-
+    value: '20020801'
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20020814'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20020703'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20030203'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: Gibbons^Martha^^
+  - name: Signed
+    number: 47-
+    value: '20070713'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1MN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: 'A multi-candidate form was first filed on 12/01/2005.  The FEC detected
+      errors in that filing.  The errors were documented in a letter from the FEC
+      dated 12/23/2005. this filing is intended to correct those errors. '
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: 'TEXT,F1MN,,A multi-candidate form was first filed on 12/01/2005.  The FEC
+    detected errors in that filing.  The errors were documented in a letter from the
+    FEC dated 12/23/2005. this filing is intended to correct those errors. '
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070713
+type: single
