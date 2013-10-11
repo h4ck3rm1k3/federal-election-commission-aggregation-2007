@@ -1,0 +1,120 @@
+countraw: 3
+countrows: 1
+filename: 290543.fec
+header: {}
+rows:
+- input: F2N,H8NC03050,,201 Hampshire Pl,,Jacksonville,NC,28546,REP,H,NC,3,2008,C00434753,Citizens
+    to Elect Joe McLaughlin,1135 E-Western Blvd,PMB 10,Jacksonville,NC,28546,,,,,,,,McLaughlin^Joseph
+    R^^,20070611,0.00,0.00,McLaughlin,Joseph,R,,
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8NC03050
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 201 Hampshire Pl
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Jacksonville
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '28546'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NC
+  - name: CAN/DIST
+    number: '12'
+    value: '3'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00434753
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Citizens to Elect Joe McLaughlin
+  - name: STREET 1
+    number: '16'
+    value: 1135 E-Western Blvd
+  - name: STREET 2
+    number: '17'
+    value: PMB 10
+  - name: CITY
+    number: '18'
+    value: Jacksonville
+  - name: STATE
+    number: '19'
+    value: NC
+  - name: ZIP
+    number: '20'
+    value: '28546'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: McLaughlin^Joseph R^^
+  - name: Signed
+    number: 29-
+    value: '20070611'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: McLaughlin
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Joseph
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: R
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20070611
+type: single
