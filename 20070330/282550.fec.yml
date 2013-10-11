@@ -1,0 +1,410 @@
+countraw: 4
+countrows: 2
+filename: 282550.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384818
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Caremark Rx Inc. Employees Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 2211 Sanders Road
+  - name: STREET 2
+    number: '5'
+    value: ' 10th Floor'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Northbrook
+  - name: ZIP
+    number: '8'
+    value: IL
+  - name: Submitted
+    number: 9-
+    value: '60062   '
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20070330'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: E
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: S
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: '  '
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: CVS/Caremark Corporation (formerly CaremarkRx
+  - name: STREET 2
+    number: 23-6.
+    value: ' Inc.)'
+  - name: CITY
+    number: 24-6.
+    value: 2211 Sanders Road
+  - name: STATE
+    number: 25-6.
+    value: ' 10th Floor'
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Northbrook
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: IL
+  - name: Custodian Name
+    number: '29-7. '
+    value: '60062'
+  - name: STREET 1
+    number: 30-7.
+    value: Connected Organization
+  - name: STREET 2
+    number: 31-7.
+    value: C
+  - name: CITY
+    number: 32-7.
+    value: Chuck Jorgenson
+  - name: STATE
+    number: 33-7.
+    value: 9501 East Shea Boulevard
+  - name: ZIP
+    number: 34-7.
+    value: Mail Stop 102
+  - name: TITLE
+    number: 35-7.
+    value: Scottsdale
+  - name: TELEPHONE
+    number: 36-7.
+    value: AZ
+  - name: Treasurer
+    number: '37-8. '
+    value: '85260'
+  - name: STREET 1
+    number: 38-8.
+    value: Assistant Treasurer
+  - name: STREET 2
+    number: 39-8.
+    value: '4803914254'
+  - name: CITY
+    number: 40-8.
+    value: James C. Luthin
+  - name: STATE
+    number: 41-8.
+    value: 2211 Sanders Road
+  - name: ZIP
+    number: 42-8.
+    value: ' 10th Floor'
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: Northbrook
+  - name: Designated Agent
+    number: '45-8. '
+    value: IL
+  - name: STREET 1
+    number: 46-8.
+    value: '60062'
+  - name: STREET 2
+    number: 47-8.
+    value: Treasurer
+  - name: CITY
+    number: 48-8.
+    value: '8475594320'
+  - name: STATE
+    number: 49-8.
+    value: Chuck Jorgenson
+  - name: ZIP
+    number: 50-8.
+    value: 9501 East Shea Boulevard
+  - name: TITLE
+    number: 51-8.
+    value: Mail Stop 102
+  - name: TELEPHONE
+    number: 52-8.
+    value: Scottsdale
+  - name: Bank/Depository
+    number: '53-9. '
+    value: AZ
+  - name: STREET 1
+    number: 54-9.
+    value: '85260'
+  - name: STREET 2
+    number: 55-9.
+    value: Assistant Treasurer
+  - name: CITY
+    number: 56-9.
+    value: '4803914254'
+  - name: STATE
+    number: 57-9.
+    value: Wells Fargo Bank
+  - name: ZIP
+    number: 58-9.
+    value: 420 Montgomery Street
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: San Francisco
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: CA
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '94104'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: James C. Luthin
+  - value: '20070330'
+  - value: outsourcing@aristotle.com
+  - value: ''
+  - value: 202-318-7421
+  expected_count: 63
+  input: '"F1N","C00384818","Caremark Rx Inc. Employees Political Action Committee","2211
+    Sanders Road, 10th Floor","","Northbrook","IL","60062   ",20070330,"","","E","","","S","","  ","","","","CVS/Caremark
+    Corporation (formerly CaremarkRx, Inc.)","2211 Sanders Road, 10th Floor","","Northbrook","IL","60062","Connected
+    Organization","C","Chuck Jorgenson","9501 East Shea Boulevard","Mail Stop 102","Scottsdale","AZ","85260","Assistant
+    Treasurer",4803914254,"James C. Luthin","2211 Sanders Road, 10th Floor","","Northbrook","IL","60062","Treasurer",8475594320,"Chuck
+    Jorgenson","9501 East Shea Boulevard","Mail Stop 102","Scottsdale","AZ","85260","Assistant
+    Treasurer",4803914254,"Wells Fargo Bank","420 Montgomery Street","","San Francisco","CA","94104","James
+    C. Luthin",20070330,"outsourcing@aristotle.com","","202-318-7421"'
+  input_count: 67
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384818
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00327916
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: CVS Corporation Federal PAC
+  - name: STREET 1
+    number: 22-6.
+    value: One CVS Drive
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Woonsocket
+  - name: STATE
+    number: 25-6.
+    value: RI
+  - name: ZIP
+    number: 26-6.
+    value: 02895
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Affliated PAC
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '                              '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NO VALUE!
+  expected_count: 63
+  input: '"F1S","C00384818","","","","","","","","","","","","","","","","","","C00327916","CVS
+    Corporation Federal PAC","One CVS Drive","","Woonsocket","RI","02895","Affliated
+    PAC","","","","","","","","",,"","","","","","","",,"","","","","","","",                              ,"","","","","","","",,"",""'
+  input_count: 62
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20070330
+type: single
