@@ -1,0 +1,414 @@
+countraw: 4
+countrows: 2
+filename: 274093.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409482
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lautenberg 20 Years Committee
+  - name: STREET 1
+    number: '4'
+    value: Gateway One
+  - name: STREET 2
+    number: '5'
+    value: ' 23rd Floor'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Newark
+  - name: ZIP
+    number: '8'
+    value: NJ
+  - name: Submitted
+    number: 9-
+    value: '07102'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20070131'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: F
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: NAT
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: C00382457
+  - name: STREET 1
+    number: 22-6.
+    value: Lautenberg for Senate
+  - name: STREET 2
+    number: 23-6.
+    value: Gateway One
+  - name: CITY
+    number: 24-6.
+    value: ' 23rd Floor'
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: Newark
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: NJ
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: '07102'
+  - name: Custodian Name
+    number: '29-7. '
+    value: Jt Fundraising Parti
+  - name: STREET 1
+    number: 30-7.
+    value: V
+  - name: STREET 2
+    number: 31-7.
+    value: Nichols^Peter D.^^
+  - name: CITY
+    number: 32-7.
+    value: Gateway One
+  - name: STATE
+    number: 33-7.
+    value: ' 23rd Floor'
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: Newark
+  - name: TELEPHONE
+    number: 36-7.
+    value: NJ
+  - name: Treasurer
+    number: '37-8. '
+    value: '07102'
+  - name: STREET 1
+    number: 38-8.
+    value: CFO
+  - name: STREET 2
+    number: 39-8.
+    value: '9736399700'
+  - name: CITY
+    number: 40-8.
+    value: Faigen^Michael J.^^
+  - name: STATE
+    number: 41-8.
+    value: Gateway One
+  - name: ZIP
+    number: 42-8.
+    value: ' 23rd Floor'
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: Newark
+  - name: Designated Agent
+    number: '45-8. '
+    value: NJ
+  - name: STREET 1
+    number: 46-8.
+    value: '07102'
+  - name: STREET 2
+    number: 47-8.
+    value: Treasurer
+  - name: CITY
+    number: 48-8.
+    value: '9736399700'
+  - name: STATE
+    number: 49-8.
+    value: Nichols^Peter D.^^
+  - name: ZIP
+    number: 50-8.
+    value: Gateway One
+  - name: TITLE
+    number: 51-8.
+    value: ' 23rd Floor'
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Newark
+  - name: STREET 1
+    number: 54-9.
+    value: NJ
+  - name: STREET 2
+    number: 55-9.
+    value: '07102'
+  - name: CITY
+    number: 56-9.
+    value: CFO
+  - name: STATE
+    number: 57-9.
+    value: '9736399700'
+  - name: ZIP
+    number: 58-9.
+    value: Commerce Bank NA
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: 50 East State Street
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Trenton
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: NJ
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: 08608
+  - value: Faigen^Michael J.^^
+  - value: '20070131'
+  - value: pnichols@njdems.org
+  - value: ''
+  - value: ''
+  expected_count: 63
+  input: F1N,C00409482,Lautenberg 20 Years Committee,"Gateway One, 23rd Floor",,Newark,NJ,07102,20070131,,,F,,,,,,,NAT,C00382457,Lautenberg
+    for Senate,"Gateway One, 23rd Floor",,Newark,NJ,07102,Jt Fundraising Parti,V,Nichols^Peter
+    D.^^,"Gateway One, 23rd Floor",,Newark,NJ,07102,CFO,9736399700,Faigen^Michael
+    J.^^,"Gateway One, 23rd Floor",,Newark,NJ,07102,Treasurer,9736399700,Nichols^Peter
+    D.^^,"Gateway One, 23rd Floor",,Newark,NJ,07102,CFO,9736399700,Commerce Bank NA,50
+    East State Street,,Trenton,NJ,08608,Faigen^Michael J.^^,20070131,pnichols@njdems.org,,
+  input_count: 68
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409482
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lautenberg 20 Years Committee
+  - name: STREET 1
+    number: '4'
+    value: Gateway One
+  - name: STREET 2
+    number: '5'
+    value: ' 23rd Floor'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Newark
+  - name: ZIP
+    number: '8'
+    value: NJ
+  - name: Submitted
+    number: 9-
+    value: '07102'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20070131'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: F
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: NAT
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: C00391458
+  - name: STREET 1
+    number: 22-6.
+    value: New Jersey First
+  - name: STREET 2
+    number: 23-6.
+    value: Riverfront Plaza Station
+  - name: CITY
+    number: 24-6.
+    value: PO Box 200597
+  - name: STATE
+    number: 25-6.
+    value: Newark
+  - name: ZIP
+    number: 26-6.
+    value: NJ
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: '07102'
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: Jt Fundraising Parti
+  - name: Custodian Name
+    number: '29-7. '
+    value: V
+  - name: STREET 1
+    number: 30-7.
+    value: Nichols^Peter D.^^
+  - name: STREET 2
+    number: 31-7.
+    value: Gateway One
+  - name: CITY
+    number: 32-7.
+    value: ' 23rd Floor'
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: Newark
+  - name: TITLE
+    number: 35-7.
+    value: NJ
+  - name: TELEPHONE
+    number: 36-7.
+    value: '07102'
+  - name: Treasurer
+    number: '37-8. '
+    value: CFO
+  - name: STREET 1
+    number: 38-8.
+    value: '9736399700'
+  - name: STREET 2
+    number: 39-8.
+    value: Faigen^Michael J.^^
+  - name: CITY
+    number: 40-8.
+    value: Gateway One
+  - name: STATE
+    number: 41-8.
+    value: ' 23rd Floor'
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: Newark
+  - name: TELEPHONE
+    number: 44-8.
+    value: NJ
+  - name: Designated Agent
+    number: '45-8. '
+    value: '07102'
+  - name: STREET 1
+    number: 46-8.
+    value: Treasurer
+  - name: STREET 2
+    number: 47-8.
+    value: '9736399700'
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Faigen^Michael J.^^
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20070131'
+  - value: pnichols@njdems.org
+  - value: ''
+  - value: ''
+  expected_count: 63
+  input: F1S,C00409482,Lautenberg 20 Years Committee,"Gateway One, 23rd Floor",,Newark,NJ,07102,20070131,,,F,,,,,,,NAT,C00391458,New
+    Jersey First,Riverfront Plaza Station,PO Box 200597,Newark,NJ,07102,Jt Fundraising
+    Parti,V,Nichols^Peter D.^^,"Gateway One, 23rd Floor",,Newark,NJ,07102,CFO,9736399700,Faigen^Michael
+    J.^^,"Gateway One, 23rd Floor",,Newark,NJ,07102,Treasurer,9736399700,,,,,,,,,,,,,,,Faigen^Michael
+    J.^^,20070131,pnichols@njdems.org,,
+  input_count: 66
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20070131
+type: single
