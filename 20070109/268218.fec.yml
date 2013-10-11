@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 268218.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H0CA27085
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 777 S. Figueroa St.
+  - name: STREET 2
+    number: '5'
+    value: ' Ste. 4050'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Los Angeles
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: PTY/CODE
+    number: '9'
+    value: '90017'
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: CA
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '29'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00343871
+  - name: STREET 1
+    number: '16'
+    value: Schiff for Congress
+  - name: STREET 2
+    number: '17'
+    value: 15 S. Raymond St.
+  - name: CITY
+    number: '18'
+    value: ' Ste 204'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Pasadena
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: CA
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '91105'
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: Adam Schiff
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20070109'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Schiff
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Adam
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: F2N,"H0CA27085","","777 S. Figueroa St., Ste. 4050","","Los Angeles","CA","90017","DEM","H","CA","29","2008","C00343871","Schiff
+    for Congress","15 S. Raymond St., Ste 204","","Pasadena","CA","91105","","","","","","","","Adam
+    Schiff",20070109,"0","0","Schiff","Adam","","",""
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070109
+type: single
