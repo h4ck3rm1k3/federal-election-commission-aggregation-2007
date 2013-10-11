@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 288843.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2NY24036
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 15538 NYS ROUTE 193
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PIERREPONT MANOR
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '13674'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NY
+  - name: CAN/DIST
+    number: '12'
+    value: '23'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00272153
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: COMMITTEE TO ELECT MCHUGH
+  - name: STREET 1
+    number: '16'
+    value: 228 S. Washington St.
+  - name: STREET 2
+    number: '17'
+    value: ' Ste. 115'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Alexandria
+  - name: ZIP
+    number: '20'
+    value: VA
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '22314'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: MCHUGH^JOHN M^^
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070517'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: MCHUGH
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: JOHN M
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: F2N,H2NY24036,,15538 NYS ROUTE 193,,PIERREPONT MANOR,NY,13674,REP,H,NY,23,2008,C00272153,COMMITTEE
+    TO ELECT MCHUGH,"228 S. Washington St., Ste. 115",,Alexandria,VA,22314,,,,,,,,MCHUGH^JOHN
+    M^^,20070517,0.00,0.00,MCHUGH,JOHN M,,,
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070518
+type: single
