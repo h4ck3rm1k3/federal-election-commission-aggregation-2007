@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 278827.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2GA02031
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 1909 Devon Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Albany
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '31707   '
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: GA
+  - name: CAN/DIST
+    number: '12'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Sanford D. Bishop
+  - name: STREET 1
+    number: '16'
+    value: ' Jr. for Congress'
+  - name: STREET 2
+    number: '17'
+    value: P. O. Box 909
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Columbus
+  - name: ZIP
+    number: '20'
+    value: GA
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '31902   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '        '
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ' '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '       '
+  - name: Signed
+    number: 29-
+    value: Sanford D Bishop
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: ' Jr.'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20070225'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Sanford D Bishop
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Jr.
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H2GA02031","","1909 Devon Drive","","Albany","GA","31707   ","DEM","H","GA",02,2008,"","Sanford
+    D. Bishop, Jr. for Congress","P. O. Box 909","","Columbus","GA","31902   ","        ","","","","","
+    ","       ","Sanford D Bishop, Jr.",20070225,0.00,0.00,"Sanford D Bishop","Jr.","","",""'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070226
+type: single
