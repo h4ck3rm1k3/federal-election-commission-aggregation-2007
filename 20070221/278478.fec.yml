@@ -1,0 +1,220 @@
+countraw: 8
+countrows: 6
+filename: 278478.fec
+header: {}
+rows:
+- input: '"F10","C00414300","Nicholas Vancampen Taylor","H6TX17069","H","TX",17,"Van
+    Taylor for Congress","P.O. Box 485","","Waco","TX","76703   ",475000.00,545000.00,1020000.00,"Roy
+    Giddens",20070221,"","",""'
+  record: fec.version.v5_3.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER FEC COMMITTEE ID
+    number: '2'
+    value: C00414300
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Nicholas Vancampen Taylor
+  - name: CANDIDATE ID
+    number: '4'
+    value: H6TX17069
+  - name: CAN/OFFICE
+    number: '5'
+    value: H
+  - name: CANDIDATE STATE
+    number: '6'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '7'
+    value: '17'
+  - name: COMMITTEE NAME
+    number: '8'
+    value: Van Taylor for Congress
+  - name: STREET 1
+    number: '9'
+    value: P.O. Box 485
+  - name: STREET 2
+    number: '10'
+    value: ''
+  - name: CITY
+    number: '11'
+    value: Waco
+  - name: STATE
+    number: '12'
+    value: TX
+  - name: ZIP
+    number: '13'
+    value: '76703   '
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '14'
+    value: '475000.00'
+  - name: EXP TOTAL THIS REPORT
+    number: '15'
+    value: '545000.00'
+  - name: EXP TOTAL CYCLE-TO-DATE
+    number: '16'
+    value: '1020000.00'
+  - name: as signed
+    number: 17-NAME/CANDI
+    value: Roy Giddens
+  - name: Signed
+    number: 18-
+    value: '20070221'
+  - name: MEETS F6 FILING REQUIREMENTS
+    number: '19'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '20'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '21'
+    value: ''
+- input: '"F105","C00414300",20061104,"G2006","",195000.00,"","","61104.C3432"'
+  record: fec.version.v5_3.F105
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414300
+  - name: DATE OF EXPENDITURE
+    number: '3'
+    value: '20061104'
+  - name: ITEM ELECT CD
+    number: '4'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '5'
+    value: ''
+  - name: AMOUNT
+    number: '6'
+    value: '195000.00'
+  - name: LOAN CHECK
+    number: '7'
+    value: ''
+  - name: AMENDED CD
+    number: '8'
+    value: ''
+  - name: TRAN ID
+    number: '9'
+    value: 61104.C3432
+- input: '"F105","C00414300",20061026,"G2006","",50000.00,"","","61001.C3507"'
+  record: fec.version.v5_3.F105
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414300
+  - name: DATE OF EXPENDITURE
+    number: '3'
+    value: '20061026'
+  - name: ITEM ELECT CD
+    number: '4'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '5'
+    value: ''
+  - name: AMOUNT
+    number: '6'
+    value: '50000.00'
+  - name: LOAN CHECK
+    number: '7'
+    value: ''
+  - name: AMENDED CD
+    number: '8'
+    value: ''
+  - name: TRAN ID
+    number: '9'
+    value: 61001.C3507
+- input: '"F105","C00414300",20060922,"G2006","",100000.00,"","","61104.C3433"'
+  record: fec.version.v5_3.F105
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414300
+  - name: DATE OF EXPENDITURE
+    number: '3'
+    value: '20060922'
+  - name: ITEM ELECT CD
+    number: '4'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '5'
+    value: ''
+  - name: AMOUNT
+    number: '6'
+    value: '100000.00'
+  - name: LOAN CHECK
+    number: '7'
+    value: ''
+  - name: AMENDED CD
+    number: '8'
+    value: ''
+  - name: TRAN ID
+    number: '9'
+    value: 61104.C3433
+- input: '"F105","C00414300",20061003,"G2006","",200000.00,"","","61104.C3434"'
+  record: fec.version.v5_3.F105
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414300
+  - name: DATE OF EXPENDITURE
+    number: '3'
+    value: '20061003'
+  - name: ITEM ELECT CD
+    number: '4'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '5'
+    value: ''
+  - name: AMOUNT
+    number: '6'
+    value: '200000.00'
+  - name: LOAN CHECK
+    number: '7'
+    value: ''
+  - name: AMENDED CD
+    number: '8'
+    value: ''
+  - name: TRAN ID
+    number: '9'
+    value: 61104.C3434
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F10
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: C00414300
+  - name: TEXT4000
+    number: '4'
+    value: The original report didnt pull the previous amounts in the general election
+      due to an incorrect date for the pull.  The last contribution crossed the threshold
+      and triggered this filing.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: '"TEXT","F10","C00414300","The original report didnt pull the previous amounts
+    in the general election due to an incorrect date for the pull.  The last contribution
+    crossed the threshold and triggered this filing."'
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070221
+type: single
