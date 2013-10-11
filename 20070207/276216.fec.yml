@@ -1,0 +1,215 @@
+countraw: 5
+countrows: 3
+filename: 276216.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: COMMITTEE NAME
+    number: '3'
+    value: League of Conservation Voters Action Fund
+  - name: STREET 1
+    number: '4'
+    value: 1920 L Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ' Suite 800'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: DC
+  - name: Signed
+    number: 10-
+    value: '200365045'
+  - name: REPORT TYPE
+    number: '11'
+    value: Gonzalez-McIntosh^Barbara^^
+  - value: '20070207'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00252940,League of Conservation Voters Action Fund,"1920 L Street, NW,
+    Suite 800",,Washington,DC,200365045,Gonzalez-McIntosh^Barbara^^,20070207,24
+  input_count: 13
+  record: fec.version.v5_3.F24
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This 24 Hour notice is filed in response to the Request for Information
+      dated January 10
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2007'
+  - value: ' regarding the 12 Day Pre-General Report.'
+  expected_count: 5
+  input: TEXT,F24,,"This 24 Hour notice is filed in response to the Request for Information
+    dated January 10, 2007, regarding the 12 Day Pre-General Report."
+  input_count: 6
+  record: fec.version.v5_3.TEXT
+  result: []
+- input: SE24,C00252940,ORG,Gold Communications,1617 W 6th St,Suite B,Austin,TX,78703,Literature
+    printing,20061016,29824.33,S,H8NM01117,MADRID^PATRICIA A^^,H,NM,01,C00252940,,,,,,,,,,,,,20070207,,,,,SE24.79032,,,,,G2006,,006,,29824.33
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Gold Communications
+  - name: STREET 1
+    number: '5'
+    value: 1617 W 6th St
+  - name: STREET 2
+    number: '6'
+    value: Suite B
+  - name: CITY
+    number: '7'
+    value: Austin
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78703'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Literature printing
+  - name: DATE
+    number: '11'
+    value: '20061016'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '29824.33'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8NM01117
+  - name: S/O CAN/NAME
+    number: '15'
+    value: MADRID^PATRICIA A^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: NM
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00252940
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20070207'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.79032
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '29824.33'
+sourceurl: !!python/unicode 20070207
+type: single
