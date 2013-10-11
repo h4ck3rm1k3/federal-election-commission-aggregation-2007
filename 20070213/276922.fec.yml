@@ -1,0 +1,212 @@
+countraw: 3
+countrows: 1
+filename: 276922.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00076810
+  - name: COMMITTEE NAME
+    number: '3'
+    value: General Motors Corporation Political Action Committee (GM PAC)
+  - name: STREET 1
+    number: '4'
+    value: 25 Massachusetts Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 400
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: Submitted
+    number: 9-
+    value: '20001'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20070212'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: E
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: General Motors Corporation
+  - name: STREET 2
+    number: 23-6.
+    value: 300 Renaissance Center
+  - name: CITY
+    number: 24-6.
+    value: MC 482-C25-A36
+  - name: STATE
+    number: 25-6.
+    value: ' P.O. Box 300'
+  - name: ZIP
+    number: 26-6.
+    value: Detroit
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: MI
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: '482653000'
+  - name: Custodian Name
+    number: '29-7. '
+    value: Connected
+  - name: STREET 1
+    number: 30-7.
+    value: C
+  - name: STREET 2
+    number: 31-7.
+    value: Peter Sherman
+  - name: CITY
+    number: 32-7.
+    value: 44 Canal Center Plaza
+  - name: STATE
+    number: 33-7.
+    value: Suite 200
+  - name: ZIP
+    number: 34-7.
+    value: Alexandria
+  - name: TITLE
+    number: 35-7.
+    value: VA
+  - name: TELEPHONE
+    number: 36-7.
+    value: '22314'
+  - name: Treasurer
+    number: '37-8. '
+    value: Custodian of Records
+  - name: STREET 1
+    number: 38-8.
+    value: '7036849690'
+  - name: STREET 2
+    number: 39-8.
+    value: Thomas W. Jeffers
+  - name: CITY
+    number: 40-8.
+    value: 25 Massachusetts Avenue
+  - name: STATE
+    number: 41-8.
+    value: ' NW'
+  - name: ZIP
+    number: 42-8.
+    value: Suite 400
+  - name: TITLE
+    number: 43-8.
+    value: Washington
+  - name: TELEPHONE
+    number: 44-8.
+    value: DC
+  - name: Designated Agent
+    number: '45-8. '
+    value: '20001'
+  - name: STREET 1
+    number: 46-8.
+    value: Treasurer
+  - name: STREET 2
+    number: 47-8.
+    value: '2027755086'
+  - name: CITY
+    number: 48-8.
+    value: B.J. Rodgers
+  - name: STATE
+    number: 49-8.
+    value: MC 482-C25-A36
+  - name: ZIP
+    number: 50-8.
+    value: P.O. BOX 300
+  - name: TITLE
+    number: 51-8.
+    value: Detroit
+  - name: TELEPHONE
+    number: 52-8.
+    value: MI
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '482653000'
+  - name: STREET 1
+    number: 54-9.
+    value: Assistant Treasurer
+  - name: STREET 2
+    number: 55-9.
+    value: '3136658604'
+  - name: CITY
+    number: 56-9.
+    value: Flagstar Bank
+  - name: STATE
+    number: 57-9.
+    value: 19733 Mack Avenue
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Grosse Point Woods
+  - name: Signed
+    number: 60-
+    value: MI
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '48236'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Thomas W. Jeffers
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20070212'
+  - value: thomas.w.jeffers@gm.com
+  - value: ''
+  - value: ''
+  expected_count: 63
+  input: F1A,C00076810,"General Motors Corporation Political Action Committee (GM
+    PAC)","25 Massachusetts Avenue, NW","Suite 400","Washington","DC","20001",20070212,"","","E","","","","","","","","","General
+    Motors Corporation","300 Renaissance Center","MC 482-C25-A36, P.O. Box 300","Detroit","MI","482653000","Connected","C","Peter
+    Sherman","44 Canal Center Plaza","Suite 200","Alexandria","VA","22314","Custodian
+    of Records",7036849690,"Thomas W. Jeffers","25 Massachusetts Avenue, NW","Suite
+    400","Washington","DC","20001","Treasurer",2027755086,"B.J. Rodgers","MC 482-C25-A36","P.O.
+    BOX 300","Detroit","MI","482653000","Assistant Treasurer",3136658604,"Flagstar
+    Bank","19733 Mack Avenue","","Grosse Point Woods","MI","48236","Thomas W. Jeffers",20070212,"thomas.w.jeffers@gm.com","",""
+  input_count: 66
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070213
+type: single
