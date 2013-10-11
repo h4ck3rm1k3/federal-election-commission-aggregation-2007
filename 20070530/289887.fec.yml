@@ -1,0 +1,126 @@
+countraw: 3
+countrows: 1
+filename: 289887.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4MA00010
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: '258 HARVARD ST #240'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BROOKLINE
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02446'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: MA
+  - name: CAN/DIST
+    number: '12'
+    value: '04'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00388595
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: MORSE FOR CONGRESS
+  - name: STREET 1
+    number: '16'
+    value: 1155 - 15TH STREET
+  - name: STREET 2
+    number: '17'
+    value: ' NW'
+  - name: CITY
+    number: '18'
+    value: SUITE 614
+  - name: STATE
+    number: '19'
+    value: WASHINGTON
+  - name: ZIP
+    number: '20'
+    value: DC
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '20005'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: C00407940
+  - name: STREET 1
+    number: '23'
+    value: MAN IN THE ARENA
+  - name: STREET 2
+    number: '24'
+    value: 1155 - 15TH STREET
+  - name: CITY
+    number: '25'
+    value: ' NW'
+  - name: STATE
+    number: '26'
+    value: SUITE 614
+  - name: ZIP
+    number: '27'
+    value: WASHINGTON
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: DC
+  - name: Signed
+    number: 29-
+    value: '20005'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: MORSE^CHARLES A^MR^
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20070530'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: MORSE
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: CHARLES A
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: MR
+  - value: ''
+  expected_count: 36
+  input: 'F2A,H4MA00010,,258 HARVARD ST #240,,BROOKLINE,MA,02446,REP,H,MA,04,2008,C00388595,MORSE
+    FOR CONGRESS,"1155 - 15TH STREET, NW",SUITE 614,WASHINGTON,DC,20005,C00407940,MAN
+    IN THE ARENA,"1155 - 15TH STREET, NW",SUITE 614,WASHINGTON,DC,20005,MORSE^CHARLES
+    A^MR^,20070530,0.00,0.00,MORSE,CHARLES A,,MR,'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070530
+type: single
