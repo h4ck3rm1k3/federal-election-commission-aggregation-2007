@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 278259.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6UT03042
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 190 W 800 N STE 100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PROVO
+  - name: STATE
+    number: '7'
+    value: UT
+  - name: ZIP
+    number: '8'
+    value: '84601'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: UT
+  - name: CAN/DIST
+    number: '12'
+    value: '03'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00344705
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: CANNON FOR CONGRESS
+  - name: STREET 1
+    number: '16'
+    value: 190 WEST 800 NORTH
+  - name: STREET 2
+    number: '17'
+    value: ' SUITE 100'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: PROVO
+  - name: ZIP
+    number: '20'
+    value: UT
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '84601'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: Chris Cannon for Congress
+  - name: STREET 2
+    number: '24'
+    value: 190 West 800 North ste. 100
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Provo
+  - name: ZIP
+    number: '27'
+    value: UT
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '84601'
+  - name: Signed
+    number: 29-
+    value: CANNON^CHRISTOPHER B^Hon.^
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070220'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: CANNON
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: CHRISTOPHER B
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Hon.
+  - value: ''
+  expected_count: 36
+  input: F2N,H6UT03042,,190 W 800 N STE 100,,PROVO,UT,84601,REP,H,UT,03,2008,C00344705,CANNON
+    FOR CONGRESS,"190 WEST 800 NORTH, SUITE 100",,PROVO,UT,84601,,Chris Cannon for
+    Congress,190 West 800 North ste. 100,,Provo,UT,84601,CANNON^CHRISTOPHER B^Hon.^,20070220,0.00,0.00,CANNON,CHRISTOPHER
+    B,,Hon.,
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070220
+type: single
