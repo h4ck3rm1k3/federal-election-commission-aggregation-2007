@@ -1,0 +1,957 @@
+countraw: 10
+countrows: 8
+filename: 282916.fec
+header: {}
+rows:
+- input: F24,C00129171,MCCL Federal PAC,4249 Nicollet Ave So,,Minneapolis,MN,55409,Wilson^Gordon
+    Donald^Mr.^,20070404,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCL Federal PAC
+  - name: STREET 1
+    number: '4'
+    value: 4249 Nicollet Ave So
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Minneapolis
+  - name: STATE
+    number: '7'
+    value: MN
+  - name: ZIP
+    number: '8'
+    value: '55409'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Wilson^Gordon Donald^Mr.^
+  - name: Signed
+    number: 10-
+    value: '20070404'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lightning Printing
+  - name: STREET 1
+    number: '5'
+    value: ' dba Wallace Carlson Company'
+  - name: STREET 2
+    number: '6'
+    value: 10825 Green Brier Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minnetonka
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '55305'
+  - name: DATE
+    number: '11'
+    value: Sample Ballot
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061031'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '200.09'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2MN07014
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: PETERSON^COLLIN CLARK^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '07'
+  - name: Unused field
+    number: '20'
+    value: C00129171
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20070404'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4743
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '200.09'
+  expected_count: 46
+  input: SE24,C00129171,ORG,"Lightning Printing, dba Wallace Carlson Company",10825
+    Green Brier Road,,Minnetonka,MN,55305,Sample Ballot,20061031,200.09,S,H2MN07014,PETERSON^COLLIN
+    CLARK^^,H,MN,07,C00129171,,,,,,,,,,,,,20070404,,,,,SE24.4743,,,,,G2006,,006,,200.09
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lightning Printing
+  - name: STREET 1
+    number: '5'
+    value: ' dba Wallace Carlson Company'
+  - name: STREET 2
+    number: '6'
+    value: 10825 Green Brier Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minnetonka
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '55305'
+  - name: DATE
+    number: '11'
+    value: Sample Ballot
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061031'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '172.37'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H4MN01070
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: GUTKNECHT^GILBERT WILLIAM JR^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '01'
+  - name: Unused field
+    number: '20'
+    value: C00129171
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20070404'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4744
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '172.37'
+  expected_count: 46
+  input: SE24,C00129171,ORG,"Lightning Printing, dba Wallace Carlson Company",10825
+    Green Brier Road,,Minnetonka,MN,55305,Sample Ballot,20061031,172.37,S,H4MN01070,GUTKNECHT^GILBERT
+    WILLIAM JR^^,H,MN,01,C00129171,,,,,,,,,,,,,20070404,,,,,SE24.4744,,,,,G2006,,006,,172.37
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lightning Printing
+  - name: STREET 1
+    number: '5'
+    value: ' dba Wallace Carlson Company'
+  - name: STREET 2
+    number: '6'
+    value: 10825 Green Brier Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minnetonka
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '55305'
+  - name: DATE
+    number: '11'
+    value: Sample Ballot
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061031'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1366.31'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H0MN02035
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KENNEDY^MARK^^
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00129171
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20070404'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4745
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1366.31'
+  expected_count: 46
+  input: SE24,C00129171,ORG,"Lightning Printing, dba Wallace Carlson Company",10825
+    Green Brier Road,,Minnetonka,MN,55305,Sample Ballot,20061031,1366.31,S,H0MN02035,KENNEDY^MARK^^,S,MN,,C00129171,,,,,,,,,,,,,20070404,,,,,SE24.4745,,,,,G2006,,006,,1366.31
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lightning Printing
+  - name: STREET 1
+    number: '5'
+    value: ' dba Wallace Carlson Company'
+  - name: STREET 2
+    number: '6'
+    value: 10825 Green Brier Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minnetonka
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '55305'
+  - name: DATE
+    number: '11'
+    value: Sample Ballot
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061031'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '144.29'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8MN06047
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KLINE^JOHN P JR^Mr.^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '02'
+  - name: Unused field
+    number: '20'
+    value: C00129171
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20070404'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4746
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '144.29'
+  expected_count: 46
+  input: SE24,C00129171,ORG,"Lightning Printing, dba Wallace Carlson Company",10825
+    Green Brier Road,,Minnetonka,MN,55305,Sample Ballot,20061031,144.29,S,H8MN06047,KLINE^JOHN
+    P JR^Mr.^,H,MN,02,C00129171,,,,,,,,,,,,,20070404,,,,,SE24.4746,,,,,G2006,,006,,144.29
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lightning Printing
+  - name: STREET 1
+    number: '5'
+    value: ' dba Wallace Carlson Company'
+  - name: STREET 2
+    number: '6'
+    value: 10825 Green Brier Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minnetonka
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '55305'
+  - name: DATE
+    number: '11'
+    value: Sample Ballot
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061031'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '153.60'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H6MN08047
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: OBERSTAR^JAMES
+  - name: S/O STATE
+    number: '17'
+    value: ' L^^'
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: MN
+  - name: Unused field
+    number: '20'
+    value: 08
+  - name: Unused field
+    number: '21'
+    value: C00129171
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20070404'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.4747
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '006'
+  - value: ''
+  - value: '153.60'
+  expected_count: 46
+  input: SE24,C00129171,ORG,"Lightning Printing, dba Wallace Carlson Company",10825
+    Green Brier Road,,Minnetonka,MN,55305,Sample Ballot,20061031,153.60,S,H6MN08047,"OBERSTAR^JAMES,
+    L^^",H,MN,08,C00129171,,,,,,,,,,,,,20070404,,,,,SE24.4747,,,,,G2006,,006,,153.60
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129171
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lightning Printing
+  - name: STREET 1
+    number: '5'
+    value: ' dba Wallace Carlson Company'
+  - name: STREET 2
+    number: '6'
+    value: 10825 Green Brier Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minnetonka
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '55305'
+  - name: DATE
+    number: '11'
+    value: Sample Ballot
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061031'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '192.61'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Bachmann^Michelle^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '6'
+  - name: Unused field
+    number: '20'
+    value: C00129171
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20070404'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4748
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '192.61'
+  expected_count: 46
+  input: SE24,C00129171,ORG,"Lightning Printing, dba Wallace Carlson Company",10825
+    Green Brier Road,,Minnetonka,MN,55305,Sample Ballot,20061031,192.61,S,,Bachmann^Michelle^^,H,MN,6,C00129171,,,,,,,,,,,,,20070404,,,,,SE24.4748,,,,,G2006,,006,,192.61
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SE24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SE24.4748
+  - name: TEXT4000
+    number: '4'
+    value: The original 24 hour reports (255216
+  - name: AMENDED CD
+    number: '5'
+    value: '255211'
+  - value: '255208'
+  - value: '255222'
+  - value: '255226'
+  - value: 255224) were for estimated costs of printing sample ballots.  On 10/31/2006
+      an invoice covering this printing with actual costs which were higher was paid.  24
+      hour reports which reflect the difference between the estimated cost and the
+      actual cost were not submitted.  This 24 hour report details those added costs.
+  expected_count: 5
+  input: TEXT,SE24,SE24.4748,"The original 24 hour reports (255216,255211,255208,255222,255226,255224)
+    were for estimated costs of printing sample ballots.  On 10/31/2006 an invoice
+    covering this printing with actual costs which were higher was paid.  24 hour
+    reports which reflect the difference between the estimated cost and the actual
+    cost were not submitted.  This 24 hour report details those added costs."
+  input_count: 9
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070404
+type: single
