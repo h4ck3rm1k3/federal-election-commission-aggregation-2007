@@ -1,0 +1,235 @@
+countraw: 4
+countrows: 2
+filename: 293742.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144311
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Macy's Inc. Retail Issues Fund
+  - name: STREET 1
+    number: '4'
+    value: 611 Olive Street
+  - name: STREET 2
+    number: '5'
+    value: Suite 1750
+  - name: CITY
+    number: '6'
+    value: St. Louis
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '63101'
+  - name: Submitted
+    number: 9-
+    value: '20070712'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: X
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Macy's Inc.
+  - name: STREET 1
+    number: 22-6.
+    value: 7 West Seventh Street
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Cincinnati
+  - name: STATE
+    number: 25-6.
+    value: OH
+  - name: ZIP
+    number: 26-6.
+    value: '45202'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Connected Organization
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: C
+  - name: Custodian Name
+    number: '29-7. '
+    value: Cohen^Richard A.^Mr.^
+  - name: STREET 1
+    number: 30-7.
+    value: Macy's Inc.
+  - name: STREET 2
+    number: 31-7.
+    value: 611 Olive Street
+  - name: CITY
+    number: 32-7.
+    value: ' Suite 1750'
+  - name: STATE
+    number: 33-7.
+    value: St. Louis
+  - name: ZIP
+    number: 34-7.
+    value: MO
+  - name: TITLE
+    number: 35-7.
+    value: '631011799'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '3143426725'
+  - name: STREET 1
+    number: 38-8.
+    value: Cohen^Richard A.^^
+  - name: STREET 2
+    number: 39-8.
+    value: Macy's Inc.
+  - name: CITY
+    number: 40-8.
+    value: 611 Olive Street
+  - name: STATE
+    number: 41-8.
+    value: ' Suite 1750'
+  - name: ZIP
+    number: 42-8.
+    value: St. Louis
+  - name: TITLE
+    number: 43-8.
+    value: MO
+  - name: TELEPHONE
+    number: 44-8.
+    value: '63101'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: Julian^Frank^^
+  - name: CITY
+    number: 48-8.
+    value: Macy's Inc.
+  - name: STATE
+    number: 49-8.
+    value: 7 West 7th Street
+  - name: ZIP
+    number: 50-8.
+    value: Cincinnati
+  - name: TITLE
+    number: 51-8.
+    value: OH
+  - name: TELEPHONE
+    number: 52-8.
+    value: '45202'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Assistant Treasurer
+  - name: STREET 1
+    number: 54-9.
+    value: '5135797337'
+  - name: STREET 2
+    number: 55-9.
+    value: Bank of America
+  - name: CITY
+    number: 56-9.
+    value: ' N.A.'
+  - name: STATE
+    number: 57-9.
+    value: P.O. Box 25118
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Tampa
+  - name: Signed
+    number: 60-
+    value: FL
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '336225118'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Cohen^Richard A.^^
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20070712'
+  - value: richard.cohen@macys.com
+  - value: ''
+  - value: 314-342-3066
+  expected_count: 63
+  input: '"F1A","C00144311","Macy''s Inc. Retail Issues Fund","611 Olive Street","Suite
+    1750","St. Louis","MO","63101","20070712","X","","E","","","","",0,"","","","Macy''s
+    Inc.","7 West Seventh Street","","Cincinnati","OH","45202","Connected Organization","C","Cohen^Richard
+    A.^Mr.^","Macy''s Inc.","611 Olive Street, Suite 1750","St. Louis","MO","631011799","Treasurer",3143426725,"Cohen^Richard
+    A.^^","Macy''s Inc.","611 Olive Street, Suite 1750","St. Louis","MO","63101","Treasurer",,"Julian^Frank^^","Macy''s
+    Inc.","7 West 7th Street","Cincinnati","OH","45202","Assistant Treasurer",5135797337,"Bank
+    of America, N.A.","P.O. Box 25118","","Tampa","FL","336225118","Cohen^Richard
+    A.^^","20070712","richard.cohen@macys.com","","314-342-3066"'
+  input_count: 66
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Filing in response to letter from FEC regarding Statement of Organization
+      to be filed in its entirety.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: '"TEXT","F1A","","Filing in response to letter from FEC regarding Statement
+    of Organization to be filed in its entirety."'
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070712
+type: single
