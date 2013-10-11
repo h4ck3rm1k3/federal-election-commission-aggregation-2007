@@ -1,0 +1,1162 @@
+countraw: 12
+countrows: 10
+filename: 275854.fec
+header: {}
+rows:
+- input: F5A,C00252940,LEAGUE OF CONSERVATION VOTERS ACTION FUND,1920 L Street NW
+    Suite 800,,Washington,DC,20036,,Y,,,,,,,20060928,20060929,.00,86806.03,Barbara
+    G. McIntosh,20070205,,,,48
+  record: fec.version.v5_3.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LEAGUE OF CONSERVATION VOTERS ACTION FUND
+  - name: STREET 1
+    number: '4'
+    value: 1920 L Street NW Suite 800
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: Y
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20060928'
+  - name: Coverage To
+    number: 18-
+    value: '20060929'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '86806.03'
+  - name: Person Completing Form
+    number: 21-
+    value: Barbara G. McIntosh
+  - name: Signed
+    number: 22-
+    value: '20070205'
+  - name: SPACE HOLDER
+    number: '23'
+    value: ''
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Winning Connections
+  - name: STREET 1
+    number: '5'
+    value: 317 Pennsylvania Ave
+  - name: STREET 2
+    number: '6'
+    value: ' SE'
+  - name: CITY
+    number: '7'
+    value: 2nd Fl
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20003'
+  - name: Of Expenditure
+    number: 11-
+    value: automated calls
+  - name: AMOUNT
+    number: '12'
+    value: '20060929'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '296.36'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Sestak
+  - name: S/O CAN/STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: PA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '07'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: F57.000001
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: '006'
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: '4367.37'
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Winning Connections,"317 Pennsylvania Ave, SE",2nd Fl,Washington,DC,20003,automated
+    calls,20060929,296.36,S,,Sestak,H,PA,07,,,,,,,,,,,,,,F57.000001,006,,4367.37,,,
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Winning Connections
+  - name: STREET 1
+    number: '5'
+    value: 317 Pennsylvania Ave SE
+  - name: STREET 2
+    number: '6'
+    value: 2nd Fl
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: automated calls
+  - name: Of Expenditure
+    number: 11-
+    value: '20060929'
+  - name: AMOUNT
+    number: '12'
+    value: '296.36'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Casey
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O CAN/STATE
+    number: '17'
+    value: PA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000002
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '4367.35'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Winning Connections,317 Pennsylvania Ave SE,2nd Fl,Washington,DC,20003,automated
+    calls,20060929,296.36,S,,Casey,S,PA,,,,,,,,,,,,,,,F57.000002,006,,4367.35,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Winning Connections
+  - name: STREET 1
+    number: '5'
+    value: 317 Pennsylvania Ave SE
+  - name: STREET 2
+    number: '6'
+    value: 2nd Fl
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: automated calls
+  - name: Of Expenditure
+    number: 11-
+    value: '20060929'
+  - name: AMOUNT
+    number: '12'
+    value: '578.40'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Madrid
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: NM
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000003
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '7943.84'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Winning Connections,317 Pennsylvania Ave SE,2nd Fl,Washington,DC,20003,automated
+    calls,20060929,578.40,S,,Madrid,H,NM,01,,,,,,,,,,,,,,F57.000003,006,,7943.84,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Customer Paradigm
+  - name: STREET 1
+    number: '5'
+    value: 2990 Vassar Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Boulder
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80305'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Website creation and hosting
+  - name: Of Expenditure
+    number: 11-
+    value: '20060928'
+  - name: AMOUNT
+    number: '12'
+    value: '1000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Madrid
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: NM
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000004
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '8943.84'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Customer Paradigm,2990 Vassar Dr,,Boulder,CO,80305,Website
+    creation and hosting,20060928,1000.00,S,,Madrid,H,NM,01,,,,,,,,,,,,,,F57.000004,006,,8943.84,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Customer Paradigm
+  - name: STREET 1
+    number: '5'
+    value: 2990 Vassar Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Boulder
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80305'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Website creation and hosting
+  - name: Of Expenditure
+    number: 11-
+    value: '20060928'
+  - name: AMOUNT
+    number: '12'
+    value: '1000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Tester
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MT
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000005
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '22626.18'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Customer Paradigm,2990 Vassar Drive,,Boulder,CO,80305,Website
+    creation and hosting,20060928,1000.00,S,,Tester,S,MT,,,,,,,,,,,,,,,F57.000005,006,,22626.18,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Element Agency
+  - name: STREET 1
+    number: '5'
+    value: 101 E 15th St
+  - name: STREET 2
+    number: '6'
+    value: 2nd Fl
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Direct Mail and ID persuasion calls
+  - name: Of Expenditure
+    number: 11-
+    value: '20060928'
+  - name: AMOUNT
+    number: '12'
+    value: '42069.71'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Tester
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MT
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000006
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '64695.89'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,The Element Agency,101 E 15th St,2nd Fl,New York,NY,10003,Direct
+    Mail and ID persuasion calls,20060928,42069.71,S,,Tester,S,MT,,,,,,,,,,,,,,,F57.000006,006,,64695.89,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Burnside & Assoc
+  - name: STREET 1
+    number: '5'
+    value: 1311 Tremaine Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90019'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Paid ID calls
+  - name: Of Expenditure
+    number: 11-
+    value: '20060928'
+  - name: AMOUNT
+    number: '12'
+    value: '24218.20'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Pombo
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: CA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '11'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000007
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '26718.20'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Burnside & Assoc,1311 Tremaine Ave,,Los Angeles,CA,90019,Paid
+    ID calls,20060928,24218.20,O,,Pombo,H,CA,11,,,,,,,,,,,,,,F57.000007,006,,26718.20,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Burnside & Assoc
+  - name: STREET 1
+    number: '5'
+    value: 1311 Tremaine Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90019'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Paid canvass
+  - name: Of Expenditure
+    number: 11-
+    value: '20060928'
+  - name: AMOUNT
+    number: '12'
+    value: '10204.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Pombo
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: CA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '11'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000008
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '36922.20'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Burnside & Assoc,1311 Tremaine Ave,,Los Angeles,CA,90019,Paid
+    canvass,20060928,10204.00,O,,Pombo,H,CA,11,,,,,,,,,,,,,,F57.000008,006,,36922.20,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Burnside & Assoc
+  - name: STREET 1
+    number: '5'
+    value: 1311 Tremaine Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90019'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Paid canvass
+  - name: Of Expenditure
+    number: 11-
+    value: '20060928'
+  - name: AMOUNT
+    number: '12'
+    value: '7143.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Pombo
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: CA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '11'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000009
+  - name: CATEGORY CODE
+    number: '33'
+    value: '006'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '44065.20'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00252940,ORG,Burnside & Assoc,1311 Tremaine Ave,,Los Angeles,CA,90019,Paid
+    canvass,20060928,7143.00,O,,Pombo,H,CA,11,,,,,,,,,,,,,,F57.000009,006,,44065.20,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20070205
+type: single
