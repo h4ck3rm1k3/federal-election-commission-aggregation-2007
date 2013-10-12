@@ -1,0 +1,139 @@
+countraw: 4
+countrows: 2
+filename: 302623.fec
+header: {}
+rows:
+- input: F6,C00433383,JAMES R MICELI FOR CONGRESS,PO BOX 1018,,TEWKSBURY,MA,01876,H8MA05176,Miceli^James
+    R.^Rep.^,H,MA,05,20070830
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433383
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JAMES R MICELI FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 1018
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TEWKSBURY
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 01876
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MA05176
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Miceli^James R.^Rep.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MA
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20070830'
+- input: F65,C00433383,IND,Pierce^William^^,11 Jewett Hill Dr.,,Ipswich,MA,01938,New
+    Meadows Corporation,Owner/Developer,20070829,5000.00,C00433383,H8MA05176,Miceli^James
+    R.^Rep.^,H,MA,05,,,,,,,,F6.4237
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433383
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pierce^William^^
+  - name: STREET 1
+    number: '5'
+    value: 11 Jewett Hill Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ipswich
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01938
+  - name: INDEMP
+    number: '10'
+    value: New Meadows Corporation
+  - name: INDOCC
+    number: '11'
+    value: Owner/Developer
+  - name: Of Contribution
+    number: 12-
+    value: '20070829'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00433383
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MA05176
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Miceli^James R.^Rep.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4237
+sourceurl: !!python/unicode 20070830
+type: single
