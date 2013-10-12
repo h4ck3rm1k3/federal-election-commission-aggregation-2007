@@ -1,0 +1,120 @@
+countraw: 3
+countrows: 1
+filename: 304533.fec
+header: {}
+rows:
+- input: '"F2N","H4OH05035","","16602 COUNTY ROAD P1","","NAPOLEON","OH","43545","DEM","H","OH","5","2007","C00398008","ROBIN
+    WEIRAUCH FOR CONGRESS","PO BOX 301","","NAPOLEON","OH","43545","","","","","","","","ROBIN
+    WEIRAUCH","20070921","0.00","0.00","WEIRAUCH","ROBIN","RENEE","",""'
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4OH05035
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 16602 COUNTY ROAD P1
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NAPOLEON
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43545'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: OH
+  - name: CAN/DIST
+    number: '12'
+    value: '5'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2007'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00398008
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ROBIN WEIRAUCH FOR CONGRESS
+  - name: STREET 1
+    number: '16'
+    value: PO BOX 301
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: NAPOLEON
+  - name: STATE
+    number: '19'
+    value: OH
+  - name: ZIP
+    number: '20'
+    value: '43545'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ROBIN WEIRAUCH
+  - name: Signed
+    number: 29-
+    value: '20070921'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: WEIRAUCH
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: RENEE
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20070921
+type: single
