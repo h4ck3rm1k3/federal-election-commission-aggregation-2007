@@ -1,0 +1,566 @@
+countraw: 9
+countrows: 7
+filename: 312146.fec
+header: {}
+rows:
+- input: F6,C00441014,ROB WITTMAN FOR CONGRESS,PO BOX 999,,MONTROSS,VA,22520,H8VA01147,WITTMAN^ROB^^,H,VA,01,20071203
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ROB WITTMAN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 999
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MONTROSS
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22520'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '10'
+    value: WITTMAN^ROB^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: VA
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20071203'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Waltrip^C. Lewis^^II
+  - name: STREET 1
+    number: '5'
+    value: 2515 Manion Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Williamsburg
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23185'
+  - name: INDEMP
+    number: '10'
+    value: C. Lewis Waltrip II
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: utility line contractor
+  - name: AMOUNT
+    number: '13'
+    value: '20071201'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2300.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00441014
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8VA01147
+  - name: CAN/OFFICE
+    number: '17'
+    value: WITTMAN^ROB^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: VA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4832
+  expected_count: 27
+  input: F65,C00441014,IND,Waltrip^C. Lewis^^II,2515 Manion Dr,,Williamsburg,VA,23185,"C.
+    Lewis Waltrip II, Inc.",utility line contractor,20071201,2300.00,C00441014,H8VA01147,WITTMAN^ROB^^,H,VA,01,,,,,,,,F6.4832
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00441014,PAC,AMERICAN HOSPITAL ASSOCIATION PAC,325 Seventh Street NW,Suite
+    700,Washington,DC,20004,,,20071201,1000.00,C00441014,H8VA01147,WITTMAN^ROB^^,H,VA,01,,,,,,,,F6.4827
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN HOSPITAL ASSOCIATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 325 Seventh Street NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 700
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071201'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROB^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4827
+- input: F65,C00441014,PAC,HELP AMERICA'S LEADERS POLITICAL ACTION COMMITTEE (HALPAC),1155
+    21st Street NW,Suite 300,Washington,DC,20036,,,20071201,1000.00,C00441014,H8VA01147,WITTMAN^ROB^^,H,VA,01,,,,,,,,F6.4828
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HELP AMERICA'S LEADERS POLITICAL ACTION COMMITTEE (HALPAC)
+  - name: STREET 1
+    number: '5'
+    value: 1155 21st Street NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 300
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071201'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROB^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4828
+- input: F65,C00441014,PAC,R.J. REYNOLDS POLITICAL ACTION COMMITTEE; REYNOLDS AMERICAN
+    INC.,P. O. Box 718,.,Winston-Salem,NC,27102,,,20071201,2500.00,C00441014,H8VA01147,WITTMAN^ROB^^,H,VA,01,,,,,,,,F6.4829
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: R.J. REYNOLDS POLITICAL ACTION COMMITTEE; REYNOLDS AMERICAN INC.
+  - name: STREET 1
+    number: '5'
+    value: P. O. Box 718
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: Winston-Salem
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071201'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROB^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4829
+- input: F65,C00441014,CCM,SENATOR JOHN WARNER COMMITTEE,PO BOX 3536,,MERRIFIELD,VA,22116,,,20071201,2000.00,C00441014,H8VA01147,WITTMAN^ROB^^,H,VA,01,,,,,,,,F6.4830
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SENATOR JOHN WARNER COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 3536
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: MERRIFIELD
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22116'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071201'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROB^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4830
+- input: F65,C00441014,PAC,SONNENSCHEIN NATH & ROSENTHAL LLP POLITICAL ACTION COMMITTEE
+    (SONNENSCHEIN PAC),1301 K STREET NW,SUITE 600 EAST TOWER,WASHINGTON,DC,20005,,,20071201,1000.00,C00441014,H8VA01147,WITTMAN^ROB^^,H,VA,01,,,,,,,,F6.4831
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SONNENSCHEIN NATH & ROSENTHAL LLP POLITICAL ACTION COMMITTEE (SONNENSCHEIN
+      PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1301 K STREET NW
+  - name: STREET 2
+    number: '6'
+    value: SUITE 600 EAST TOWER
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071201'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROB^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4831
+sourceurl: !!python/unicode 20071203
+type: single
