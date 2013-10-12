@@ -1,0 +1,120 @@
+countraw: 3
+countrows: 1
+filename: 300764.fec
+header: {}
+rows:
+- input: '"F2","H8NE02139","","18655 Van Camp","","Omaha","NE","68130   ","REP","H","NE",02,2008,"","Lee
+    Terry for Congress","P.O. Box 540098","","Omaha","NE","68154   ","        ","","","","","
+    ","       ","Lee Terry",20070814,0.00,0.00,"Terry","Lee","","",""'
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8NE02139
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 18655 Van Camp
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Omaha
+  - name: STATE
+    number: '7'
+    value: NE
+  - name: ZIP
+    number: '8'
+    value: '68130   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NE
+  - name: CAN/DIST
+    number: '12'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Lee Terry for Congress
+  - name: STREET 1
+    number: '16'
+    value: P.O. Box 540098
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Omaha
+  - name: STATE
+    number: '19'
+    value: NE
+  - name: ZIP
+    number: '20'
+    value: '68154   '
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '        '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ' '
+  - name: ZIP
+    number: '27'
+    value: '       '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Lee Terry
+  - name: Signed
+    number: 29-
+    value: '20070814'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: Terry
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Lee
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20070814
+type: single
