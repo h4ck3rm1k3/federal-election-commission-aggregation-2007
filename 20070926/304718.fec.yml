@@ -1,0 +1,159 @@
+countraw: 3
+countrows: 1
+filename: 304718.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431601
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Rhode Island Hope PAC
+  - name: STREET 1
+    number: '4'
+    value: 607 14th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 800
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: '20005'
+  - name: Of Affiliation
+    number: 10-
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: C00344697
+  - name: CAN/OFFICE
+    number: '15'
+    value: James R. Langevin
+  - name: CAN/STATE
+    number: '16'
+    value: H
+  - name: CAN/DIST
+    number: '17'
+    value: RI
+  - name: Of Contribution
+    number: 18-
+    value: '2'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: '20070926'
+  - name: CANDIDATE NAME
+    number: '20'
+    value: C00201533
+  - name: CAN/OFFICE
+    number: '21'
+    value: Tim Johnson
+  - name: CAN/STATE
+    number: '22'
+    value: S
+  - name: CAN/DIST
+    number: '23'
+    value: SD
+  - name: Of Contribution
+    number: 24-
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: '20070223'
+  - name: CANDIDATE NAME
+    number: '26'
+    value: C00328245
+  - name: CAN/OFFICE
+    number: '27'
+    value: Thomas H. Allen
+  - name: CAN/STATE
+    number: '28'
+    value: S
+  - name: CAN/DIST
+    number: '29'
+    value: ME
+  - name: Of Contribution
+    number: 30-
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: '20070315'
+  - name: CANDIDATE NAME
+    number: '32'
+    value: C00325126
+  - name: CAN/OFFICE
+    number: '33'
+    value: Mary L. Landrieu
+  - name: CAN/STATE
+    number: '34'
+    value: S
+  - name: CAN/DIST
+    number: '35'
+    value: LA
+  - name: Of Contribution
+    number: 36-
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: '20070328'
+  - name: CANDIDATE NAME
+    number: '38'
+    value: C00238907
+  - name: CAN/OFFICE
+    number: '39'
+    value: Jack Reed
+  - name: CAN/STATE
+    number: '40'
+    value: S
+  - name: CAN/DIST
+    number: '41'
+    value: RI
+  - name: Of Contribution
+    number: 42-
+    value: ''
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20070223'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20070809'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20070122'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: '20070926'
+  - name: Signed
+    number: 47-
+    value: Grace Diaz
+  - value: '20070926'
+  expected_count: 47
+  input: '"F1MN","C00431601","Rhode Island Hope PAC","607 14th Street, NW","Suite
+    800","Washington","DC","20005","N","","","","C00344697","James R. Langevin","H","RI","2","20070926","C00201533","Tim
+    Johnson","S","SD","","20070223","C00328245","Thomas H. Allen","S","ME","","20070315","C00325126","Mary
+    L. Landrieu","S","LA","","20070328","C00238907","Jack Reed","S","RI","","20070223","20070809","20070122","20070926","Grace
+    Diaz","20070926"'
+  input_count: 48
+  record: fec.version.v5_3.F1M
+  result: []
+sourceurl: !!python/unicode 20070926
+type: single
