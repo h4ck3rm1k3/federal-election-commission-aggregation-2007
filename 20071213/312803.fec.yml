@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 312803.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6CA41174
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 15885 - 15  Main St.
+  - name: STREET 2
+    number: '5'
+    value: ' #204'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Hesperia
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: PTY/CODE
+    number: '9'
+    value: '92345'
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '41'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00438986
+  - name: STREET 1
+    number: '16'
+    value: CONTRERAS 4 CONGRESS
+  - name: STREET 2
+    number: '17'
+    value: 555 So. Flower St.
+  - name: CITY
+    number: '18'
+    value: ' #4210'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Los Angeles
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: CA
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '90071'
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: Louie Contreras
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20071213'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Contreras
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Louie
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: 'F2A,H6CA41174,,"15885 - 15  Main St., #204",,Hesperia,CA,92345,DEM,H,,41,2008,C00438986,CONTRERAS
+    4 CONGRESS,"555 So. Flower St., #4210",,Los Angeles,CA,90071,,,,,,,,Louie Contreras,20071213,0.00,0.00,Contreras,Louie,,,'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20071213
+type: single
