@@ -1,0 +1,421 @@
+countraw: 6
+countrows: 4
+filename: 302622.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00149773
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEAMFITTERS LOCAL 602 COPE COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 8700 ASHWOOD DRIVE 2ND FLOOR
+  - name: STREET 2
+    number: '5'
+    value: .
+  - name: CITY
+    number: '6'
+    value: CAPITOL HEIGHTS
+  - name: STATE
+    number: '7'
+    value: MD
+  - name: ZIP
+    number: '8'
+    value: '20743'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: Q2
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20070101'
+  - name: Coverage To
+    number: 18-
+    value: '20070630'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '96.66'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '350.00'
+  - name: Person Completing Form
+    number: 21-
+    value: Joseph C. Savia
+  - name: Signed
+    number: 22-
+    value: ' Sr.'
+  - name: SPACE HOLDER
+    number: '23'
+    value: '20070830'
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+  - value: ''
+  expected_count: 26
+  input: F5N,C00149773,STEAMFITTERS LOCAL 602 COPE COMMITTEE,8700 ASHWOOD DRIVE 2ND
+    FLOOR,.,CAPITOL HEIGHTS,MD,20743,,,,,Q2,,,,20070101,20070630,96.66,350.00,"Joseph
+    C. Savia, Sr.",20070830,,,,
+  input_count: 27
+  record: fec.version.v5_3.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00149773
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Miscellaneous Contributions
+  - name: STREET 1
+    number: '5'
+    value: 8700 Ashwood Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Captiol Heights
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20743'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20070405'
+  - name: AMOUNT
+    number: '13'
+    value: '96.66'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F56.000001
+  - value: ''
+  expected_count: 27
+  input: F56,C00149773,ORG,Miscellaneous Contributions,8700 Ashwood Drive,,Captiol
+    Heights,MD,20743,,,20070405,96.66,,,,,,,,,,,,,,F56.000001,
+  input_count: 28
+  record: fec.version.v5_3.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00149773
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Virginia State AFL CIO
+  - name: STREET 1
+    number: '5'
+    value: 5400 Glenside Drive
+  - name: STREET 2
+    number: '6'
+    value: ' Ste E'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Richmond
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '23228'
+  - name: Of Expenditure
+    number: 11-
+    value: LeBlanc/Askew Dinner
+  - name: AMOUNT
+    number: '12'
+    value: '20070131'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '150.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: F57.000001
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: '003'
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: '150.00'
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: Special
+  - value: ''
+  expected_count: 37
+  input: F57,C00149773,ORG,Virginia State AFL CIO,"5400 Glenside Drive, Ste E",,Richmond,VA,23228,LeBlanc/Askew
+    Dinner,20070131,150.00,S,,,,,,,,,,,,,,,,,,,F57.000001,003,,150.00,,Special,
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00149773
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Maryland Inagural Committee
+  - name: STREET 1
+    number: '5'
+    value: The Harbor Bank
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Baltimore
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Inaguration
+  - name: Of Expenditure
+    number: 11-
+    value: '20070104'
+  - name: AMOUNT
+    number: '12'
+    value: '200.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MD
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000002
+  - name: CATEGORY CODE
+    number: '33'
+    value: '003'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '200.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: Special
+  - value: ''
+  expected_count: 37
+  input: F57,C00149773,ORG,Maryland Inagural Committee,The Harbor Bank,,Baltimore,MD,21201,Inaguration,20070104,200.00,O,,,,MD,,,,,,,,,,,,,,,F57.000002,003,,200.00,,Special,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20070830
+type: single
