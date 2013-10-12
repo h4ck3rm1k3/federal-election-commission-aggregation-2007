@@ -1,0 +1,126 @@
+countraw: 3
+countrows: 1
+filename: 310019.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: P00003251
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: C/O JOHN H. GROSS
+  - name: STREET 2
+    number: '5'
+    value: ' PROSKAUER ROSE '
+  - name: CITY
+    number: '6'
+    value: 1585 BROADWAY
+  - name: STATE
+    number: '7'
+    value: NEW YORK
+  - name: ZIP
+    number: '8'
+    value: NY
+  - name: PTY/CODE
+    number: '9'
+    value: '100368299'
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: P
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00430512
+  - name: STREET 1
+    number: '16'
+    value: RUDY GIULIANI PRESIDENTIAL COMMITTEE
+  - name: STREET 2
+    number: '17'
+    value: ' INC'
+  - name: CITY
+    number: '18'
+    value: C/O JOHN GROSS
+  - name: STATE
+    number: '19'
+    value: PROSKAUER ROSE LLP 1585 BROADWAY
+  - name: ZIP
+    number: '20'
+    value: NEW YORK
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: NY
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '100368299'
+  - name: STREET 1
+    number: '23'
+    value: C00440578
+  - name: STREET 2
+    number: '24'
+    value: KENTUCKY REPUBLICAN VICTORY COMMITTEE
+  - name: CITY
+    number: '25'
+    value: PO BOX 365
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: MCLEAN
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: VA
+  - name: Signed
+    number: 29-
+    value: '22101'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: RUDOLPH W. GIULIANI
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20071102'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: GIULIANI
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: RUDOLPH
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: W.
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: F2A,P00003251,,"C/O JOHN H. GROSS, PROSKAUER ROSE ","1585 BROADWAY","NEW
+    YORK",NY,100368299,REP,P,,,2008,C00430512,"RUDY GIULIANI PRESIDENTIAL COMMITTEE,
+    INC","C/O JOHN GROSS","PROSKAUER ROSE LLP 1585 BROADWAY","NEW YORK",NY,100368299,C00440578,"KENTUCKY
+    REPUBLICAN VICTORY COMMITTEE","PO BOX 365",,"MCLEAN",VA,22101,"RUDOLPH W. GIULIANI",20071102,0.00,0.00,"GIULIANI","RUDOLPH","W.",,
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20071102
+type: single
