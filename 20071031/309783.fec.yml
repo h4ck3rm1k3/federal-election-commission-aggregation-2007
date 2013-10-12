@@ -1,0 +1,226 @@
+countraw: 5
+countrows: 3
+filename: 309783.fec
+header: {}
+rows:
+- input: F6N,C00438879,STEVE BUEHRER FOR CONGRESS,704 GREENVIEW DR,,DELTA,OH,43515,H8OH05077,Buehrer^Steve^Mr.^,H,OH,05,20071030
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEVE BUEHRER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 704 GREENVIEW DR
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: DELTA
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43515'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8OH05077
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Buehrer^Steve^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OH
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20071030'
+- input: F65,C00438879,IND,Hill^Thomas^Mr.,1719 Mason Lane,,Charlottesville,VA,22903,NA,Sales,20071030,1000.00,,,,,,,Club^for^Growth,2001
+    L St NW Ste 600,,Washington,DC,20036,,F65.00000
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hill^Thomas^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 1719 Mason Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Charlottesville
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22903'
+  - name: INDEMP
+    number: '10'
+    value: NA
+  - name: INDOCC
+    number: '11'
+    value: Sales
+  - name: Of Contribution
+    number: 12-
+    value: '20071030'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St NW Ste 600
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '25'
+    value: '20036'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Schwinn^Dan^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 27 Robin Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Weston
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02493
+  - name: INDEMP
+    number: '10'
+    value: Avidyne
+  - name: INDOCC
+    number: '11'
+    value: Manager
+  - name: Of Contribution
+    number: 12-
+    value: '20071030'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St NW
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ' Suite 600'
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: Washington
+  - name: CONDUIT ZIP
+    number: '25'
+    value: DC
+  - name: AMENDED CD
+    number: '26'
+    value: '20036'
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65.00001
+  expected_count: 27
+  input: F65,C00438879,IND,Schwinn^Dan^Mr.,27 Robin Road,,Weston,MA,02493,Avidyne,Manager,20071030,2300.00,,,,,,,Club^for^Growth,"2001
+    L St NW, Suite 600",,Washington,DC,20036,,F65.00001
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20071031
+type: single
