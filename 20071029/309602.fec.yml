@@ -1,0 +1,412 @@
+countraw: 4
+countrows: 2
+filename: 309602.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283606
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PEOPLE FOR ENGLISH
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 1940
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ERIE
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '16507'
+  - name: Submitted
+    number: 9-
+    value: '20071029'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H4PA21051
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ENGLISH^PHILIP S.^^
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: PA
+  - name: CAN/DIST
+    number: 17-5.
+    value: '03'
+  - name: PARTY CODE
+    number: 18-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00439752
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: 2008 HOUSE-RNC VICTORY COMMITTEE; THE
+  - name: STREET 1
+    number: 22-6.
+    value: 310 FIRST STREET SE
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: WASHINGTON
+  - name: STATE
+    number: 25-6.
+    value: DC
+  - name: ZIP
+    number: 26-6.
+    value: '20003'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Joint Cmte Rep.
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: M
+  - name: Custodian Name
+    number: '29-7. '
+    value: Lisker^Lisa^^
+  - name: STREET 1
+    number: 30-7.
+    value: 228 S. Washington St.
+  - name: STREET 2
+    number: 31-7.
+    value: ' Ste. 115'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Alexandria
+  - name: ZIP
+    number: 34-7.
+    value: VA
+  - name: TITLE
+    number: 35-7.
+    value: '22314'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '7035497705'
+  - name: STREET 1
+    number: 38-8.
+    value: Lisker^Lisa^^
+  - name: STREET 2
+    number: 39-8.
+    value: 228 S. Washington St.
+  - name: CITY
+    number: 40-8.
+    value: ' Ste. 115'
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: Alexandria
+  - name: TITLE
+    number: 43-8.
+    value: VA
+  - name: TELEPHONE
+    number: 44-8.
+    value: '22314'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 46-8.
+    value: '7035497705'
+  - name: STREET 2
+    number: 47-8.
+    value: Davis^Keith^^
+  - name: CITY
+    number: 48-8.
+    value: 228 S. Washington St.
+  - name: STATE
+    number: 49-8.
+    value: ' Ste. 115'
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: Alexandria
+  - name: TELEPHONE
+    number: 52-8.
+    value: VA
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '22314'
+  - name: STREET 1
+    number: 54-9.
+    value: Assistant Treasurer
+  - name: STREET 2
+    number: 55-9.
+    value: '7035497705'
+  - name: CITY
+    number: 56-9.
+    value: National City Bank of Pennsylvania
+  - name: STATE
+    number: 57-9.
+    value: 1468 West Gore Rd.
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Erie
+  - name: Signed
+    number: 60-
+    value: PA
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '16509'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Lisker^Lisa^^
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20071029'
+  - value: llisker@hdafec.com
+  - value: ''
+  - value: '7036840683'
+  expected_count: 63
+  input: F1A,C00283606,PEOPLE FOR ENGLISH,PO BOX 1940,,ERIE,PA,16507,20071029,,,A,H4PA21051,ENGLISH^PHILIP
+    S.^^,H,PA,03,REP,NAT,C00439752,2008 HOUSE-RNC VICTORY COMMITTEE; THE,310 FIRST
+    STREET SE,,WASHINGTON,DC,20003,Joint Cmte Rep.,M,Lisker^Lisa^^,"228 S. Washington
+    St., Ste. 115",,Alexandria,VA,22314,Treasurer,7035497705,Lisker^Lisa^^,"228 S.
+    Washington St., Ste. 115",,Alexandria,VA,22314,Treasurer,7035497705,Davis^Keith^^,"228
+    S. Washington St., Ste. 115",,Alexandria,VA,22314,Assistant Treasurer,7035497705,National
+    City Bank of Pennsylvania,1468 West Gore Rd.,,Erie,PA,16509,Lisker^Lisa^^,20071029,llisker@hdafec.com,,7036840683
+  input_count: 66
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283606
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PEOPLE FOR ENGLISH
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 1940
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ERIE
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '16507'
+  - name: Submitted
+    number: 9-
+    value: '20071029'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H4PA21051
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ENGLISH^PHILIP S.^^
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: PA
+  - name: CAN/DIST
+    number: 17-5.
+    value: '03'
+  - name: PARTY CODE
+    number: 18-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Lisker^Lisa^^
+  - name: STREET 1
+    number: 30-7.
+    value: 228 S. Washington St.
+  - name: STREET 2
+    number: 31-7.
+    value: ' Ste. 115'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Alexandria
+  - name: ZIP
+    number: 34-7.
+    value: VA
+  - name: TITLE
+    number: 35-7.
+    value: '22314'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '7035497705'
+  - name: STREET 1
+    number: 38-8.
+    value: Lisker^Lisa^^
+  - name: STREET 2
+    number: 39-8.
+    value: 228 S. Washington St.
+  - name: CITY
+    number: 40-8.
+    value: ' Ste. 115'
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: Alexandria
+  - name: TITLE
+    number: 43-8.
+    value: VA
+  - name: TELEPHONE
+    number: 44-8.
+    value: '22314'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 46-8.
+    value: '7035497705'
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: Wachoiva Bank
+  - name: CITY
+    number: 56-9.
+    value: 740 15th St.
+  - name: STATE
+    number: 57-9.
+    value: ' NW'
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Washington
+  - name: Signed
+    number: 60-
+    value: DC
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20005'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Lisker^Lisa^^
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: '20071029'
+  - value: llisker@hdafec.com
+  - value: ''
+  - value: '7036840683'
+  expected_count: 63
+  input: F1S,C00283606,PEOPLE FOR ENGLISH,PO BOX 1940,,ERIE,PA,16507,20071029,,,A,H4PA21051,ENGLISH^PHILIP
+    S.^^,H,PA,03,REP,NAT,,,,,,,,,,Lisker^Lisa^^,"228 S. Washington St., Ste. 115",,Alexandria,VA,22314,Treasurer,7035497705,Lisker^Lisa^^,"228
+    S. Washington St., Ste. 115",,Alexandria,VA,22314,Treasurer,7035497705,,,,,,,,,Wachoiva
+    Bank,"740 15th St., NW",,Washington,DC,20005,Lisker^Lisa^^,20071029,llisker@hdafec.com,,7036840683
+  input_count: 66
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20071029
+type: single
