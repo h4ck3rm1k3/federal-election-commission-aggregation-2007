@@ -1,0 +1,975 @@
+countraw: 9
+countrows: 7
+filename: 311437.fec
+header: {}
+rows:
+- input: '"F3XN","C00265603","Kern County Republican Central Committee","4900 California
+    Avenue","Suite 135A","Bakersfield","CA","933097044","","X","M11","","","","20071001","20071031","4271.91","8928","13199.91","703.41","12496.5","","","0","0","0","0","0","0","0","0","0","0","0","0","8928","8928","0","196.95","506.46","0","703.41","0","0","0","0","0","0","0","0","0","0","0","703.41","196.95","0","0","0","196.95","0","196.95","21275.3","2007","72610.17","93885.47","81388.97","12496.5","22524","5245","27769","0","4500","32269","0","0","0","0","0","399.89","38754.37","72610.17","32668.89","33429.37","47959.6","0","81388.97","0","0","0","0","0","0","0","0","0","0","0","81388.97","33429.37","32269","0","32269","33429.37","0","33429.37","Henderson^Craig","20071113","0","8928","0","0","0","0","1186.91","39941.28","0","0","0","0"'
+  record: fec.version.v5_3.F3X
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3XN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265603
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kern County Republican Central Committee
+  - name: STREET 1
+    number: '4'
+    value: 4900 California Avenue
+  - name: STREET 2
+    number: '5'
+    value: Suite 135A
+  - name: CITY
+    number: '6'
+    value: Bakersfield
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '933097044'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: QUALIFIED CMTE
+    number: '10'
+    value: X
+  - name: RPTCODE
+    number: '11'
+    value: M11
+  - name: RPTPGI
+    number: '12'
+    value: ''
+  - name: Of Election
+    number: 13-
+    value: ''
+  - name: STATE (Of Election)
+    number: '14'
+    value: ''
+  - name: Coverage From
+    number: 15-
+    value: '20071001'
+  - name: Coverage To
+    number: 16-
+    value: '20071031'
+  - name: Cash on Hand beginning
+    number: 17-6(b)
+    value: '4271.91'
+  - name: Total Receipts
+    number: 18-6(c)
+    value: '8928'
+  - name: Subtotal
+    number: 19-6(d)
+    value: '13199.91'
+  - name: Total Disbursements
+    number: 20-7.
+    value: '703.41'
+  - name: Cash on Hand at Close
+    number: 21-8.
+    value: '12496.5'
+  - name: Debts to
+    number: 22-9.
+    value: ''
+  - name: Debts by
+    number: 23-10.
+    value: ''
+  - name: Itemized
+    number: 24-11(a)i
+    value: '0'
+  - name: Unitemized
+    number: 25-11(a)ii
+    value: '0'
+  - name: Total
+    number: 26-11(a)iii
+    value: '0'
+  - name: Political Party Committees
+    number: 27-11(b)
+    value: '0'
+  - name: Other Political Committees (PACs)
+    number: 28-11(c)
+    value: '0'
+  - name: Total Contributions
+    number: 29-11(d)
+    value: '0'
+  - name: Transfers from Affiliated/Other Party Committees
+    number: 30-12.
+    value: '0'
+  - name: All Loans Received
+    number: 31-13.
+    value: '0'
+  - name: Loan Repayments Received
+    number: 32-14.
+    value: '0'
+  - name: Offsets to Operating Expenditures (refunds)
+    number: 33-15.
+    value: '0'
+  - name: Refunds of Federal Contributions
+    number: 34-16.
+    value: '0'
+  - name: Other Federal Receipts (dividends)
+    number: 35-17.
+    value: '0'
+  - name: Transfers from Nonfederal Account (H3)
+    number: 36-18(a)
+    value: '8928'
+  - name: Total Receipts
+    number: 37-19.
+    value: '8928'
+  - name: Total Federal Receipts
+    number: 38-20.
+    value: '0'
+  - name: Federal Share
+    number: 39-21(a)i
+    value: '196.95'
+  - name: Non-Federal Share
+    number: 40-21(a)ii
+    value: '506.46'
+  - name: Other Federal Operating Expenditures
+    number: 41-21(b)
+    value: '0'
+  - name: Total Operating Expenditures
+    number: 42-21(c)
+    value: '703.41'
+  - name: Transfers to Affiliated/Other Party Committees
+    number: 43-22.
+    value: '0'
+  - name: Contributions to Federal Candidates/Committees
+    number: 44-23.
+    value: '0'
+  - name: Independent Expenditures
+    number: 45-24.
+    value: '0'
+  - name: Coordinated Expend made by Party Committees
+    number: 46-25.
+    value: '0'
+  - name: Loan Repayments
+    number: 47-26.
+    value: '0'
+  - name: Loans Made
+    number: 48-27.
+    value: '0'
+  - name: Individuals/Persons
+    number: 49-28(a)
+    value: '0'
+  - name: Political Party Committees
+    number: 50-28(b)
+    value: '0'
+  - name: Other Political Committees
+    number: 51-28(c)
+    value: '0'
+  - name: Total Contributions Refunds
+    number: 52-28(d)
+    value: '0'
+  - name: Other Disbursements
+    number: 53-29.
+    value: '0'
+  - name: Total Disbursements
+    number: 54-31.
+    value: '703.41'
+  - name: Total Federal Disbursements
+    number: 55-32.
+    value: '196.95'
+  - name: Total Contributions
+    number: 56-33.
+    value: '0'
+  - name: Total Contribution Refunds
+    number: 57-34.
+    value: '0'
+  - name: Net Contributions
+    number: 58-35.
+    value: '0'
+  - name: Total Federal Operating Expenditures
+    number: 59-36.
+    value: '196.95'
+  - name: Offsets to Operating Expenditures
+    number: 60-37.
+    value: '0'
+  - name: Net Operating Expenditures
+    number: 61-38.
+    value: '196.95'
+  - name: Cash on Hand Jan 1, 19
+    number: 62-6(a)
+    value: '21275.3'
+  - name: Year for Above
+    number: '63'
+    value: '2007'
+  - name: Total Receipts
+    number: 64-6(c)
+    value: '72610.17'
+  - name: Subtotal
+    number: 65-6(d)
+    value: '93885.47'
+  - name: Total disbursements
+    number: 66-7.
+    value: '81388.97'
+  - name: Cash on Hand Close
+    number: 67-8.
+    value: '12496.5'
+  - name: Itemized
+    number: 68-11(a)i
+    value: '22524'
+  - name: Unitemized
+    number: 69-11(a)ii
+    value: '5245'
+  - name: Total
+    number: 70-11(a)iii
+    value: '27769'
+  - name: Political Party committees
+    number: 71-11(b)
+    value: '0'
+  - name: Other Political Committees (PACs)
+    number: 72-11(c)
+    value: '4500'
+  - name: Total Contributions
+    number: 73-11(d)
+    value: '32269'
+  - name: Transfers from Affiliated/Other Party Committees
+    number: 74-12.
+    value: '0'
+  - name: All Loans Received
+    number: 75-13.
+    value: '0'
+  - name: Loan Repayments Received
+    number: 76-14.
+    value: '0'
+  - name: Offsets to Operating Expenditures (refunds)
+    number: 77-15.
+    value: '0'
+  - name: Refunds of Federal Contributions
+    number: 78-16.
+    value: '0'
+  - name: Other Federal Receipts (dividends)
+    number: 79-17.
+    value: '399.89'
+  - name: Transfers from Nonfederal Account (H3)
+    number: 80-18(a)
+    value: '38754.37'
+  - name: Total Receipts
+    number: 81-19.
+    value: '72610.17'
+  - name: Total Federal Receipts
+    number: 82-20.
+    value: '32668.89'
+  - name: Federal Share
+    number: 83-21(a)i
+    value: '33429.37'
+  - name: Non-Federal Share
+    number: 84-21(a)ii
+    value: '47959.6'
+  - name: Other Federal Operating Expenditures
+    number: 85-21(b)
+    value: '0'
+  - name: Total operating Expenditures
+    number: 86-21(c)
+    value: '81388.97'
+  - name: Transfers to Affiliated/Other Party Committees
+    number: 87-22.
+    value: '0'
+  - name: Contributions to Federal Candidates/Committees
+    number: 88-23.
+    value: '0'
+  - name: Independent Expenditures
+    number: 89-24.
+    value: '0'
+  - name: Coordinated Expend made by Party Committees
+    number: 90-25.
+    value: '0'
+  - name: Loan Repayments Made
+    number: 91-26.
+    value: '0'
+  - name: Loans Made
+    number: 92-27.
+    value: '0'
+  - name: Individuals/Persons
+    number: 93-28(a)
+    value: '0'
+  - name: Political Party Committees
+    number: 94-28(b)
+    value: '0'
+  - name: Other Political Committees
+    number: 95-28(c)
+    value: '0'
+  - name: Total contributions Refunds
+    number: 96-28(d)
+    value: '0'
+  - name: Other Disbursements
+    number: 97-29.
+    value: '0'
+  - name: Total Disbursements
+    number: 98-31.
+    value: '81388.97'
+  - name: Total Federal Disbursements
+    number: 99-32.
+    value: '33429.37'
+  - name: Total Contributions
+    number: 100-33.
+    value: '32269'
+  - name: Total Contribution Refunds
+    number: 101-34.
+    value: '0'
+  - name: Net contributions
+    number: 102-35.
+    value: '32269'
+  - name: Total Federal Operating Expenditures
+    number: 103-36.
+    value: '33429.37'
+  - name: Offsets to Operating Expenditures
+    number: 104-37.
+    value: '0'
+  - name: Net Operating Expenditures
+    number: 105-38.
+    value: '33429.37'
+  - name: NAME/TREASURER (as signed)
+    number: '106'
+    value: Henderson^Craig
+  - name: Signed
+    number: 107-
+    value: '20071113'
+  - name: Transfers from Non-Federal (Levin - H5)
+    number: 108-18(b)
+    value: '0'
+  - name: Total Non-Federal Transfers (18a+18b)
+    number: 109-18(c)
+    value: '8928'
+  - name: Shared Federal Activity (H6) Fed Share
+    number: 110-30(a)i
+    value: '0'
+  - name: Shared Federal Activity (H6) Non-Fed
+    number: 111-30(a)ii
+    value: '0'
+  - name: Non-Allocable 100% Fed Election Activity
+    number: 112-30(b)
+    value: '0'
+  - name: Total Federal Election Activity
+    number: 113-30(c)
+    value: '0'
+  - name: Transfers from Non-Federal (Levin - H5)
+    number: 114-18(b)
+    value: '1186.91'
+  - name: Total Non-Federal Transfers (18a+18b)
+    number: 115-18(c)
+    value: '39941.28'
+  - name: Shared Federal Activity (H6) Fed Share
+    number: 116-30(a)i
+    value: '0'
+  - name: Shared Federal Activity (H6) Non-Fed
+    number: 117-30(a)ii
+    value: '0'
+  - name: Non-Allocable 100% Fed Election Activity
+    number: 118-30(b)
+    value: '0'
+  - name: Total Federal Election Activity
+    number: 119-30(c)
+    value: '0'
+- input: '"H3","C00265603","H3A-39369-352","Kern County Republican Central Cmte-No","","AD","20071016","8928","8928","","H3A-39369-352"'
+  record: fec.version.v5_3.SH3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H3
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265603
+  - name: BACK-REF TRAN ID
+    number: '3'
+    value: H3A-39369-352
+  - name: ACCOUNT NAME
+    number: '4'
+    value: Kern County Republican Central Cmte-No
+  - name: EVENT/ACTIVITY ID/NAME
+    number: '5'
+    value: ''
+  - name: EVENT TYPE
+    number: '6'
+    value: AD
+  - name: Of Receipt
+    number: 7-
+    value: '20071016'
+  - name: AMOUNT TRANSFERRED
+    number: '8'
+    value: '8928'
+  - name: TOTAL AMOUNT TRANSFERRED
+    number: '9'
+    value: '8928'
+  - name: INTERNAL USE ONLY
+    number: '10'
+    value: ''
+  - name: TRAN ID
+    number: '11'
+    value: H3A-39369-352
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TelePacific Communications
+  - name: STREET 1
+    number: '5'
+    value: 515 S Flower Street
+  - name: STREET 2
+    number: '6'
+    value: Floor 47
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '900712201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Telephone
+  - name: DATE
+    number: '11'
+    value: '20071009'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '19.4'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '5.43'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '13.97'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '46021.19'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative 2007-2008
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: Western Pacific Research
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ' Inc.'
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: 4900 California Avenue
+  - name: CONDUIT CITY
+    number: '30'
+    value: Suite 135A
+  - name: CONDUIT STATE
+    number: '31'
+    value: Bakersfield
+  - name: CONDUIT ZIP
+    number: '32'
+    value: CA
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: '933097044'
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: H4-3842-104-V
+  - name: MEMO TEXT
+    number: '36'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: Subitemization of Western Pacific Research
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ' Inc.'
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: X
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 43
+  input: '"H4","C00265603","ORG","TelePacific Communications","515 S Flower Street","Floor
+    47","Los Angeles","CA","900712201","Telephone","20071009","19.4","5.43","13.97","","","","","46021.19","Administrative
+    2007-2008","","","","","","","Western Pacific Research, Inc.","4900 California
+    Avenue","Suite 135A","Bakersfield","CA","933097044","","H4-3842-104-V","X","Subitemization
+    of Western Pacific Research, Inc.","","","X","","","",""'
+  input_count: 45
+  record: fec.version.v5_3.SH4
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Dollar Tree Store
+  - name: STREET 1
+    number: '5'
+    value: 1721 Golden State Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bakersfield
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '933011009'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Hangers for Fair Booth
+  - name: DATE
+    number: '11'
+    value: '20071009'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '7.51'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '2.1'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '5.41'
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '46021.19'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Administrative 2007-2008
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: Western Pacific Research
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ' Inc.'
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: 4900 California Avenue
+  - name: CONDUIT CITY
+    number: '30'
+    value: Suite 135A
+  - name: CONDUIT STATE
+    number: '31'
+    value: Bakersfield
+  - name: CONDUIT ZIP
+    number: '32'
+    value: CA
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: '933097044'
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: H4-3846-105-V
+  - name: MEMO TEXT
+    number: '36'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: Subitemization of Western Pacific Research
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ' Inc.'
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: ''
+  - name: CATEGORY CODE
+    number: '41'
+    value: X
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 43
+  input: '"H4","C00265603","ORG","Dollar Tree Store","1721 Golden State Avenue","","Bakersfield","CA","933011009","Hangers
+    for Fair Booth","20071009","7.51","2.1","5.41","","","","","46021.19","Administrative
+    2007-2008","","","","","","","Western Pacific Research, Inc.","4900 California
+    Avenue","Suite 135A","Bakersfield","CA","933097044","","H4-3846-105-V","X","Subitemization
+    of Western Pacific Research, Inc.","","","X","","","",""'
+  input_count: 45
+  record: fec.version.v5_3.SH4
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Western Pacific Research
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 4900 California Avenue
+  - name: CITY
+    number: '7'
+    value: Suite 135A
+  - name: STATE
+    number: '8'
+    value: Bakersfield
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '933097044'
+  - name: DATE
+    number: '11'
+    value: Rent & Administrative Services
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '20071009'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '703.41'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '196.95'
+  - name: SPACE HOLDER
+    number: '15'
+    value: '506.46'
+  - name: Activity is Direct Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 17-
+    value: ''
+  - name: Act. Direct Candidate Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: '46021.19'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: Administrative 2007-2008
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: INTERNAL USE ONLY
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: H4-1521-12310-e
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 39-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 40-
+    value: X
+  - name: CATEGORY CODE
+    number: '41'
+    value: ''
+  - name: TRANS CODE
+    number: '42'
+    value: ''
+  - name: Activity is PAC Public Communications Referring Only to Party
+    number: 43-
+    value: ''
+  - value: ''
+  expected_count: 43
+  input: '"H4","C00265603","ORG","Western Pacific Research, Inc.","4900 California
+    Avenue","Suite 135A","Bakersfield","CA","933097044","Rent & Administrative Services","20071009","703.41","196.95","506.46","","","","","46021.19","Administrative
+    2007-2008","","","","","","","","","","","","","","H4-1521-12310-e","","","","","X","","","",""'
+  input_count: 44
+  record: fec.version.v5_3.SH4
+  result: []
+- input: '"SL","C00265603","Levin","1","","","0","0","0","0","0","0","0","0","0","0","0","0","36445.15","0","36445.15","0","18350","676","19026","0","19026","126.4","0","0","1060.51","1186.91","16791.2","17978.11","35397.26","19026","54423.26","17978.11","36445.15","","Levin-1"'
+  record: fec.version.v5_3.SL
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SL
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265603
+  - name: NAME OF ACCOUNT
+    number: '3'
+    value: Levin
+  - name: 'System code for account named in Field #3'
+    number: '4'
+    value: '1'
+  - name: Coverage From
+    number: 5-
+    value: ''
+  - name: Coverage To
+    number: 6-
+    value: ''
+  - name: Itemized Receipts From Persons
+    number: 7-1a.
+    value: '0'
+  - name: Unitemized Receipts From Persons
+    number: 8-1b.
+    value: '0'
+  - name: Total Receipts From Persons
+    number: 9-1c.
+    value: '0'
+  - name: Other Receipts
+    number: 10-2.
+    value: '0'
+  - name: Total Receipts
+    number: 11-3.
+    value: '0'
+  - name: Voter Registration DISBURSEMENTS
+    number: 12-4(a).
+    value: '0'
+  - name: Voter ID DISBURSEMENTS
+    number: 13-4(b).
+    value: '0'
+  - name: GOTV DISBURSEMENTS
+    number: 14-4(c).
+    value: '0'
+  - name: Generic Campaign DISBURSEMENTS
+    number: 15-4(d).
+    value: '0'
+  - name: Line 4 Total
+    number: 16-4(e)
+    value: '0'
+  - name: Other Disbursements
+    number: 17-5.
+    value: '0'
+  - name: Total Disbursements
+    number: 18-6.
+    value: '0'
+  - name: Cash on Hand beginning
+    number: 19-7.
+    value: '36445.15'
+  - name: Receipts
+    number: 20-8.
+    value: '0'
+  - name: Subtotal
+    number: 21-9.
+    value: '36445.15'
+  - name: Disbursements
+    number: 22-10.
+    value: '0'
+  - name: Itemized Receipts From Persons
+    number: 23-1a.
+    value: '18350'
+  - name: Unitemized Receipts From Persons
+    number: 24-1b.
+    value: '676'
+  - name: Total Receipts From Persons
+    number: 25-1c.
+    value: '19026'
+  - name: Other Receipts
+    number: 26-2.
+    value: '0'
+  - name: Total Receipts
+    number: 27-3.
+    value: '19026'
+  - name: Voter Registration DISBURSEMENTS
+    number: 28-4(a).
+    value: '126.4'
+  - name: Voter ID DISBURSEMENTS
+    number: 29-4(b).
+    value: '0'
+  - name: GOTV DISBURSEMENTS
+    number: 30-4(c).
+    value: '0'
+  - name: Generic Campaign DISBURSEMENTS
+    number: 31-4(d).
+    value: '1060.51'
+  - name: Line 4 Total
+    number: 32-4(e)
+    value: '1186.91'
+  - name: Other Disbursements
+    number: 33-5.
+    value: '16791.2'
+  - name: Total Disbursements
+    number: 34-6.
+    value: '17978.11'
+  - name: Cash on Hand Jan 1, 19
+    number: 35-7.
+    value: '35397.26'
+  - name: Receipts
+    number: 36-8.
+    value: '19026'
+  - name: Subtotal
+    number: 37-9.
+    value: '54423.26'
+  - name: Disbursements
+    number: 38-10.
+    value: '17978.11'
+  - name: ENDING CASH ON HAND
+    number: 39-11.
+    value: '36445.15'
+  - name: AMENDED CODE
+    number: '40'
+    value: ''
+  - name: TRAN ID
+    number: '41'
+    value: Levin-1
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Committee currently has no payroll.  The committee hires independent bookeepers
+      and consultants to assist volunteers in running the committee.   There is no
+      payroll for Schedule B or H.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: '"TEXT","F3XN","","Committee currently has no payroll.  The committee hires
+    independent bookeepers and consultants to assist volunteers in running the committee.   There
+    is no payroll for Schedule B or H."'
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20071120
+type: single
