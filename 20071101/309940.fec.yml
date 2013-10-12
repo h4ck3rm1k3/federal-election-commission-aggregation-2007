@@ -1,0 +1,213 @@
+countraw: 4
+countrows: 2
+filename: 309940.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHASE
+  - name: STREET 1
+    number: '4'
+    value: ' GREGORY'
+  - name: STREET 2
+    number: '5'
+    value: 1 CLOCKTOWER PLACE APT 426
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: NASHUA
+  - name: ZIP
+    number: '8'
+    value: NH
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: '03060'
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: ''
+  - name: Coverage To
+    number: 18-
+    value: '20071025'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '20071031'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '.00'
+  - name: Person Completing Form
+    number: 21-
+    value: '255714.00'
+  - name: Signed
+    number: 22-
+    value: Gregory V Chase
+  - name: SPACE HOLDER
+    number: '23'
+    value: '20071101'
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+  - value: '48'
+  expected_count: 26
+  input: F5N,C90009705,"CHASE, GREGORY",1 CLOCKTOWER PLACE APT 426,,NASHUA,NH,03060,,,,,,,,,20071025,20071031,.00,255714.00,Gregory
+    V Chase,20071101,,,,48
+  input_count: 27
+  record: fec.version.v5_3.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Chase^Gregory VanEpps^^
+  - name: STREET 1
+    number: '5'
+    value: 1 Clocktower Place
+  - name: STREET 2
+    number: '6'
+    value: ' Apt 426'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Nashua
+  - name: ZIP
+    number: '9'
+    value: NH
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '03060'
+  - name: Of Expenditure
+    number: 11-
+    value: Advoc. Gravel's incl'n in 10/30 debate
+  - name: AMOUNT
+    number: '12'
+    value: '20071030'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '255714.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O CAN/STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: F57.000001
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: '004'
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: '.00'
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,IND,Chase^Gregory VanEpps^^,"1 Clocktower Place, Apt 426",,Nashua,NH,03060,Advoc.
+    Gravel's incl'n in 10/30 debate,20071030,255714.00,S,,,P,,,,,,,,,,,,,,,,F57.000001,004,,.00,,,
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20071101
+type: single
