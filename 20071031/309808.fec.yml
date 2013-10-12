@@ -1,0 +1,791 @@
+countraw: 6
+countrows: 4
+filename: 309808.fec
+header: {}
+rows:
+- input: '"F1N","C00415778","Fallin for Congress","PO Box 720634","","Oklahoma City","OK","73172   ",20071031,"
+    "," ","A","H6OK05160","Mary C. Fallin","H","OK","5 ","REP","","","None","","","","","","","","Steve
+    Ralls","FEC Financial","PO Box 651374","Potomac Falls","VA","20165","",7034306635,"Mike
+    Deeba","119 N. Robinson Suite 400","","Oklahoma City","OK","73102","",4052720511,"","","","","","","",          ,"Midfirst
+    Bank","305 N. MacArthur","","Oklahoma City","OK","73127","Michael E. Deeba",20071031,"info@fecfinancial.com","www.maryfallin.org","405-272-0501"'
+  record: fec.version.v5_3.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Fallin for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 720634
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Oklahoma City
+  - name: STATE
+    number: '7'
+    value: OK
+  - name: ZIP
+    number: '8'
+    value: '73172   '
+  - name: Submitted
+    number: 9-
+    value: '20071031'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ' '
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ' '
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H6OK05160
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: Mary C. Fallin
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: OK
+  - name: CAN/DIST
+    number: 17-5.
+    value: '5 '
+  - name: PARTY CODE
+    number: 18-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: None
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Steve Ralls
+  - name: STREET 1
+    number: 30-7.
+    value: FEC Financial
+  - name: STREET 2
+    number: 31-7.
+    value: PO Box 651374
+  - name: CITY
+    number: 32-7.
+    value: Potomac Falls
+  - name: STATE
+    number: 33-7.
+    value: VA
+  - name: ZIP
+    number: 34-7.
+    value: '20165'
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: '7034306635'
+  - name: Treasurer
+    number: '37-8. '
+    value: Mike Deeba
+  - name: STREET 1
+    number: 38-8.
+    value: 119 N. Robinson Suite 400
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: Oklahoma City
+  - name: STATE
+    number: 41-8.
+    value: OK
+  - name: ZIP
+    number: 42-8.
+    value: '73102'
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: '4052720511'
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '          '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Midfirst Bank
+  - name: STREET 1
+    number: 54-9.
+    value: 305 N. MacArthur
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Oklahoma City
+  - name: STATE
+    number: 57-9.
+    value: OK
+  - name: ZIP
+    number: 58-9.
+    value: '73127'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Michael E. Deeba
+  - name: Signed
+    number: 60-
+    value: '20071031'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: info@fecfinancial.com
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: www.maryfallin.org
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: 405-272-0501
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: None
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '                              '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Wachovia Bank
+  - name: STREET 1
+    number: 54-9.
+    value: PO Box 563966
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Charlotte
+  - name: STATE
+    number: 57-9.
+    value: NC
+  - name: ZIP
+    number: 58-9.
+    value: '282623966'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NO VALUE!
+  expected_count: 63
+  input: '"F1S","C00415778","","","","","","","","","","","","","","","","","","","None","","","","","","","","","","","","","","",,"","","","","","","",,"","","","","","","",                              ,"Wachovia
+    Bank","PO Box 563966","","Charlotte","NC","282623966","",,"",""'
+  input_count: 62
+  record: fec.version.v5_3.F1S
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: None
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '                              '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: First Fidelity Bank
+  - name: STREET 1
+    number: 54-9.
+    value: 5101 N Classen Blvd
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Oklahoma City
+  - name: STATE
+    number: 57-9.
+    value: OK
+  - name: ZIP
+    number: 58-9.
+    value: '73118'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NO VALUE!
+  expected_count: 63
+  input: '"F1S","C00415778","","","","","","","","","","","","","","","","","","","None","","","","","","","","","","","","","","",,"","","","","","","",,"","","","","","","",                              ,"First
+    Fidelity Bank","5101 N Classen Blvd","","Oklahoma City","OK","73118","",,"",""'
+  input_count: 62
+  record: fec.version.v5_3.F1S
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: '                              '
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Bank 7
+  - name: STREET 1
+    number: 54-9.
+    value: 1039 NW 63rd St.
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Oklahoma City
+  - name: STATE
+    number: 57-9.
+    value: OK
+  - name: ZIP
+    number: 58-9.
+    value: '73116'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NO VALUE!
+  expected_count: 63
+  input: '"F1S","C00415778","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",,"","","","","","","",,"","","","","","","",                              ,"Bank
+    7","1039 NW 63rd St.","","Oklahoma City","OK","73116","",,"",""'
+  input_count: 62
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20071031
+type: single
