@@ -1,0 +1,606 @@
+countraw: 5
+countrows: 3
+filename: 310207.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409136
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Progressive Patriots Fund
+  - name: STREET 1
+    number: '4'
+    value: PO Box 628008
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Middleton
+  - name: STATE
+    number: '7'
+    value: WI
+  - name: ZIP
+    number: '8'
+    value: '53562'
+  - name: Submitted
+    number: 9-
+    value: '20071108'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: X
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: F
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: None
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: STREET 1
+    number: 30-7.
+    value: 2898 Mickelson Pkwy
+  - name: STREET 2
+    number: 31-7.
+    value: ' #204'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Fitchburg
+  - name: ZIP
+    number: 34-7.
+    value: WI
+  - name: TITLE
+    number: 35-7.
+    value: '53711'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Assistant Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '6086586513'
+  - name: STREET 1
+    number: 38-8.
+    value: Hannula^Daniel D^^
+  - name: STREET 2
+    number: 39-8.
+    value: 1224 Lincoln St
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Superior
+  - name: ZIP
+    number: 42-8.
+    value: WI
+  - name: TITLE
+    number: 43-8.
+    value: '54880'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: STREET 2
+    number: 47-8.
+    value: 2898 Mickelson Pkwy
+  - name: CITY
+    number: 48-8.
+    value: ' #204'
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: Fitchburg
+  - name: TITLE
+    number: 51-8.
+    value: WI
+  - name: TELEPHONE
+    number: 52-8.
+    value: '53711'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Assistant Treasurer
+  - name: STREET 1
+    number: 54-9.
+    value: '6086586513'
+  - name: STREET 2
+    number: 55-9.
+    value: Park Bank
+  - name: CITY
+    number: 56-9.
+    value: 1801 Greenway Cross
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: Madison
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: WI
+  - name: Signed
+    number: 60-
+    value: '53708'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20071108'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: russ@progressivepatriotsfund.com
+  - value: www.progressivepatriotsfund.com
+  - value: '6088311348'
+  expected_count: 63
+  input: 'F1A,C00409136,Progressive Patriots Fund,PO Box 628008,,Middleton,WI,53562,20071108,X,,F,,,,,,,NAT,,None,,,,,,,,Leystra-Assistant
+    Treasurer^Cole F^^,"2898 Mickelson Pkwy, #204",,Fitchburg,WI,53711,Assistant Treasurer,6086586513,Hannula^Daniel
+    D^^,1224 Lincoln St,,Superior,WI,54880,Treasurer,,Leystra-Assistant Treasurer^Cole
+    F^^,"2898 Mickelson Pkwy, #204",,Fitchburg,WI,53711,Assistant Treasurer,6086586513,Park
+    Bank,1801 Greenway Cross,,Madison,WI,53708,Leystra-Assistant Treasurer^Cole F^^,20071108,russ@progressivepatriotsfund.com,www.progressivepatriotsfund.com,6088311348'
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409136
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Progressive Patriots Fund
+  - name: STREET 1
+    number: '4'
+    value: PO Box 628008
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Middleton
+  - name: STATE
+    number: '7'
+    value: WI
+  - name: ZIP
+    number: '8'
+    value: '53562'
+  - name: Submitted
+    number: 9-
+    value: '20071108'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: X
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: F
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: STREET 1
+    number: 30-7.
+    value: 2898 Mickelson Pkwy
+  - name: STREET 2
+    number: 31-7.
+    value: ' #204'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Fitchburg
+  - name: ZIP
+    number: 34-7.
+    value: WI
+  - name: TITLE
+    number: 35-7.
+    value: '53711'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Assistant Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '6086586513'
+  - name: STREET 1
+    number: 38-8.
+    value: Hannula^Daniel D^^
+  - name: STREET 2
+    number: 39-8.
+    value: 1224 Lincoln St
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Superior
+  - name: ZIP
+    number: 42-8.
+    value: WI
+  - name: TITLE
+    number: 43-8.
+    value: '54880'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: M&T Bank
+  - name: STREET 2
+    number: 55-9.
+    value: 25 S Charles St
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: Baltimore
+  - name: ZIP
+    number: 58-9.
+    value: MD
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '21201'
+  - name: Signed
+    number: 60-
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20071108'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: russ@progressivepatriotsfund.com
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: www.progressivepatriotsfund.com
+  - value: '6088311348'
+  expected_count: 63
+  input: 'F1S,C00409136,Progressive Patriots Fund,PO Box 628008,,Middleton,WI,53562,20071108,X,,F,,,,,,,NAT,,,,,,,,,,Leystra-Assistant
+    Treasurer^Cole F^^,"2898 Mickelson Pkwy, #204",,Fitchburg,WI,53711,Assistant Treasurer,6086586513,Hannula^Daniel
+    D^^,1224 Lincoln St,,Superior,WI,54880,Treasurer,,,,,,,,,,M&T Bank,25 S Charles
+    St,,Baltimore,MD,21201,Leystra-Assistant Treasurer^Cole F^^,20071108,russ@progressivepatriotsfund.com,www.progressivepatriotsfund.com,6088311348'
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409136
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Progressive Patriots Fund
+  - name: STREET 1
+    number: '4'
+    value: PO Box 628008
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Middleton
+  - name: STATE
+    number: '7'
+    value: WI
+  - name: ZIP
+    number: '8'
+    value: '53562'
+  - name: Submitted
+    number: 9-
+    value: '20071108'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: X
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: F
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: STREET 1
+    number: 30-7.
+    value: 2898 Mickelson Pkwy
+  - name: STREET 2
+    number: 31-7.
+    value: ' #204'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Fitchburg
+  - name: ZIP
+    number: 34-7.
+    value: WI
+  - name: TITLE
+    number: 35-7.
+    value: '53711'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Assistant Treasurer
+  - name: Treasurer
+    number: '37-8. '
+    value: '6086586513'
+  - name: STREET 1
+    number: 38-8.
+    value: Hannula^Daniel D^^
+  - name: STREET 2
+    number: 39-8.
+    value: 1224 Lincoln St
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Superior
+  - name: ZIP
+    number: 42-8.
+    value: WI
+  - name: TITLE
+    number: 43-8.
+    value: '54880'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: Heartland Credit Union
+  - name: STREET 2
+    number: 55-9.
+    value: 5325 High Crossing Blvd
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: Madison
+  - name: ZIP
+    number: 58-9.
+    value: WI
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '53718'
+  - name: Signed
+    number: 60-
+    value: Leystra-Assistant Treasurer^Cole F^^
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20071108'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: russ@progressivepatriotsfund.com
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: www.progressivepatriotsfund.com
+  - value: '6088311348'
+  expected_count: 63
+  input: 'F1S,C00409136,Progressive Patriots Fund,PO Box 628008,,Middleton,WI,53562,20071108,X,,F,,,,,,,NAT,,,,,,,,,,Leystra-Assistant
+    Treasurer^Cole F^^,"2898 Mickelson Pkwy, #204",,Fitchburg,WI,53711,Assistant Treasurer,6086586513,Hannula^Daniel
+    D^^,1224 Lincoln St,,Superior,WI,54880,Treasurer,,,,,,,,,,Heartland Credit Union,5325
+    High Crossing Blvd,,Madison,WI,53718,Leystra-Assistant Treasurer^Cole F^^,20071108,russ@progressivepatriotsfund.com,www.progressivepatriotsfund.com,6088311348'
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20071108
+type: single
