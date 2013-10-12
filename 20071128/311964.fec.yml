@@ -1,0 +1,209 @@
+countraw: 3
+countrows: 1
+filename: 311964.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00434811
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Teva Pharmaceuticals USA
+  - name: STREET 1
+    number: '4'
+    value: ' Inc. Political Action Committee'
+  - name: STREET 2
+    number: '5'
+    value: 444 North Capitol Street
+  - name: CITY
+    number: '6'
+    value: ' NW'
+  - name: STATE
+    number: '7'
+    value: Suite 399
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: Submitted
+    number: 9-
+    value: DC
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20001'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: '20071128'
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: E
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: NAT
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: Teva Pharmaceuticals USA Inc.
+  - name: CITY
+    number: 24-6.
+    value: 1090 Horsham Road
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: North Wales
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: PA
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: '19454'
+  - name: Custodian Name
+    number: '29-7. '
+    value: Connected
+  - name: STREET 1
+    number: 30-7.
+    value: C
+  - name: STREET 2
+    number: 31-7.
+    value: Griffin^Deborah^^
+  - name: CITY
+    number: 32-7.
+    value: 1090 Horsham Road
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: North Wales
+  - name: TITLE
+    number: 35-7.
+    value: PA
+  - name: TELEPHONE
+    number: 36-7.
+    value: '19454'
+  - name: Treasurer
+    number: '37-8. '
+    value: Treasurer/Custodian
+  - name: STREET 1
+    number: 38-8.
+    value: '2155913000'
+  - name: STREET 2
+    number: 39-8.
+    value: Griffin^Deborah^^
+  - name: CITY
+    number: 40-8.
+    value: 1090 Horsham Road
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: North Wales
+  - name: TITLE
+    number: 43-8.
+    value: PA
+  - name: TELEPHONE
+    number: 44-8.
+    value: '19454'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Treasurer/Custodian
+  - name: STREET 1
+    number: 46-8.
+    value: '2155913000'
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: PNC Bank
+  - name: CITY
+    number: 56-9.
+    value: 1600 Market Street
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: Philadelphia
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: PA
+  - name: Signed
+    number: 60-
+    value: '19103'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Griffin^Deborah^^
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20071128'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: lisa.yerk@tevausa.com
+  - value: ''
+  - value: '2022201381'
+  expected_count: 63
+  input: F1N,C00434811,"Teva Pharmaceuticals USA, Inc. Political Action Committee","444
+    North Capitol Street, NW",Suite 399,Washington,DC,20001,20071128,,,E,,,,,,,NAT,,Teva
+    Pharmaceuticals USA Inc.,1090 Horsham Road,,North Wales,PA,19454,Connected,C,Griffin^Deborah^^,1090
+    Horsham Road,,North Wales,PA,19454,Treasurer/Custodian,2155913000,Griffin^Deborah^^,1090
+    Horsham Road,,North Wales,PA,19454,Treasurer/Custodian,2155913000,,,,,,,,,PNC
+    Bank,1600 Market Street,,Philadelphia,PA,19103,Griffin^Deborah^^,20071128,lisa.yerk@tevausa.com,,2022201381
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20071128
+type: single
