@@ -1,0 +1,215 @@
+countraw: 3
+countrows: 1
+filename: 310165.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00128231
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Ice Cream
+  - name: STREET 1
+    number: '4'
+    value: ' Milk & Cheese PAC - International Ice Cream Association'
+  - name: STREET 2
+    number: '5'
+    value: ' Milk Industry Foundati'
+  - name: CITY
+    number: '6'
+    value: 1250 H Street
+  - name: STATE
+    number: '7'
+    value: ' NW'
+  - name: ZIP
+    number: '8'
+    value: Suite 900
+  - name: Submitted
+    number: 9-
+    value: Washington
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: DC
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: '20005'
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: '20071107'
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: E
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: International Dairy Foods Association
+  - name: STATE
+    number: 25-6.
+    value: 1250 H Street
+  - name: ZIP
+    number: 26-6.
+    value: ' NW'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Suite 900
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: Washington
+  - name: Custodian Name
+    number: '29-7. '
+    value: DC
+  - name: STREET 1
+    number: 30-7.
+    value: '20005'
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: T
+  - name: STATE
+    number: 33-7.
+    value: ^Gill^Diane^
+  - name: ZIP
+    number: 34-7.
+    value: 1250 H Street
+  - name: TITLE
+    number: 35-7.
+    value: ' NW'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Suite 900
+  - name: Treasurer
+    number: '37-8. '
+    value: Washington
+  - name: STREET 1
+    number: 38-8.
+    value: DC
+  - name: STREET 2
+    number: 39-8.
+    value: '20005'
+  - name: CITY
+    number: 40-8.
+    value: Director
+  - name: STATE
+    number: 41-8.
+    value: ' Finance'
+  - name: ZIP
+    number: 42-8.
+    value: '2027374332'
+  - name: TITLE
+    number: 43-8.
+    value: Ruch^^Ashley^
+  - name: TELEPHONE
+    number: 44-8.
+    value: 1250 H Street
+  - name: Designated Agent
+    number: '45-8. '
+    value: ' NW'
+  - name: STREET 1
+    number: 46-8.
+    value: Suite 900
+  - name: STREET 2
+    number: 47-8.
+    value: Washington
+  - name: CITY
+    number: 48-8.
+    value: DC
+  - name: STATE
+    number: 49-8.
+    value: '20005'
+  - name: ZIP
+    number: 50-8.
+    value: Manager
+  - name: TITLE
+    number: 51-8.
+    value: ' Political P'
+  - name: TELEPHONE
+    number: 52-8.
+    value: '2027374332'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: SunTrust Bank
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: PO Box 622227
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: Orlando
+  - value: FL
+  - value: '328622227'
+  - value: Ruch^^Ashley^
+  - value: '20071107'
+  - value: pac@idfa.org
+  - value: ''
+  - value: 202-331-7820
+  expected_count: 63
+  input: '"F1A","C00128231","Ice Cream, Milk & Cheese PAC - International Ice Cream
+    Association, Milk Industry Foundati","1250 H Street, NW","Suite 900","Washington","DC","20005","20071107","","","E","","","","",,"","","","International
+    Dairy Foods Association","1250 H Street, NW","Suite 900","Washington","DC","20005","","T","^Gill^Diane^","1250
+    H Street, NW","Suite 900","Washington","DC","20005","Director, Finance",2027374332,"Ruch^^Ashley^","1250
+    H Street, NW","Suite 900","Washington","DC","20005","Manager, Political P",2027374332,"","","","","","","",,"SunTrust
+    Bank","PO Box 622227","","Orlando","FL","328622227","Ruch^^Ashley^","20071107","pac@idfa.org","","202-331-7820"'
+  input_count: 71
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20071107
+type: single
