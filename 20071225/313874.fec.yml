@@ -1,0 +1,1134 @@
+countraw: 12
+countrows: 10
+filename: 313874.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHASE
+  - name: STREET 1
+    number: '4'
+    value: ' GREGORY'
+  - name: STREET 2
+    number: '5'
+    value: 1 CLOCKTOWER PLACE APT 426
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: NASHUA
+  - name: ZIP
+    number: '8'
+    value: NH
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: '03060'
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: ''
+  - name: Coverage To
+    number: 18-
+    value: '20071117'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '20071221'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '386001.00'
+  - name: Person Completing Form
+    number: 21-
+    value: '386001.00'
+  - name: Signed
+    number: 22-
+    value: Gregory Chase
+  - name: SPACE HOLDER
+    number: '23'
+    value: '20071225'
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+  - value: '48'
+  expected_count: 26
+  input: F5N,C90009705,"CHASE, GREGORY",1 CLOCKTOWER PLACE APT 426,,NASHUA,NH,03060,,,,,,,,,20071117,20071221,386001.00,386001.00,Gregory
+    Chase,20071225,,,,48
+  input_count: 27
+  record: fec.version.v5_3.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Chase^Gregory VanEpps^^
+  - name: STREET 1
+    number: '5'
+    value: 1 Clocktower Place
+  - name: STREET 2
+    number: '6'
+    value: Apt 426
+  - name: CITY
+    number: '7'
+    value: Nashua
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03060'
+  - name: INDEMP
+    number: '10'
+    value: Self Employed
+  - name: INDOCC
+    number: '11'
+    value: Financial Analyst
+  - name: Of Contribution
+    number: 12-
+    value: '20071117'
+  - name: AMOUNT
+    number: '13'
+    value: '386001.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C90009705
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F56.000001
+  - value: ''
+  expected_count: 27
+  input: F56,C90009705,IND,Chase^Gregory VanEpps^^,1 Clocktower Place,Apt 426,Nashua,NH,03060,Self
+    Employed,Financial Analyst,20071117,386001.00,C90009705,,,,,,,,,,,,,F56.000001,
+  input_count: 28
+  record: fec.version.v5_3.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Nashua Screen Printing
+  - name: STREET 1
+    number: '5'
+    value: 99 Factory St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Nashua
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03060'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Sign production
+  - name: Of Expenditure
+    number: 11-
+    value: '20071120'
+  - name: AMOUNT
+    number: '12'
+    value: '7843.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000001
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Nashua Screen Printing,99 Factory St,,Nashua,NH,03060,Sign
+    production,20071120,7843.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000001,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Concord Monitor
+  - name: STREET 1
+    number: '5'
+    value: One Monitor Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Concord
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03302'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Newspaper advertisement
+  - name: Of Expenditure
+    number: 11-
+    value: '20071219'
+  - name: AMOUNT
+    number: '12'
+    value: '17309.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000002
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Concord Monitor,One Monitor Drive,,Concord,NH,03302,Newspaper
+    advertisement,20071219,17309.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000002,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Union Leader
+  - name: STREET 1
+    number: '5'
+    value: 100 William Loeb Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 03108
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Newspaper advertisement
+  - name: Of Expenditure
+    number: 11-
+    value: '20071220'
+  - name: AMOUNT
+    number: '12'
+    value: '41723.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000003
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Union Leader,100 William Loeb Drive,,Manchester,NH,03108,Newspaper
+    advertisement,20071220,41723.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000003,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Hippo Press
+  - name: STREET 1
+    number: '5'
+    value: 49 Hollis St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03101'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Newspaper advertisement
+  - name: Of Expenditure
+    number: 11-
+    value: '20071220'
+  - name: AMOUNT
+    number: '12'
+    value: '5994.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000004
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Hippo Press,49 Hollis St,,Manchester,NH,03101,Newspaper
+    advertisement,20071220,5994.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000004,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Seacoast Media Group
+  - name: STREET 1
+    number: '5'
+    value: 111 New Hampshire Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Portsmouth
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 03801
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Newspaper advertisement
+  - name: Of Expenditure
+    number: 11-
+    value: '20071221'
+  - name: AMOUNT
+    number: '12'
+    value: '7376.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000005
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Seacoast Media Group,111 New Hampshire Ave,,Portsmouth,NH,03801,Newspaper
+    advertisement,20071221,7376.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000005,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Google
+  - name: STREET 1
+    number: '5'
+    value: 1600 Amphitheatre Parkway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mountain View
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94043'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Internet advertising
+  - name: Of Expenditure
+    number: 11-
+    value: '20071221'
+  - name: AMOUNT
+    number: '12'
+    value: '2068.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000006
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Google,1600 Amphitheatre Parkway,,Mountain View,CA,94043,Internet
+    advertising,20071221,2068.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000006,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Foster Advertising
+  - name: STREET 1
+    number: '5'
+    value: 333 Central Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dover
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 03824
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Newspaper advertisement
+  - name: Of Expenditure
+    number: 11-
+    value: '20071221'
+  - name: AMOUNT
+    number: '12'
+    value: '6021.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000007
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,Foster Advertising,333 Central Ave,,Dover,NH,03824,Newspaper
+    advertisement,20071221,6021.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000007,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009705
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: BGG Advertising
+  - name: STREET 1
+    number: '5'
+    value: 707 Chestnut Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03104'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Television advertising
+  - name: Of Expenditure
+    number: 11-
+    value: '20071220'
+  - name: AMOUNT
+    number: '12'
+    value: '297667.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Gravel
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000008
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '841683.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009705,ORG,BGG Advertising,707 Chestnut Street,,Manchester,NH,03104,Television
+    advertising,20071220,297667.00,S,,Mike Gravel,P,,,,,,,,,,,,,,,,F57.000008,004,,841683.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20071225
+type: single
