@@ -1,0 +1,159 @@
+countraw: 3
+countrows: 1
+filename: 305231.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00424150
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Women's Campaign Forum
+  - name: STREET 1
+    number: '4'
+    value: 734 15th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 500
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: '20005'
+  - name: Of Affiliation
+    number: 10-
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: C00334151
+  - name: CAN/OFFICE
+    number: '15'
+    value: Stephanie Tubbs Jones
+  - name: CAN/STATE
+    number: '16'
+    value: H
+  - name: CAN/DIST
+    number: '17'
+    value: OH
+  - name: Of Contribution
+    number: 18-
+    value: '11'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: '20070629'
+  - name: CANDIDATE NAME
+    number: '20'
+    value: C00325738
+  - name: CAN/OFFICE
+    number: '21'
+    value: Shelley Berkley
+  - name: CAN/STATE
+    number: '22'
+    value: H
+  - name: CAN/DIST
+    number: '23'
+    value: NV
+  - name: Of Contribution
+    number: 24-
+    value: '1'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: '20070629'
+  - name: CANDIDATE NAME
+    number: '26'
+    value: C00219881
+  - name: CAN/OFFICE
+    number: '27'
+    value: Nita Lowey
+  - name: CAN/STATE
+    number: '28'
+    value: H
+  - name: CAN/DIST
+    number: '29'
+    value: NY
+  - name: Of Contribution
+    number: 30-
+    value: '18'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: '20070629'
+  - name: CANDIDATE NAME
+    number: '32'
+    value: C00389197
+  - name: CAN/OFFICE
+    number: '33'
+    value: Allyson Schwartz
+  - name: CAN/STATE
+    number: '34'
+    value: H
+  - name: CAN/DIST
+    number: '35'
+    value: PA
+  - name: Of Contribution
+    number: 36-
+    value: '13'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: '20070629'
+  - name: CANDIDATE NAME
+    number: '38'
+    value: C00369710
+  - name: CAN/OFFICE
+    number: '39'
+    value: Melissa Bean
+  - name: CAN/STATE
+    number: '40'
+    value: H
+  - name: CAN/DIST
+    number: '41'
+    value: IL
+  - name: Of Contribution
+    number: 42-
+    value: '8'
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20070629'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20070717'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20060510'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: '20070717'
+  - name: Signed
+    number: 47-
+    value: Katherine Ray
+  - value: '20071001'
+  expected_count: 47
+  input: '"F1MN","C00424150","Women''s Campaign Forum","734 15th Street, NW","Suite
+    500","Washington","DC","20005","N","","","","C00334151","Stephanie Tubbs Jones","H","OH","11","20070629","C00325738","Shelley
+    Berkley","H","NV","1","20070629","C00219881","Nita Lowey","H","NY","18","20070629","C00389197","Allyson
+    Schwartz","H","PA","13","20070629","C00369710","Melissa Bean","H","IL","8","20070629","20070717","20060510","20070717","Katherine
+    Ray","20071001"'
+  input_count: 48
+  record: fec.version.v5_3.F1M
+  result: []
+sourceurl: !!python/unicode 20071002
+type: single
