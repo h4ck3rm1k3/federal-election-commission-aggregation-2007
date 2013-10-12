@@ -1,0 +1,208 @@
+countraw: 4
+countrows: 2
+filename: 310138.fec
+header: {}
+rows:
+- input: 'F5N,C90005786,LEAGUE OF CONSERVATION VOTERS INC,1920 L STREET NW #800,,WASHINGTON,DC,20036,,Y,,,,,,,20071106,20071108,.00,59834.50,Barbara
+    Gonzalez-McIntosh,20071106,,,,48'
+  record: fec.version.v5_3.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LEAGUE OF CONSERVATION VOTERS INC
+  - name: STREET 1
+    number: '4'
+    value: '1920 L STREET NW #800'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: Y
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20071106'
+  - name: Coverage To
+    number: 18-
+    value: '20071108'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '59834.50'
+  - name: Person Completing Form
+    number: 21-
+    value: Barbara Gonzalez-McIntosh
+  - name: Signed
+    number: 22-
+    value: '20071106'
+  - name: SPACE HOLDER
+    number: '23'
+    value: ''
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Direct Response Group
+  - name: STREET 1
+    number: '5'
+    value: 2401 W Behrend Dr
+  - name: STREET 2
+    number: '6'
+    value: Suite 7
+  - name: CITY
+    number: '7'
+    value: Phoenix
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85027'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TV Advertising
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '59834.50'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Wayne T Gilchrest
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MD
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000001
+  - name: CATEGORY CODE
+    number: '33'
+    value: '004'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90005786,ORG,Direct Response Group,2401 W Behrend Dr,Suite 7,Phoenix,AZ,85027,TV
+    Advertising,20071106,59834.50,S,,Wayne T Gilchrest,H,MD,01,,,,,,,,,,,,,,F57.000001,004,,.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20071106
+type: single
