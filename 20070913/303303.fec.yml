@@ -1,0 +1,908 @@
+countraw: 13
+countrows: 11
+filename: 303303.fec
+header: {}
+rows:
+- input: F6,C00421339,Colleen For Congress,1157 Fort St.,,Honolulu,HI,96813,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,20070913
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Colleen For Congress
+  - name: STREET 1
+    number: '4'
+    value: 1157 Fort St.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Honolulu
+  - name: STATE
+    number: '7'
+    value: HI
+  - name: ZIP
+    number: '8'
+    value: '96813'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: HI
+  - name: CAN/DIST
+    number: '13'
+    value: '2'
+  - name: Signed
+    number: 14-
+    value: '20070913'
+- input: F65,C00421339,IND,Bates^Beverly^Ms^,1777 Ala Moana Blvd.,,Honolulu,HI,96815,A'ala
+    Aloha Weddings In Paradi,Owner,20060911,2000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5588
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bates^Beverly^Ms^
+  - name: STREET 1
+    number: '5'
+    value: 1777 Ala Moana Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96815'
+  - name: INDEMP
+    number: '10'
+    value: A'ala Aloha Weddings In Paradi
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20060911'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5588
+- input: F65,C00421339,IND,Choy^Duane^Mr.^,2019 Laukahi St.,,Honolulu,HI,96821,Sole
+    proprietor,Consultant,20060912,2000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5589
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Choy^Duane^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 2019 Laukahi St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96821'
+  - name: INDEMP
+    number: '10'
+    value: Sole proprietor
+  - name: INDOCC
+    number: '11'
+    value: Consultant
+  - name: Of Contribution
+    number: 12-
+    value: '20060912'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5589
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Grace^Jeanette^^
+  - name: STREET 1
+    number: '5'
+    value: 87-141 Kulaaupuni St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Waianae
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96792'
+  - name: INDEMP
+    number: '10'
+    value: Paradise Lua
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Owner
+  - name: AMOUNT
+    number: '13'
+    value: '20060911'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00421339
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2HI02110
+  - name: CAN/OFFICE
+    number: '17'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: HI
+  - name: CONDUIT NAME
+    number: '20'
+    value: '2'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5594
+  expected_count: 27
+  input: F65,C00421339,IND,Grace^Jeanette^^,87-141 Kulaaupuni St.,,Waianae,HI,96792,"Paradise
+    Lua, Inc.",Owner,20060911,1000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5594
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00421339,IND,Hospodar^Paul J.^Mr.^,P.O. Box 61936,,Honolulu,HI,968391936,The
+    Resort Group,Security,20060912,1000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5596
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hospodar^Paul J.^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 61936
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '968391936'
+  - name: INDEMP
+    number: '10'
+    value: The Resort Group
+  - name: INDOCC
+    number: '11'
+    value: Security
+  - name: Of Contribution
+    number: 12-
+    value: '20060912'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5596
+- input: F65,C00421339,IND,Ota^Sanford^^,99-696 Meaala St.,,Aiea,HI,96701,Sans Construction,Owner,20060911,1000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5605
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ota^Sanford^^
+  - name: STREET 1
+    number: '5'
+    value: 99-696 Meaala St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Aiea
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96701'
+  - name: INDEMP
+    number: '10'
+    value: Sans Construction
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20060911'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5605
+- input: F65,C00421339,IND,Robson^Peter^^,P.O. Box 3327,,Lihue,HI,96766,Unlimited
+    Construction Service,Contractor,20060911,2000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5607
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Robson^Peter^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 3327
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lihue
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96766'
+  - name: INDEMP
+    number: '10'
+    value: Unlimited Construction Service
+  - name: INDOCC
+    number: '11'
+    value: Contractor
+  - name: Of Contribution
+    number: 12-
+    value: '20060911'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5607
+- input: F65,C00421339,IND,Souza^John^Mr.^III,1157 Fort Street Mall,,Honolulu,HI,96813,Pueo
+    Trucking,Owner,20060911,2000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5609
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Souza^John^Mr.^III
+  - name: STREET 1
+    number: '5'
+    value: 1157 Fort Street Mall
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96813'
+  - name: INDEMP
+    number: '10'
+    value: Pueo Trucking
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20060911'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5609
+- input: F65,C00421339,IND,Staggs^Deldon^Mr.^,53-035 Halai Pl.,,Hauula,HI,96717,Sans
+    Construction,Equipment Operator,20060911,2000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5610
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Staggs^Deldon^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 53-035 Halai Pl.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hauula
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96717'
+  - name: INDEMP
+    number: '10'
+    value: Sans Construction
+  - name: INDOCC
+    number: '11'
+    value: Equipment Operator
+  - name: Of Contribution
+    number: 12-
+    value: '20060911'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5610
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wurdeman^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: 1188 Bishop St.
+  - name: STREET 2
+    number: '6'
+    value: ' Ste. 707'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Honolulu
+  - name: ZIP
+    number: '9'
+    value: HI
+  - name: INDEMP
+    number: '10'
+    value: '96813'
+  - name: INDOCC
+    number: '11'
+    value: Self-Employed
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20060911'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00421339
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2HI02110
+  - name: CAN/OFFICE
+    number: '17'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: HI
+  - name: CONDUIT NAME
+    number: '20'
+    value: '2'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5613
+  expected_count: 27
+  input: F65,C00421339,IND,Wurdeman^Richard^^,"1188 Bishop St., Ste. 707",,Honolulu,HI,96813,Self-Employed,Attorney,20060911,1000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5613
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00421339,CAN,Hanabusa^Colleen^Ms^,1157 Fort St.,,Honolulu,HI,96813,Colleen
+    Hanabusa LLLC,Attorney/Legislator,20060911,25000.00,C00421339,H2HI02110,Hanabusa^Colleen^Ms^,H,HI,2,,,,,,,,F6.5595
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421339
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hanabusa^Colleen^Ms^
+  - name: STREET 1
+    number: '5'
+    value: 1157 Fort St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96813'
+  - name: INDEMP
+    number: '10'
+    value: Colleen Hanabusa LLLC
+  - name: INDOCC
+    number: '11'
+    value: Attorney/Legislator
+  - name: Of Contribution
+    number: 12-
+    value: '20060911'
+  - name: AMOUNT
+    number: '13'
+    value: '25000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421339
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2HI02110
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Hanabusa^Colleen^Ms^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5595
+sourceurl: !!python/unicode 20070913
+type: single
