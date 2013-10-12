@@ -1,0 +1,1608 @@
+countraw: 17
+countrows: 15
+filename: 308001.fec
+header: {}
+rows:
+- input: '"F3N","C00393090","People for Carl Andrews","P.O. Box 380-316","","Brooklyn","NY","11213","","NY","11","Q3","","","","X","","","","20070701","20070930","0.00","0.00","0.00","5400.00","0.00","5400.00","99588.95","0.00","55351.02","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","5400.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","5400.00","104988.95","0.00","104988.95","5400.00","99588.95","17500.00","0.00","17500.00","33119.12","0.00","33119.12","12250.00","0.00","12250.00","0.00","5250.00","0.00","17500.00","0.00","0.00","0.00","0.00","0.00","0.00","17500.00","33119.12","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","33119.12","Bokser^Stephen","20071016","","","","","","","","",""'
+  record: fec.version.v5_3.F3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: COMMITTEE NAME
+    number: '3'
+    value: People for Carl Andrews
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 380-316
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Brooklyn
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11213'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: ELECTION STATE
+    number: '10'
+    value: NY
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '11'
+  - name: RPTCODE
+    number: '12'
+    value: Q3
+  - name: RPTPGI
+    number: '13'
+    value: ''
+  - name: Of Election
+    number: 14-
+    value: ''
+  - name: STATE (Of Election)
+    number: '15'
+    value: ''
+  - name: PRIMARY ELECTION
+    number: '16'
+    value: X
+  - name: GENERAL ELECTION
+    number: '17'
+    value: ''
+  - name: SPECIAL ELECTION
+    number: '18'
+    value: ''
+  - name: RUNOFF ELECTION
+    number: '19'
+    value: ''
+  - name: Coverage From
+    number: 20-
+    value: '20070701'
+  - name: Coverage To
+    number: 21-
+    value: '20070930'
+  - name: Total Contributions (NO Loans)
+    number: 22-(6a)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 23-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 24-(6c)
+    value: '0.00'
+  - name: Total Operating Expenditures
+    number: 25-(7a)
+    value: '5400.00'
+  - name: Total Offset to Operating Expenditures
+    number: 26-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 27-(7c)
+    value: '5400.00'
+  - name: CASH ON HAND AT CLOSE ...
+    number: 28-8.
+    value: '99588.95'
+  - name: DEBTS TO ( Totals from SCH C and/or D)
+    number: 29-9.
+    value: '0.00'
+  - name: DEBTS BY (Totals from SCH C and/or D)
+    number: 30-10.
+    value: '55351.02'
+  - name: Individuals Itemized
+    number: 31-11(a i.)
+    value: '0.00'
+  - name: Individuals Unitemized
+    number: 32-11(a.ii)
+    value: '0.00'
+  - name: Individual Contribution Total
+    number: 33-11(a.iii)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 34-11(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 35-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 36-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 37-11(e)
+    value: '0.00'
+  - name: Transfers From Other Authorized Committees
+    number: 38-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 39-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 40-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 41-13(c)
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 42-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 43-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 44-16.
+    value: '0.00'
+  - name: Operating Expenditures
+    number: 45-17.
+    value: '5400.00'
+  - name: Transfers to Other Authorized Committees
+    number: 46-18.
+    value: '0.00'
+  - name: Of Loans made or guar. by the Cand.
+    number: 47-19(a)
+    value: '0.00'
+  - name: Loan Repayments, All Other Loans
+    number: 48-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 49-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 50-20(a)
+    value: '0.00'
+  - name: Refund/Political Party Committees
+    number: 51-20(b)
+    value: '0.00'
+  - name: Refund/Other Political Committees
+    number: 52-20(c)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 53-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 54-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 55-22.
+    value: '5400.00'
+  - name: Cash Beginning Reporting Period
+    number: 56-23.
+    value: '104988.95'
+  - name: Total Receipts this Period
+    number: 57-24.
+    value: '0.00'
+  - name: SubTotal
+    number: 58-25.
+    value: '104988.95'
+  - name: Total Disbursements this Period
+    number: 59-26.
+    value: '5400.00'
+  - name: Cash on hand at Close Period
+    number: 60-27.
+    value: '99588.95'
+  - name: Total Contributions (No Loans)
+    number: 61-(6a)
+    value: '17500.00'
+  - name: Total Contribution Refunds
+    number: 62-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 63-(6c)
+    value: '17500.00'
+  - name: Total Operating Expenditures
+    number: 64-(7a)
+    value: '33119.12'
+  - name: Total Offsets to Operating Expenditures
+    number: 65-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 66-(7c)
+    value: '33119.12'
+  - name: Individuals Itemized
+    number: 67-11(a.i)
+    value: '12250.00'
+  - name: Individuals Unitemized
+    number: 68-11(a.ii)
+    value: '0.00'
+  - name: Individuals Total
+    number: 69-11(a.iii)
+    value: '12250.00'
+  - name: Political Party Committees
+    number: 70-11(b)
+    value: '0.00'
+  - name: All Other Political Committees (PACS)
+    number: 71-11(c)
+    value: '5250.00'
+  - name: The Candidate
+    number: 72-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 73-11(e)
+    value: '17500.00'
+  - name: Transfers From Other AUTH Committees
+    number: 74-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 75-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 76-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 77-13(c)
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 78-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 79-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 80-16.
+    value: '17500.00'
+  - name: Operating Expenditures
+    number: 81-17
+    value: '33119.12'
+  - name: Transfers To Other AUTH Committees
+    number: 82-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 83-19(a)
+    value: '0.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 84-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 85-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 86-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 87-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 88-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 89-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 90-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 91-22.
+    value: '33119.12'
+  - name: NAME/TREASURER (as signed)
+    number: '92'
+    value: Bokser^Stephen
+  - name: Signed
+    number: 93-
+    value: '20071016'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '94'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '95'
+    value: ''
+  - name: F3Z-1 REPORT TYPE (F3Z-1 RPTCODE)
+    number: '96'
+    value: ''
+  - name: GROSS RECEIPTS OF AUTHORIZED COMMITTEES (PRIMARY)
+    number: 97-1.
+    value: ''
+  - name: AGGREGATE AMT OF CONTRIBUTIONS FROM PERSONAL FUNDS (PRIMARY)
+    number: 98-2.
+    value: ''
+  - name: PRIMARY
+    number: 99-3. GROSS RECEIPTS - MINUS PERSONAL CONTRIBUTIONS FROM CANDI
+    value: ''
+  - name: GROSS RECEIPTS OF AUTHORIZED COMMITTEES (GENERAL)
+    number: 100-1.
+    value: ''
+  - name: AGGREGATE AMT OF CONTRIBUTIONS FROM PERSONAL FUNDS (GENERAL)
+    number: 101-2.
+    value: ''
+  - name: GENERAL
+    number: 102-3. GROSS RECEIPTS - MINUS PERSONAL CONTRIBUTIONS FROM CANDI
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 1101 Vermont Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 710
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: '20005'
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: FEC Database
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2006
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20070829'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '5400.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: D151001
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: '001'
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: NGP Sortware
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: ' Inc'
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 43
+  input: '"SB17","C00393090","ORG","","1101 Vermont Avenue, NW","Suite 710","Washington","DC","20005","","FEC
+    Database","P2006","","20070829","5400.00","","","","","","","","","","","","","","","","D151001","","","","","001","","NGP
+    Sortware, Inc","","","","",""'
+  input_count: 45
+  record: fec.version.v5_3.SB
+  result: []
+- input: '"SC/10","C00393090","CAN","Andrews (Personal Funds)^E. Carl","685 Crown
+    St","","Brooklyn","NY","112135303","P2006","","50000.00","15000.00","35000.00","20051220","",".0000","N","","","","","","","","L459","13A"'
+  record: fec.version.v5_3.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Andrews (Personal Funds)^E. Carl
+  - name: STREET 1
+    number: '5'
+    value: 685 Crown St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '112135303'
+  - name: ELECTION
+    number: '10'
+    value: P2006
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '50000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '15000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '35000.00'
+  - name: Incurred
+    number: 15-
+    value: '20051220'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: ''
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '.0000'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: L459
+  - name: RECEIPT LINE NUMBER
+    number: '27'
+    value: 13A
+- input: '"SD10","C00393090","ORG","BPC Management Corp","80 Livingston St","","Brooklyn","NY","112015004","Facility
+    Rental May 2006","150.00","0.00","0.00","150.00","","","","","","","","","","","","","","D129395"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: BPC Management Corp
+  - name: STREET 1
+    number: '5'
+    value: 80 Livingston St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '112015004'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Facility Rental May 2006
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '150.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '150.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D129395
+- input: '"SD10","C00393090","ORG","BPC Management Corp","80 Livingston St","","Brooklyn","NY","112015004","Facility
+    Rental June 2006","200.00","0.00","0.00","200.00","","","","","","","","","","","","","","D129396"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: BPC Management Corp
+  - name: STREET 1
+    number: '5'
+    value: 80 Livingston St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '112015004'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Facility Rental June 2006
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '200.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '200.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D129396
+- input: '"SD10","C00393090","ORG","BPC Management Corp","80 Livingston St","","Brooklyn","NY","112015004","Facility
+    Rental July 2006","150.00","0.00","0.00","150.00","","","","","","","","","","","","","","D133228"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: BPC Management Corp
+  - name: STREET 1
+    number: '5'
+    value: 80 Livingston St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '112015004'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Facility Rental July 2006
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '150.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '150.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D133228
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Branford Communications
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 611 Broadway
+  - name: CITY
+    number: '7'
+    value: Rm 627
+  - name: STATE
+    number: '8'
+    value: New York
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: '100122608'
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: Voter File
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '2256.53'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '2256.53'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: D130070
+  expected_count: 28
+  input: '"SD10","C00393090","ORG","Branford Communications, Inc.","611 Broadway","Rm
+    627","New York","NY","100122608","Voter File","2256.53","0.00","0.00","2256.53","","","","","","","","","","","","","","D130070"'
+  input_count: 29
+  record: fec.version.v5_3.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Cantrell/Cutter Printing
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1789 Olive St
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Capitol Heights
+  - name: ZIP
+    number: '9'
+    value: MD
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: '207436719'
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: Printing
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '1296.50'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '1296.50'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: D133225
+  expected_count: 28
+  input: '"SD10","C00393090","ORG","Cantrell/Cutter Printing, Inc.","1789 Olive St","","Capitol
+    Heights","MD","207436719","Printing","1296.50","0.00","0.00","1296.50","","","","","","","","","","","","","","D133225"'
+  input_count: 29
+  record: fec.version.v5_3.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Cantrell/Cutter Printing
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1789 Olive St
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Capitol Heights
+  - name: ZIP
+    number: '9'
+    value: MD
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: '207436719'
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: Printing
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '895.70'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '895.70'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: D133226
+  expected_count: 28
+  input: '"SD10","C00393090","ORG","Cantrell/Cutter Printing, Inc.","1789 Olive St","","Capitol
+    Heights","MD","207436719","Printing","895.70","0.00","0.00","895.70","","","","","","","","","","","","","","D133226"'
+  input_count: 29
+  record: fec.version.v5_3.SD
+  result: []
+- input: '"SD10","C00393090","ORG","Central Food & Paper Distributors Inc","70 Brooklyn
+    Terminal Market","","Brooklyn","NY","11236","Office Supplies","127.44","0.00","0.00","127.44","","","","","","","","","","","","","","D137560"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Central Food & Paper Distributors Inc
+  - name: STREET 1
+    number: '5'
+    value: 70 Brooklyn Terminal Market
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11236'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Office Supplies
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '127.44'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '127.44'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D137560
+- input: '"SD10","C00393090","ORG","Fraioli & Associates","80 F St NW","","Washington","DC","200011528","Fundraising
+    Mgt Fee","2545.97","0.00","0.00","2545.97","","","","","","","","","","","","","","D133224"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Fraioli & Associates
+  - name: STREET 1
+    number: '5'
+    value: 80 F St NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200011528'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Fundraising Mgt Fee
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '2545.97'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '2545.97'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D133224
+- input: '"SD10","C00393090","ORG","Friends Of Carl Andrews","PO Box 470003","","Brooklyn","NY","11247","Campaign
+    Posters","150.00","0.00","0.00","150.00","","","","","","","","","","","","","","D130069"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Friends Of Carl Andrews
+  - name: STREET 1
+    number: '5'
+    value: PO Box 470003
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11247'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Campaign Posters
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '150.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '150.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D130069
+- input: '"SD10","C00393090","ORG","Greenberg Traurig","200 Park Avenue","","New York","NY","10166","Legal
+    Services","2500.00","0.00","0.00","2500.00","","","","","","","","","","","","","","D133162"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Greenberg Traurig
+  - name: STREET 1
+    number: '5'
+    value: 200 Park Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10166'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Legal Services
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '2500.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D133162
+- input: '"SD10","C00393090","ORG","Mark Guma Communications Inc","33 Riverside Drive","Apt
+    6D","New York","NY","10023","Street Literature","3576.38","0.00","0.00","3576.38","","","","","","","","","","","","","","D137556"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Mark Guma Communications Inc
+  - name: STREET 1
+    number: '5'
+    value: 33 Riverside Drive
+  - name: STREET 2
+    number: '6'
+    value: Apt 6D
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10023'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Street Literature
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '3576.38'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '3576.38'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D137556
+- input: '"SD10","C00393090","ORG","Mark Guma Communications Inc","33 Riverside Drive","Apt
+    6D","New York","NY","10023","Posters","6502.50","0.00","0.00","6502.50","","","","","","","","","","","","","","D137557"'
+  record: fec.version.v5_3.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00393090
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Mark Guma Communications Inc
+  - name: STREET 1
+    number: '5'
+    value: 33 Riverside Drive
+  - name: STREET 2
+    number: '6'
+    value: Apt 6D
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10023'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Posters
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '6502.50'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '6502.50'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D137557
+sourceurl: !!python/unicode 20071017
+type: single
