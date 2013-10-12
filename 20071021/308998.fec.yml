@@ -1,0 +1,648 @@
+countraw: 10
+countrows: 8
+filename: 308998.fec
+header: {}
+rows:
+- input: F6N,C00438879,STEVE BUEHRER FOR CONGRESS,704 GREENVIEW DR,,DELTA,OH,43515,H8OH05077,Buehrer^Steve^Mr.^,H,OH,05,20071021
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEVE BUEHRER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 704 GREENVIEW DR
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: DELTA
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43515'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8OH05077
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Buehrer^Steve^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OH
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20071021'
+- input: F65,C00438879,PAC,Cash America International Inc. PAC,1600 W 7th St.,,Ft.
+    Worth,TX,76102,,,20071019,2000.00,C00275529,,,,,,,,,,,,,F65.00000
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cash America International Inc. PAC
+  - name: STREET 1
+    number: '5'
+    value: 1600 W 7th St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ft. Worth
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '76102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00275529
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- input: F65,C00438879,IND,Brennan^David^Mr.,850 Nelson's Walk,,Naples,FL,34102,White
+    Hat Management,Exec,20071019,2300.00,,,,,,,,,,,,,,F65.00001
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brennan^David^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 850 Nelson's Walk
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Naples
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '34102'
+  - name: INDEMP
+    number: '10'
+    value: White Hat Management
+  - name: INDOCC
+    number: '11'
+    value: Exec
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+- input: F65,C00438879,IND,Raveglia^Sylvia^Mrs.,118 Maid Marion Lane,,McMurray,PA,15317,Retired,Retired,20071019,1000.00,,,,,,,Club^for^Growth,2001
+    L St. Suite 600,,Washington,DC,20036,,F65.00002
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Raveglia^Sylvia^Mrs.
+  - name: STREET 1
+    number: '5'
+    value: 118 Maid Marion Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: McMurray
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15317'
+  - name: INDEMP
+    number: '10'
+    value: Retired
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St. Suite 600
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '25'
+    value: '20036'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+- input: F65,C00438879,IND,Smith^Burr^Mr.,452 N. Lindbergh,,St. Louis,MO,63141,NA,Investor,20071019,2300.00,,,,,,,Club^for^Growth,2001
+    L St. NW,Ste. 600,Washington,DC,20036,,F65.00003
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Smith^Burr^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 452 N. Lindbergh
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Louis
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '63141'
+  - name: INDEMP
+    number: '10'
+    value: NA
+  - name: INDOCC
+    number: '11'
+    value: Investor
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St. NW
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: Ste. 600
+  - name: CONDUIT CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '25'
+    value: '20036'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00003
+- input: F65,C00438879,IND,Smith^Dorothy Davis^Rev.,1016 Fort Mason Dr.,,Eustis,FL,32726,Unknown,Unknown,20071019,2300.00,,,,,,,Club^for^Growth,2001
+    L St. NW,Ste 600,Washington,DC,20036,,F65.00004
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Smith^Dorothy Davis^Rev.
+  - name: STREET 1
+    number: '5'
+    value: 1016 Fort Mason Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Eustis
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '32726'
+  - name: INDEMP
+    number: '10'
+    value: Unknown
+  - name: INDOCC
+    number: '11'
+    value: Unknown
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St. NW
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: Ste 600
+  - name: CONDUIT CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '25'
+    value: '20036'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00004
+- input: F65,C00438879,IND,Peters^Lovett^Mr.,81 Old Orchard Rd.,,Chestnut Hill,MA,02467,Pioneer
+    Institute,Chairman,20071019,1500.00,,,,,,,Club^for^Growth,2001 L St. NW,Ste 600,Washington,DC,20036,,F65.00005
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Peters^Lovett^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 81 Old Orchard Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chestnut Hill
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02467'
+  - name: INDEMP
+    number: '10'
+    value: Pioneer Institute
+  - name: INDOCC
+    number: '11'
+    value: Chairman
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St. NW
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: Ste 600
+  - name: CONDUIT CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '25'
+    value: '20036'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00005
+- input: F65,C00438879,IND,Anderson^K. Tucker^Mr.,61 Above All Road,,Warren,CT,06754,Above
+    All Advisors,Consultant,20071019,1000.00,,,,,,,Club^for^Growth,2001 L St. NW,Ste.
+    600,Washington,DC,20036,,F65.00006
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00438879
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Anderson^K. Tucker^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 61 Above All Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Warren
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06754'
+  - name: INDEMP
+    number: '10'
+    value: Above All Advisors
+  - name: INDOCC
+    number: '11'
+    value: Consultant
+  - name: Of Contribution
+    number: 12-
+    value: '20071019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Club^for^Growth
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 2001 L St. NW
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: Ste. 600
+  - name: CONDUIT CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '25'
+    value: '20036'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00006
+sourceurl: !!python/unicode 20071021
+type: single
