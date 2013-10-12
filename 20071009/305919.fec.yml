@@ -1,0 +1,821 @@
+countraw: 7
+countrows: 5
+filename: 305919.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bank of America Corporation Federal Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 1909 K Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ' Suite 710'
+  - name: STATE
+    number: '7'
+    value: DC9-920-07-01
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: Submitted
+    number: 9-
+    value: DC
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20006'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: '20071001'
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: X
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: E
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: Bank of America Corporation
+  - name: CITY
+    number: 24-6.
+    value: 100 North Tryon Street
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: Charlotte
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: NC
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: '28255'
+  - name: Custodian Name
+    number: '29-7. '
+    value: Connected
+  - name: STREET 1
+    number: 30-7.
+    value: C
+  - name: STREET 2
+    number: 31-7.
+    value: Collingwood^John
+  - name: CITY
+    number: 32-7.
+    value: c/o PASS
+  - name: STATE
+    number: 33-7.
+    value: 1020 North Fairfax St.
+  - name: ZIP
+    number: 34-7.
+    value: Alexandria
+  - name: TITLE
+    number: 35-7.
+    value: VA
+  - name: TELEPHONE
+    number: 36-7.
+    value: '22314'
+  - name: Treasurer
+    number: '37-8. '
+    value: Treasurer
+  - name: STREET 1
+    number: 38-8.
+    value: '2023510111'
+  - name: STREET 2
+    number: 39-8.
+    value: Collingwood^John
+  - name: CITY
+    number: 40-8.
+    value: 1909 K Street
+  - name: STATE
+    number: 41-8.
+    value: ' NW'
+  - name: ZIP
+    number: 42-8.
+    value: ' Suite 710'
+  - name: TITLE
+    number: 43-8.
+    value: DC9-920-07-01
+  - name: TELEPHONE
+    number: 44-8.
+    value: Washington
+  - name: Designated Agent
+    number: '45-8. '
+    value: DC
+  - name: STREET 1
+    number: 46-8.
+    value: '20006'
+  - name: STREET 2
+    number: 47-8.
+    value: Treasurer
+  - name: CITY
+    number: 48-8.
+    value: '2023510111'
+  - name: STATE
+    number: 49-8.
+    value: Hill^Edward J.^^
+  - name: ZIP
+    number: 50-8.
+    value: 1909 K Street
+  - name: TITLE
+    number: 51-8.
+    value: ' NW'
+  - name: TELEPHONE
+    number: 52-8.
+    value: ' Suite 700'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: DC9-920-07-01
+  - name: STREET 1
+    number: 54-9.
+    value: Washington
+  - name: STREET 2
+    number: 55-9.
+    value: DC
+  - name: CITY
+    number: 56-9.
+    value: '20005'
+  - name: STATE
+    number: 57-9.
+    value: Vice Chairman
+  - name: ZIP
+    number: 58-9.
+    value: '2023510114'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Bank of America N.A.
+  - name: Signed
+    number: 60-
+    value: 901 W. Trade Street
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: Charlotte
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: NC
+  - value: '28255'
+  - value: Collingwood^John^^
+  - value: '20071009'
+  - value: john.collingwood@bankofamerica.com
+  - value: N/A
+  - value: 202-785-1426
+  expected_count: 63
+  input: F1A,C00364778,Bank of America Corporation Federal Political Action Committee,"1909
+    K Street, NW, Suite 710",DC9-920-07-01,Washington,DC,20006,20071001,,X,E,,,,,,,,,Bank
+    of America Corporation,100 North Tryon Street,,Charlotte,NC,28255,Connected,C,Collingwood^John,c/o
+    PASS,1020 North Fairfax St.,Alexandria,VA,22314,Treasurer,2023510111,Collingwood^John,"1909
+    K Street, NW, Suite 710",DC9-920-07-01,Washington,DC,20006,Treasurer,2023510111,Hill^Edward
+    J.^^,"1909 K Street, NW, Suite 700",DC9-920-07-01,Washington,DC,20005,Vice Chairman,2023510114,Bank
+    of America N.A.,901 W. Trade Street,,Charlotte,NC,28255,Collingwood^John^^,20071009,john.collingwood@bankofamerica.com,N/A,202-785-1426
+  input_count: 69
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00043489
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Bank of America Corporation State and Federal PAC
+  - name: STREET 1
+    number: 22-6.
+    value: 1100 North King Street
+  - name: STREET 2
+    number: 23-6.
+    value: DE5-001-02-07
+  - name: CITY
+    number: 24-6.
+    value: Wilmington
+  - name: STATE
+    number: 25-6.
+    value: DE
+  - name: ZIP
+    number: 26-6.
+    value: '19884'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Affiliated
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: ''
+  expected_count: 63
+  input: F1S,C00364778,,,,,,,,,,,,,,,,,,C00043489,Bank of America Corporation State
+    and Federal PAC,1100 North King Street,DE5-001-02-07,Wilmington,DE,19884,Affiliated,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+- input: F1S,C00364778,,,,,,,,,,,,,,,,,,C00252866,Bank of America Corporation PAC
+    (FKA MBNA Corporation Federal Political Committee),1100 North King Street,DE5-001-02-07,Wilmington,DE,19884,Affiliated,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  record: fec.version.v5_3.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364778
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00252866
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Bank of America Corporation PAC (FKA MBNA Corporation Federal Political
+      Committee)
+  - name: STREET 1
+    number: 22-6.
+    value: 1100 North King Street
+  - name: STREET 2
+    number: 23-6.
+    value: DE5-001-02-07
+  - name: CITY
+    number: 24-6.
+    value: Wilmington
+  - name: STATE
+    number: 25-6.
+    value: DE
+  - name: ZIP
+    number: 26-6.
+    value: '19884'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Affiliated
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+- input: F1S,C00252866,,,,,,,,,,,,,,,,,,C00135186,FKA LaSalle - Bank of America Corporation
+    PAC,"135 South LaSalle Street",Suite 925,Chicago,IL,60603,Affiliated Committee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  record: fec.version.v5_3.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252866
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: C00135186
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: FKA LaSalle - Bank of America Corporation PAC
+  - name: STREET 1
+    number: 22-6.
+    value: 135 South LaSalle Street
+  - name: STREET 2
+    number: 23-6.
+    value: Suite 925
+  - name: CITY
+    number: 24-6.
+    value: Chicago
+  - name: STATE
+    number: 25-6.
+    value: IL
+  - name: ZIP
+    number: 26-6.
+    value: '60603'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Affiliated Committee
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+- input: TEXT,F1A,,"This amended registration is being filed to disclose the PAC's
+    new affiliation with The LaSalle Bank Corporation Federal PAC due to the acquisition
+    of LaSalle Bank Corporation by the Bank of America Corporation on October 1, 2007.
+    Please make the necessary changes to your records."
+  record: fec.version.v5_3.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amended registration is being filed to disclose the PAC's new affiliation
+      with The LaSalle Bank Corporation Federal PAC due to the acquisition of LaSalle
+      Bank Corporation by the Bank of America Corporation on October 1
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2007. Please make the necessary changes to your records.'
+sourceurl: !!python/unicode 20071009
+type: single
