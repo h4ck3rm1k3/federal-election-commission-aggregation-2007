@@ -1,0 +1,760 @@
+countraw: 8
+countrows: 6
+filename: 305362.fec
+header: {}
+rows:
+- input: F24,C00341396,MOVEON.ORG POLITICAL ACTION,PO BOX 9218,,BERKELEY,CA,94709,Boyd^Wes^^,20071003,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MOVEON.ORG POLITICAL ACTION
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 9218
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BERKELEY
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '94709'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Boyd^Wes^^
+  - name: Signed
+    number: 10-
+    value: '20071003'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Americablog
+  - name: STREET 1
+    number: '5'
+    value: 1884 Columbia Road
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20009'
+  - name: DATE
+    number: '11'
+    value: Web Ad
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071001'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1400.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S2KY00012
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: MCCONNELL^MITCH^^
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: KY
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00341396
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20071003'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.12972
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2008
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1475.00'
+  expected_count: 46
+  input: SE24,C00341396,ORG,Americablog,"1884 Columbia Road, NW",,Washington,DC,20009,Web
+    Ad,20071001,1400.00,O,S2KY00012,MCCONNELL^MITCH^^,S,KY,00,C00341396,,,,,,,,,,,,,20071003,,,,,SE24.12972,,,,,P2008,,,,1475.00
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- input: SE24,C00341396,ORG,Blogads.com,PO Box 1434,,Carrboro,NC,27510,Web Ad,20071001,6280.00,O,S2KY00012,MCCONNELL^MITCH^^,S,KY,00,C00341396,,,,,,,,,,,,,20071003,,,,,SE24.12975,,,,,P2008,,,,11930.00
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Blogads.com
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1434
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Carrboro
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27510'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Web Ad
+  - name: DATE
+    number: '11'
+    value: '20071001'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '6280.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S2KY00012
+  - name: S/O CAN/NAME
+    number: '15'
+    value: MCCONNELL^MITCH^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00341396
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20071003'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.12975
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '11930.00'
+- input: SE24,C00341396,ORG,DitchMitchKY.com,145 East Rock Road,,New Haven,CT,06511,Web
+    Ad,20071001,75.00,O,S2KY00012,MCCONNELL^MITCH^^,S,KY,00,C00341396,,,,,,,,,,,,,20071003,,,,,SE24.12971,,,,,P2008,,,,75.00
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: DitchMitchKY.com
+  - name: STREET 1
+    number: '5'
+    value: 145 East Rock Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Haven
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06511'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Web Ad
+  - name: DATE
+    number: '11'
+    value: '20071001'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '75.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S2KY00012
+  - name: S/O CAN/NAME
+    number: '15'
+    value: MCCONNELL^MITCH^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00341396
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20071003'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.12971
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '75.00'
+- input: SE24,C00341396,ORG,FireDogLake,6312 Seven Corner Center,,Falls Church,VA,22044,Web
+    Ad,20071001,2975.00,O,S2KY00012,MCCONNELL^MITCH^^,S,KY,00,C00341396,,,,,,,,,,,,,20071003,,,,,SE24.12974,,,,,P2008,,,,5650.00
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: FireDogLake
+  - name: STREET 1
+    number: '5'
+    value: 6312 Seven Corner Center
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Falls Church
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22044'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Web Ad
+  - name: DATE
+    number: '11'
+    value: '20071001'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2975.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S2KY00012
+  - name: S/O CAN/NAME
+    number: '15'
+    value: MCCONNELL^MITCH^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00341396
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20071003'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.12974
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '5650.00'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: OpenLeft.com
+  - name: STREET 1
+    number: '5'
+    value: 888 16th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20006'
+  - name: DATE
+    number: '11'
+    value: Web Ad
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071001'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1200.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S2KY00012
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: MCCONNELL^MITCH^^
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: KY
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00341396
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20071003'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.12973
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2008
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '2675.00'
+  expected_count: 46
+  input: SE24,C00341396,ORG,OpenLeft.com,"888 16th Street, NW",,Washington,DC,20006,Web
+    Ad,20071001,1200.00,O,S2KY00012,MCCONNELL^MITCH^^,S,KY,00,C00341396,,,,,,,,,,,,,20071003,,,,,SE24.12973,,,,,P2008,,,,2675.00
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20071003
+type: single
