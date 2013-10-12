@@ -1,0 +1,208 @@
+countraw: 3
+countrows: 1
+filename: 309649.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00035618
+  - name: COMMITTEE NAME
+    number: '3'
+    value: VERMONT REPUBLICAN FEDERAL ELECTIONS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 70
+  - name: STREET 2
+    number: '5'
+    value: 100 STATE STREET
+  - name: CITY
+    number: '6'
+    value: ' SUITE #308'
+  - name: STATE
+    number: '7'
+    value: MONTPELIER
+  - name: ZIP
+    number: '8'
+    value: VT
+  - name: Submitted
+    number: 9-
+    value: '05601'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20071027'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: X
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: D
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: REP
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: STA
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: Guptill^Alden^^
+  - name: STREET 2
+    number: 31-7.
+    value: 100 State Street
+  - name: CITY
+    number: 32-7.
+    value: Suite 308
+  - name: STATE
+    number: 33-7.
+    value: Montpelier
+  - name: ZIP
+    number: 34-7.
+    value: VT
+  - name: TITLE
+    number: 35-7.
+    value: '05601'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Executive Director
+  - name: Treasurer
+    number: '37-8. '
+    value: '8022233411'
+  - name: STREET 1
+    number: 38-8.
+    value: Webster^Steve^^
+  - name: STREET 2
+    number: 39-8.
+    value: 100 State Street
+  - name: CITY
+    number: 40-8.
+    value: Suite 308
+  - name: STATE
+    number: 41-8.
+    value: Montpelier
+  - name: ZIP
+    number: 42-8.
+    value: VT
+  - name: TITLE
+    number: 43-8.
+    value: '05601'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '8022233411'
+  - name: STREET 1
+    number: 46-8.
+    value: Baker^Joseph^^
+  - name: STREET 2
+    number: 47-8.
+    value: 100 State Street
+  - name: CITY
+    number: 48-8.
+    value: Suite 308
+  - name: STATE
+    number: 49-8.
+    value: Montpelier
+  - name: ZIP
+    number: 50-8.
+    value: VT
+  - name: TITLE
+    number: 51-8.
+    value: '05601'
+  - name: TELEPHONE
+    number: 52-8.
+    value: Assistant Treasurer
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '8022233411'
+  - name: STREET 1
+    number: 54-9.
+    value: Chittenden Bank
+  - name: STREET 2
+    number: 55-9.
+    value: 45 State Street
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: Montpelier
+  - name: ZIP
+    number: 58-9.
+    value: VT
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '05602'
+  - name: Signed
+    number: 60-
+    value: Webster^Steve^^
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20071029'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: aguptill@vtgop.org
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: www.vtgop.org
+  - value: '8022291864'
+  expected_count: 63
+  input: 'F1N,C00035618,VERMONT REPUBLICAN FEDERAL ELECTIONS COMMITTEE,P.O. BOX 70,"100
+    STATE STREET, SUITE #308",MONTPELIER,VT,05601,20071027,,X,D,,,,,,REP,STA,,,,,,,,,,Guptill^Alden^^,100
+    State Street,Suite 308,Montpelier,VT,05601,Executive Director,8022233411,Webster^Steve^^,100
+    State Street,Suite 308,Montpelier,VT,05601,Treasurer,8022233411,Baker^Joseph^^,100
+    State Street,Suite 308,Montpelier,VT,05601,Assistant Treasurer,8022233411,Chittenden
+    Bank,45 State Street,,Montpelier,VT,05602,Webster^Steve^^,20071029,aguptill@vtgop.org,www.vtgop.org,8022291864'
+  input_count: 64
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20071029
+type: single
