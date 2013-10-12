@@ -1,0 +1,156 @@
+countraw: 3
+countrows: 1
+filename: 305192.fec
+header: {}
+rows:
+- input: '"F1MN","C00423228","AGA TRADE ASSOCIATION INC PAC","4720 Montgomergy Lane","Suite
+    430","Bethesda","MD","20814","N","","","","C00266619","Congressman Earl Pomeroy
+    ","H","ND","1","20070323","C00280206","Senator Arlen Specter","S","PA","","20070323","C00257121","Congressman  Bobby
+    Rush","H","IL","1","20070323","C00020974","Congressman Pete Stark","H","CA","13","20070323","C00312017","Congressman
+    Ron Kind","H","WI","3","20070515","20060601","20060421","20070515","DAMIAN H AUGUSTYN
+    MD","20070906"'
+  record: fec.version.v5_3.F1M
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423228
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AGA TRADE ASSOCIATION INC PAC
+  - name: STREET 1
+    number: '4'
+    value: 4720 Montgomergy Lane
+  - name: STREET 2
+    number: '5'
+    value: Suite 430
+  - name: CITY
+    number: '6'
+    value: Bethesda
+  - name: STATE
+    number: '7'
+    value: MD
+  - name: ZIP
+    number: '8'
+    value: '20814'
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: N
+  - name: Of Affiliation
+    number: 10-
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: C00266619
+  - name: CANDIDATE NAME
+    number: '14'
+    value: 'Congressman Earl Pomeroy '
+  - name: CAN/OFFICE
+    number: '15'
+    value: H
+  - name: CAN/STATE
+    number: '16'
+    value: ND
+  - name: CAN/DIST
+    number: '17'
+    value: '1'
+  - name: Of Contribution
+    number: 18-
+    value: '20070323'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: C00280206
+  - name: CANDIDATE NAME
+    number: '20'
+    value: Senator Arlen Specter
+  - name: CAN/OFFICE
+    number: '21'
+    value: S
+  - name: CAN/STATE
+    number: '22'
+    value: PA
+  - name: CAN/DIST
+    number: '23'
+    value: ''
+  - name: Of Contribution
+    number: 24-
+    value: '20070323'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: C00257121
+  - name: CANDIDATE NAME
+    number: '26'
+    value: Congressman  Bobby Rush
+  - name: CAN/OFFICE
+    number: '27'
+    value: H
+  - name: CAN/STATE
+    number: '28'
+    value: IL
+  - name: CAN/DIST
+    number: '29'
+    value: '1'
+  - name: Of Contribution
+    number: 30-
+    value: '20070323'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: C00020974
+  - name: CANDIDATE NAME
+    number: '32'
+    value: Congressman Pete Stark
+  - name: CAN/OFFICE
+    number: '33'
+    value: H
+  - name: CAN/STATE
+    number: '34'
+    value: CA
+  - name: CAN/DIST
+    number: '35'
+    value: '13'
+  - name: Of Contribution
+    number: 36-
+    value: '20070323'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: C00312017
+  - name: CANDIDATE NAME
+    number: '38'
+    value: Congressman Ron Kind
+  - name: CAN/OFFICE
+    number: '39'
+    value: H
+  - name: CAN/STATE
+    number: '40'
+    value: WI
+  - name: CAN/DIST
+    number: '41'
+    value: '3'
+  - name: Of Contribution
+    number: 42-
+    value: '20070515'
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20060601'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20060421'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20070515'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: DAMIAN H AUGUSTYN MD
+  - name: Signed
+    number: 47-
+    value: '20070906'
+sourceurl: !!python/unicode 20071001
+type: single
