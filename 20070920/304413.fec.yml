@@ -1,0 +1,120 @@
+countraw: 3
+countrows: 1
+filename: 304413.fec
+header: {}
+rows:
+- input: '"F2N","H4NC01046","","2407 Bel Air Avenue","","Wilson","NC","27893","DEM","H","NC","1","2008","C00401190","Butterfield
+    For Congress","PO Box 2571","","Wilson","NC","27894","","","","","","","","G.K.
+    Butterfield","20070920","0.00","0.00","Butterfield","G","K","",""'
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4NC01046
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 2407 Bel Air Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Wilson
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27893'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NC
+  - name: CAN/DIST
+    number: '12'
+    value: '1'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00401190
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Butterfield For Congress
+  - name: STREET 1
+    number: '16'
+    value: PO Box 2571
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Wilson
+  - name: STATE
+    number: '19'
+    value: NC
+  - name: ZIP
+    number: '20'
+    value: '27894'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: G.K. Butterfield
+  - name: Signed
+    number: 29-
+    value: '20070920'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: Butterfield
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: G
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: K
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20070920
+type: single
