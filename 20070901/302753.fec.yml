@@ -1,0 +1,222 @@
+countraw: 5
+countrows: 3
+filename: 302753.fec
+header: {}
+rows:
+- input: F6,C00433235,Jamie Eldridge for Congress,PO BOX 641,,Acton,MA,01720,H8MA05150,Jamie  Eldridge,H,MA,05,20070901
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433235
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jamie Eldridge for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 641
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Acton
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '01720'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MA05150
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jamie  Eldridge
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MA
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20070901'
+- input: F65,C00433235,IND,ELDRIDGE^AMANDA^^,364 Washington Ave,,Brooklyn,NY,11238,Lindblad
+    Expeditions,Program Manager,20070831,2300.00,,H8MA05150,Jamie  Eldridge,H,MA,05,,,,,,,,SA11A1.10408620
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433235
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ELDRIDGE^AMANDA^^
+  - name: STREET 1
+    number: '5'
+    value: 364 Washington Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11238'
+  - name: INDEMP
+    number: '10'
+    value: Lindblad Expeditions
+  - name: INDOCC
+    number: '11'
+    value: Program Manager
+  - name: Of Contribution
+    number: 12-
+    value: '20070831'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MA05150
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Jamie  Eldridge
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: SA11A1.10408620
+- input: F65,C00433235,IND,SCHLICHTMANN^JAN^^,PO Box 233,,Prides Crossing,MA,01965,Self
+    Employed,Attorney,20070831,2300.00,,H8MA05150,Jamie  Eldridge,H,MA,05,,,,,,,,SA11A1.10408643
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433235
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SCHLICHTMANN^JAN^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 233
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Prides Crossing
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01965
+  - name: INDEMP
+    number: '10'
+    value: Self Employed
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20070831'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MA05150
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Jamie  Eldridge
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: SA11A1.10408643
+sourceurl: !!python/unicode 20070901
+type: single
