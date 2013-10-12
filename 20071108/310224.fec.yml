@@ -1,0 +1,2595 @@
+countraw: 24
+countrows: 22
+filename: 310224.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '4'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 700
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: '20005'
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: Y
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: ''
+  - name: Coverage To
+    number: 18-
+    value: '20071106'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '20071108'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '0'
+  - name: Person Completing Form
+    number: 21-
+    value: '19582'
+  - name: Signed
+    number: 22-
+    value: John Botts
+  - name: SPACE HOLDER
+    number: '23'
+    value: '20071108'
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+  - value: '48'
+  expected_count: 26
+  input: F5N,"C90004185","NARAL Pro-Choice America","1156 15th Street, NW","Suite
+    700","Washington","DC","20005","","Y",,,"","","","","20071106","20071108","0","19582","John
+    Botts","20071108","","","","48"
+  input_count: 27
+  record: fec.version.v5_3.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80000722
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Joseph Biden
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431916
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D1
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.86,"S","P80000722","Joseph
+    Biden","P","DC","00","C00431916",,,,,,,,,,,,,"D1",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P00003392
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Hillary Clinton
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431569
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D2
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.86,"S","P00003392","Hillary
+    Clinton","P","DC","00","C00431569",,,,,,,,,,,,,"D2",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80003387
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Christopher Dodd
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431379
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D3
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.86,"S","P80003387","Christopher
+    Dodd","P","DC","00","C00431379",,,,,,,,,,,,,"D3",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P40002347
+  - name: S/O CAN/STATE
+    number: '17'
+    value: John Edwards
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431205
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D4
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.86,"S","P40002347","John
+    Edwards","P","DC","00","C00431205",,,,,,,,,,,,,"D4",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.85'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P40002545
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Dennis Kucinich
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00430975
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D5
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.85,"S","P40002545","Dennis
+    Kucinich","P","DC","00","C00430975",,,,,,,,,,,,,"D5",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.85'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80003338
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Barack Obama
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431445
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D6
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.85,"S","P80003338","Barack
+    Obama","P","DC","00","C00431445",,,,,,,,,,,,,"D6",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Getactive Software
+  - name: STREET 1
+    number: '5'
+    value: ' Inc./Convio'
+  - name: STREET 2
+    number: '6'
+    value: 11400 Burnet Road
+  - name: CITY
+    number: '7'
+    value: ' Bldg. 5'
+  - name: STATE
+    number: '8'
+    value: Suite 200
+  - name: ZIP
+    number: '9'
+    value: Austin
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TX
+  - name: Of Expenditure
+    number: 11-
+    value: '78757'
+  - name: AMOUNT
+    number: '12'
+    value: Email services
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '118.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80003411
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Bill Richardson
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431577
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D7
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","ORG","Getactive Software, Inc./Convio","11400 Burnet Road,
+    Bldg. 5","Suite 200","Austin","TX","78757","Email services","20071106",118.86,"S","P80003411","Bill
+    Richardson","P","DC","00","C00431577",,,,,,,,,,,,,"D7",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80000722
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Joseph Biden
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431916
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D8
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P80000722","Joseph
+    Biden","P","DC","00","C00431916",,,,,,,,,,,,,"D8",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P00003392
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Hillary Clinton
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431569
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D9
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P00003392","Hillary
+    Clinton","P","DC","00","C00431569",,,,,,,,,,,,,"D9",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80003387
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Christopher Dodd
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431379
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D10
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P80003387","Christopher
+    Dodd","P","DC","00","C00431379",,,,,,,,,,,,,"D10",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P40002347
+  - name: S/O CAN/STATE
+    number: '17'
+    value: John Edwards
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431205
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D11
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P40002347","John
+    Edwards","P","DC","00","C00431205",,,,,,,,,,,,,"D11",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P40002545
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Dennis Kucinich
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00430975
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D12
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P40002545","Dennis
+    Kucinich","P","DC","00","C00430975",,,,,,,,,,,,,"D12",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80003338
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Barack Obama
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431445
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D13
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P80003338","Barack
+    Obama","P","DC","00","C00431445",,,,,,,,,,,,,"D13",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '5'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 700'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20005'
+  - name: AMOUNT
+    number: '12'
+    value: List Rental
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20071106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80003411
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Bill Richardson
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00431577
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: D14
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '19582'
+  - value: P2008
+  - value: ''
+  expected_count: 37
+  input: F57,"C90004185","PAC","NARAL Pro-Choice America","1156 15th Street, NW, Suite
+    700",,"Washington","DC","20005","List Rental","20071106",1250,"S","P80003411","Bill
+    Richardson","P","DC","00","C00431577",,,,,,,,,,,,,"D14",,,19582,"P2008",""
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.57,"S","P80000722","Joseph Biden","P","DC","00","C00431916",,,,,,,,,,,,,"D15",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.57'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000722
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joseph Biden
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431916
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D15
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.57,"S","P00003392","Hillary
+    Clinton","P","DC","00","C00431569",,,,,,,,,,,,,"D16",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.57'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003392
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Hillary Clinton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431569
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D16
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.57,"S","P80003387","Christopher
+    Dodd","P","DC","00","C00431379",,,,,,,,,,,,,"D17",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.57'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80003387
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Christopher Dodd
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431379
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D17
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.57,"S","P40002347","John Edwards","P","DC","00","C00431205",,,,,,,,,,,,,"D18",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.57'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002347
+  - name: S/O CAN/NAME
+    number: '15'
+    value: John Edwards
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431205
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D18
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.57,"S","P40002545","Dennis Kucinich","P","DC","00","C00430975",,,,,,,,,,,,,"D19",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.57'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002545
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Dennis Kucinich
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00430975
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D19
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.57,"S","P80003338","Barack Obama","P","DC","00","C00431445",,,,,,,,,,,,,"D20",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.57'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80003338
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Barack Obama
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431445
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D20
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,"C90004185","ORG","Sea Change Strategies","7409 Birch Avenue",,"Takoma
+    Park","MD","20912","Copy Writing","20071106",1428.58,"S","P80003411","Bill Richardson","P","DC","00","C00431577",,,,,,,,,,,,,"D21",,,19582,"P2008",""
+  record: fec.version.v5_3.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90004185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sea Change Strategies
+  - name: STREET 1
+    number: '5'
+    value: 7409 Birch Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Takoma Park
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20912'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Copy Writing
+  - name: Of Expenditure
+    number: 11-
+    value: '20071106'
+  - name: AMOUNT
+    number: '12'
+    value: '1428.58'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80003411
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Bill Richardson
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431577
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: D21
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '19582'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+sourceurl: !!python/unicode 20071108
+type: single
