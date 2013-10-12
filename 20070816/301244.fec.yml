@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 301244.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6OR05119
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 13800 SW Stampher Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lake Oswego
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '97034   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: OR
+  - name: CAN/DIST
+    number: '12'
+    value: '05'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Erickson For Congress
+  - name: STREET 1
+    number: '16'
+    value: 175 South West Temple
+  - name: STREET 2
+    number: '17'
+    value: ' Suite 650'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Salt Lake City
+  - name: ZIP
+    number: '20'
+    value: UT
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '84101   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '        '
+  - name: STREET 1
+    number: '23'
+    value: None
+  - name: STREET 2
+    number: '24'
+    value: None
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: None
+  - name: ZIP
+    number: '27'
+    value: ' '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '       '
+  - name: Signed
+    number: 29-
+    value: Michael Erickson
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20070816'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Erickson
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Michael
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H6OR05119","","13800 SW Stampher Road","","Lake Oswego","OR","97034   ","REP","H","OR",05,2008,"","Erickson
+    For Congress","175 South West Temple, Suite 650","","Salt Lake City","UT","84101   ","        ","None","None","","None","
+    ","       ","Michael Erickson",20070816,0.00,0.00,"Erickson","Michael","","",""'
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20070816
+type: single
