@@ -1,0 +1,121 @@
+countraw: 3
+countrows: 1
+filename: 310102.fec
+header: {}
+rows:
+- input: '"F2","H8NC08042","","P.O. Box 2000","","Concord","NC","28026   ","REP","H","NC",8
+    ,2008,"","Hayes for Congress","Post Office Box 2000","","Concord","NC","28026   ","C00440677","Dole
+    Hayes Committee","709 Hillsborough Street","","Raleigh","NC","27603   ","Robert
+    C. (Robin) Hayes",20071105,0.00,0.00,"C. (Robin) Hayes","Robert","","",""'
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8NC08042
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 2000
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Concord
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '28026   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NC
+  - name: CAN/DIST
+    number: '12'
+    value: '8 '
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Hayes for Congress
+  - name: STREET 1
+    number: '16'
+    value: Post Office Box 2000
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Concord
+  - name: STATE
+    number: '19'
+    value: NC
+  - name: ZIP
+    number: '20'
+    value: '28026   '
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00440677
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Dole Hayes Committee
+  - name: STREET 1
+    number: '23'
+    value: 709 Hillsborough Street
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: Raleigh
+  - name: STATE
+    number: '26'
+    value: NC
+  - name: ZIP
+    number: '27'
+    value: '27603   '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Robert C. (Robin) Hayes
+  - name: Signed
+    number: 29-
+    value: '20071105'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: C. (Robin) Hayes
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Robert
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20071105
+type: single
