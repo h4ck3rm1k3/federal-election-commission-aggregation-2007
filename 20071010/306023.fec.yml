@@ -1,0 +1,627 @@
+countraw: 8
+countrows: 5
+filename: 306023.fec
+header: {}
+rows:
+- input: F24A,C00193433,EMILY's List,1120 Connecticut Avenue NW,Ste 1100,Washington,DC,20036,Fines^Caroline,20071010,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: COMMITTEE NAME
+    number: '3'
+    value: EMILY's List
+  - name: STREET 1
+    number: '4'
+    value: 1120 Connecticut Avenue NW
+  - name: STREET 2
+    number: '5'
+    value: Ste 1100
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Fines^Caroline
+  - name: Signed
+    number: 10-
+    value: '20071010'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The New Media Firm
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1325 18th Street
+  - name: CITY
+    number: '7'
+    value: Ste 207
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: Radio Buy
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071010'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '90262.50'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8MA05192
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Ogonowski^James
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: C00434480
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Fines^Caroline
+  - name: Notarized
+    number: 33-
+    value: '20071010'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-87004
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: O2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Spec-Gen
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '125000.00'
+  expected_count: 46
+  input: '"SE24","C00193433","ORG","The New Media Firm, Inc.","1325 18th Street","Ste
+    207","Washington","DC","20036","Radio Buy","20071010","90262.50","O","H8MA05192","Ogonowski^James","H","MA","05","C00434480","","","","","","","","","","","","Fines^Caroline","20071010","","","","","SE24-87004","","","","","O2007","Spec-Gen","004","","125000.00"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The New Media Firm
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1325 18th Street
+  - name: CITY
+    number: '7'
+    value: Ste 207
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: Radio Production
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071010'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '3487.50'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8MA05192
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Ogonowski^James
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: C00434480
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Fines^Caroline
+  - name: Notarized
+    number: 33-
+    value: '20071010'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-87005
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: O2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Spec-Gen
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '125000.00'
+  expected_count: 46
+  input: '"SE24","C00193433","ORG","The New Media Firm, Inc.","1325 18th Street","Ste
+    207","Washington","DC","20036","Radio Production","20071010","3487.50","O","H8MA05192","Ogonowski^James","H","MA","05","C00434480","","","","","","","","","","","","Fines^Caroline","20071010","","","","","SE24-87005","","","","","O2007","Spec-Gen","004","","125000.00"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The New Media Firm
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1325 18th Street
+  - name: CITY
+    number: '7'
+    value: Ste 207
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: Radio Buy
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071010'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '30087.50'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8MA05143
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Tsongas^Nicola
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: C00433136
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Fines^Caroline
+  - name: Notarized
+    number: 33-
+    value: '20071010'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-87006
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: O2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Spec-Gen
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '125000.00'
+  expected_count: 46
+  input: '"SE24","C00193433","ORG","The New Media Firm, Inc.","1325 18th Street","Ste
+    207","Washington","DC","20036","Radio Buy","20071010","30087.50","S","H8MA05143","Tsongas^Nicola","H","MA","05","C00433136","","","","","","","","","","","","Fines^Caroline","20071010","","","","","SE24-87006","","","","","O2007","Spec-Gen","004","","125000.00"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The New Media Firm
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1325 18th Street
+  - name: CITY
+    number: '7'
+    value: Ste 207
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: Radio Production
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071010'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1162.50'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8MA05143
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Tsongas^Nicola
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: C00433136
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Fines^Caroline
+  - name: Notarized
+    number: 33-
+    value: '20071010'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-87007
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: O2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Spec-Gen
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '125000.00'
+  expected_count: 46
+  input: '"SE24","C00193433","ORG","The New Media Firm, Inc.","1325 18th Street","Ste
+    207","Washington","DC","20036","Radio Production","20071010","1162.50","S","H8MA05143","Tsongas^Nicola","H","MA","05","C00433136","","","","","","","","","","","","Fines^Caroline","20071010","","","","","SE24-87007","","","","","O2007","Spec-Gen","004","","125000.00"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20071010
+type: single
