@@ -1,0 +1,593 @@
+countraw: 5
+countrows: 3
+filename: 301498.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00436964
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jennings 2008
+  - name: STREET 1
+    number: '4'
+    value: PO Box 49136
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Sarasota
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '34230'
+  - name: Submitted
+    number: 9-
+    value: '20070817'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H4FL13069
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: Christine Jennings
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: FL
+  - name: CAN/DIST
+    number: 17-5.
+    value: '13'
+  - name: PARTY CODE
+    number: 18-5.
+    value: DEM
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Political CFOs
+  - name: STREET 1
+    number: 30-7.
+    value: ' Inc'
+  - name: STREET 2
+    number: 31-7.
+    value: 201 King Street
+  - name: CITY
+    number: 32-7.
+    value: Suite 200
+  - name: STATE
+    number: 33-7.
+    value: Alexandria
+  - name: ZIP
+    number: 34-7.
+    value: VA
+  - name: TITLE
+    number: 35-7.
+    value: '22314'
+  - name: TELEPHONE
+    number: 36-7.
+    value: ComplianceConsultant
+  - name: Treasurer
+    number: '37-8. '
+    value: '7035497236'
+  - name: STREET 1
+    number: 38-8.
+    value: Ed Chiles
+  - name: STREET 2
+    number: 39-8.
+    value: PO Box 49136
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Sarasota
+  - name: ZIP
+    number: 42-8.
+    value: FL
+  - name: TITLE
+    number: 43-8.
+    value: '34230'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: Wachovia Bank
+  - name: STREET 2
+    number: 55-9.
+    value: 100 N Main St
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: Winston Salem
+  - name: ZIP
+    number: 58-9.
+    value: NC
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '27150'
+  - name: Signed
+    number: 60-
+    value: Ed Chiles
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20070817'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: http://www.christinejennings2008.com
+  - value: '9419521015'
+  expected_count: 63
+  input: '"F1N","C00436964","Jennings 2008","PO Box 49136","","Sarasota","FL","34230","20070817","","","A","H4FL13069","Christine
+    Jennings","H","FL","13","DEM","","","","","","","","","","","Political CFOs, Inc","201
+    King Street","Suite 200","Alexandria","VA","22314","ComplianceConsultant","7035497236","Ed
+    Chiles","PO Box 49136","","Sarasota","FL","34230","Treasurer","","","","","","","","","","Wachovia
+    Bank","100 N Main St","","Winston Salem","NC","27150","Ed Chiles","20070817","","http://www.christinejennings2008.com","9419521015"'
+  input_count: 64
+  record: fec.version.v5_3.F1
+  result: []
+- input: '"F1S","C00436964","","","","","","","","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","Michael
+    Shelton","PO Box 49136","","Sarasota","FL","34230","Assistant Treasurer","","","","","","","","","","","",""'
+  record: fec.version.v5_3.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00436964
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: Michael Shelton
+  - name: STREET 1
+    number: 46-8.
+    value: PO Box 49136
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: Sarasota
+  - name: STATE
+    number: 49-8.
+    value: FL
+  - name: ZIP
+    number: 50-8.
+    value: '34230'
+  - name: TITLE
+    number: 51-8.
+    value: Assistant Treasurer
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+- input: '"F1S","C00436964","","","","","","","","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Bank
+    of America","1501 Pennsylvania Ave NW","","Washington","DC","20005","","","","",""'
+  record: fec.version.v5_3.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00436964
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Bank of America
+  - name: STREET 1
+    number: 54-9.
+    value: 1501 Pennsylvania Ave NW
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Washington
+  - name: STATE
+    number: 57-9.
+    value: DC
+  - name: ZIP
+    number: 58-9.
+    value: '20005'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+sourceurl: !!python/unicode 20070817
+type: single
