@@ -1,0 +1,804 @@
+countraw: 7
+countrows: 5
+filename: 306799.fec
+header: {}
+rows:
+- input: '"F3N","C00412924","MONTANANS FOR LINDEEN","PO Box 30672","","Billings","MT","59107","","MT","","Q3","","","","X","X","","","20070701","20070930","63.75","0","63.75","63.75","0","63.75","4247.97","0.00","0.00","0.00","0.00","0","0.00","0.00","63.75","63.75","0.00","0.00","0.00","0","0.00","0.00","63.75","63.75","0.00","600.00","0.00","600","0.00","0.00","0.00","0","19.72","683.47","4867.69","63.75","4931.44","683.47","4247.97","1171","0","1171","29359.14","3175.51","26183.63","250.00","751.00","1001","0.00","0.00","170.00","1171","0.00","10600.00","0.00","10600","3175.51","0.10","14946.61","29359.14","0.00","11600.00","0.00","11600","0.00","0.00","0.00","0","19.72","40978.86","Ringling^Paul","20071015","","","","","","","","",""'
+  record: fec.version.v5_3.F3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412924
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MONTANANS FOR LINDEEN
+  - name: STREET 1
+    number: '4'
+    value: PO Box 30672
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Billings
+  - name: STATE
+    number: '7'
+    value: MT
+  - name: ZIP
+    number: '8'
+    value: '59107'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: ELECTION STATE
+    number: '10'
+    value: MT
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: ''
+  - name: RPTCODE
+    number: '12'
+    value: Q3
+  - name: RPTPGI
+    number: '13'
+    value: ''
+  - name: Of Election
+    number: 14-
+    value: ''
+  - name: STATE (Of Election)
+    number: '15'
+    value: ''
+  - name: PRIMARY ELECTION
+    number: '16'
+    value: X
+  - name: GENERAL ELECTION
+    number: '17'
+    value: X
+  - name: SPECIAL ELECTION
+    number: '18'
+    value: ''
+  - name: RUNOFF ELECTION
+    number: '19'
+    value: ''
+  - name: Coverage From
+    number: 20-
+    value: '20070701'
+  - name: Coverage To
+    number: 21-
+    value: '20070930'
+  - name: Total Contributions (NO Loans)
+    number: 22-(6a)
+    value: '63.75'
+  - name: Total Contribution Refunds
+    number: 23-(6b)
+    value: '0'
+  - name: Net Contributions
+    number: 24-(6c)
+    value: '63.75'
+  - name: Total Operating Expenditures
+    number: 25-(7a)
+    value: '63.75'
+  - name: Total Offset to Operating Expenditures
+    number: 26-(7b)
+    value: '0'
+  - name: NET Operating Expenditures.
+    number: 27-(7c)
+    value: '63.75'
+  - name: CASH ON HAND AT CLOSE ...
+    number: 28-8.
+    value: '4247.97'
+  - name: DEBTS TO ( Totals from SCH C and/or D)
+    number: 29-9.
+    value: '0.00'
+  - name: DEBTS BY (Totals from SCH C and/or D)
+    number: 30-10.
+    value: '0.00'
+  - name: Individuals Itemized
+    number: 31-11(a i.)
+    value: '0.00'
+  - name: Individuals Unitemized
+    number: 32-11(a.ii)
+    value: '0.00'
+  - name: Individual Contribution Total
+    number: 33-11(a.iii)
+    value: '0'
+  - name: Political Party Committees
+    number: 34-11(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 35-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 36-11(d)
+    value: '63.75'
+  - name: Total Contributions
+    number: 37-11(e)
+    value: '63.75'
+  - name: Transfers From Other Authorized Committees
+    number: 38-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 39-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 40-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 41-13(c)
+    value: '0'
+  - name: Offsets to Operating Expenditures
+    number: 42-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 43-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 44-16.
+    value: '63.75'
+  - name: Operating Expenditures
+    number: 45-17.
+    value: '63.75'
+  - name: Transfers to Other Authorized Committees
+    number: 46-18.
+    value: '0.00'
+  - name: Of Loans made or guar. by the Cand.
+    number: 47-19(a)
+    value: '600.00'
+  - name: Loan Repayments, All Other Loans
+    number: 48-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 49-19(c)
+    value: '600'
+  - name: Refund/Individuals Other than Political Committees
+    number: 50-20(a)
+    value: '0.00'
+  - name: Refund/Political Party Committees
+    number: 51-20(b)
+    value: '0.00'
+  - name: Refund/Other Political Committees
+    number: 52-20(c)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 53-20(d)
+    value: '0'
+  - name: Other Disbursements
+    number: 54-21.
+    value: '19.72'
+  - name: Total Disbursements
+    number: 55-22.
+    value: '683.47'
+  - name: Cash Beginning Reporting Period
+    number: 56-23.
+    value: '4867.69'
+  - name: Total Receipts this Period
+    number: 57-24.
+    value: '63.75'
+  - name: SubTotal
+    number: 58-25.
+    value: '4931.44'
+  - name: Total Disbursements this Period
+    number: 59-26.
+    value: '683.47'
+  - name: Cash on hand at Close Period
+    number: 60-27.
+    value: '4247.97'
+  - name: Total Contributions (No Loans)
+    number: 61-(6a)
+    value: '1171'
+  - name: Total Contribution Refunds
+    number: 62-(6b)
+    value: '0'
+  - name: Net Contributions
+    number: 63-(6c)
+    value: '1171'
+  - name: Total Operating Expenditures
+    number: 64-(7a)
+    value: '29359.14'
+  - name: Total Offsets to Operating Expenditures
+    number: 65-(7b)
+    value: '3175.51'
+  - name: NET Operating Expenditures.
+    number: 66-(7c)
+    value: '26183.63'
+  - name: Individuals Itemized
+    number: 67-11(a.i)
+    value: '250.00'
+  - name: Individuals Unitemized
+    number: 68-11(a.ii)
+    value: '751.00'
+  - name: Individuals Total
+    number: 69-11(a.iii)
+    value: '1001'
+  - name: Political Party Committees
+    number: 70-11(b)
+    value: '0.00'
+  - name: All Other Political Committees (PACS)
+    number: 71-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 72-11(d)
+    value: '170.00'
+  - name: Total Contributions
+    number: 73-11(e)
+    value: '1171'
+  - name: Transfers From Other AUTH Committees
+    number: 74-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 75-13(a)
+    value: '10600.00'
+  - name: All Other Loans
+    number: 76-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 77-13(c)
+    value: '10600'
+  - name: Offsets to Operating Expenditures
+    number: 78-14.
+    value: '3175.51'
+  - name: Other Receipts
+    number: 79-15.
+    value: '0.10'
+  - name: Total Receipts
+    number: 80-16.
+    value: '14946.61'
+  - name: Operating Expenditures
+    number: 81-17
+    value: '29359.14'
+  - name: Transfers To Other AUTH Committees
+    number: 82-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 83-19(a)
+    value: '11600.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 84-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 85-19(c)
+    value: '11600'
+  - name: Refund/Individuals Other than Political Committees
+    number: 86-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 87-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 88-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 89-20(d)
+    value: '0'
+  - name: Other Disbursements
+    number: 90-21.
+    value: '19.72'
+  - name: Total Disbursements
+    number: 91-22.
+    value: '40978.86'
+  - name: NAME/TREASURER (as signed)
+    number: '92'
+    value: Ringling^Paul
+  - name: Signed
+    number: 93-
+    value: '20071015'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '94'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '95'
+    value: ''
+  - name: F3Z-1 REPORT TYPE (F3Z-1 RPTCODE)
+    number: '96'
+    value: ''
+  - name: GROSS RECEIPTS OF AUTHORIZED COMMITTEES (PRIMARY)
+    number: 97-1.
+    value: ''
+  - name: AGGREGATE AMT OF CONTRIBUTIONS FROM PERSONAL FUNDS (PRIMARY)
+    number: 98-2.
+    value: ''
+  - name: PRIMARY
+    number: 99-3. GROSS RECEIPTS - MINUS PERSONAL CONTRIBUTIONS FROM CANDI
+    value: ''
+  - name: GROSS RECEIPTS OF AUTHORIZED COMMITTEES (GENERAL)
+    number: 100-1.
+    value: ''
+  - name: AGGREGATE AMT OF CONTRIBUTIONS FROM PERSONAL FUNDS (GENERAL)
+    number: 101-2.
+    value: ''
+  - name: GENERAL
+    number: 102-3. GROSS RECEIPTS - MINUS PERSONAL CONTRIBUTIONS FROM CANDI
+    value: ''
+- input: '"SA11D","C00412924","CAN","","1626 Heath Street","","Huntley","MT","59037","P2008","","","","770.00","20070801","63.75","","","","","Monica
+    Lindeen","H","MT","00","","","","","","","","* In-Kind: Accounting Services","","C3660936","","","","","","Lindeen","Monica","","",""'
+  record: fec.version.v5_3.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11D
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412924
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 1626 Heath Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Huntley
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59037'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '770.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20070801'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '63.75'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: Monica Lindeen
+  - name: CAN/OFFICE
+    number: '22'
+    value: H
+  - name: CAN/STATE
+    number: '23'
+    value: MT
+  - name: CAN/DIST
+    number: '24'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: '* In-Kind: Accounting Services'
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: C3660936
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: Lindeen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: Monica
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: ''
+- input: '"SB17","C00412924","CAN","","1626 Heath Street","","Huntley","MT","59037","","Accounting
+    Services","P2008","","20070801","63.75","","","Monica Lindeen","H","MT","00","","","","","","","","*
+    in-kind received","","D151725","C3660936","SA11D","","","","","","Lindeen","Monica","","",""'
+  record: fec.version.v5_3.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412924
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 1626 Heath Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Huntley
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59037'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Accounting Services
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20070801'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '63.75'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Monica Lindeen
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: MT
+  - name: CAN/DIST
+    number: '21'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: '* in-kind received'
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D151725
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: C3660936
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: SA11D
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: Lindeen
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: Monica
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+- input: '"SB19A","C00412924","CAN","","1626 Heath Street","","Huntley","MT","59037","","Loan
+    Repayment","P2008","","20070801","600.00","","","Monica Lindeen","H","MT","00","","","","","","","","","","D151401","","","","","","","","Lindeen","Monica","","",""'
+  record: fec.version.v5_3.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB19A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412924
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 1626 Heath Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Huntley
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59037'
+  - name: TRANS Purpose CODE
+    number: '10'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '11'
+    value: Loan Repayment
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20070801'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '600.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Monica Lindeen
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: MT
+  - name: CAN/DIST
+    number: '21'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D151401
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '34'
+    value: ''
+  - name: REFUND OR DISPOSAL OF EXCESS
+    number: '35'
+    value: ''
+  - name: CATEGORY CODE
+    number: '36'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '37'
+    value: ''
+  - name: RECIPIENT ORGANIZATION NAME
+    number: '38'
+    value: ''
+  - name: RECIPIENT LAST NAME
+    number: '39'
+    value: Lindeen
+  - name: RECIPIENT FIRST NAME
+    number: '40'
+    value: Monica
+  - name: RECIPIENT MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: RECIPIENT PREFIX
+    number: '42'
+    value: ''
+  - name: RECIPIENT SUFFIX
+    number: '43'
+    value: ''
+- input: '"SC/10","C00412924","CAN","Lindeen (Personal Funds)^Monica","1626 Heath
+    Street","","Huntley","MT","59037","P2008","","600.00","600.00","0.00","20070131","",".0000","N","","","","","","","","L509","13A"'
+  record: fec.version.v5_3.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412924
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Lindeen (Personal Funds)^Monica
+  - name: STREET 1
+    number: '5'
+    value: 1626 Heath Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Huntley
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59037'
+  - name: ELECTION
+    number: '10'
+    value: P2008
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '600.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '600.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '0.00'
+  - name: Incurred
+    number: 15-
+    value: '20070131'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: ''
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '.0000'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: L509
+  - name: RECEIPT LINE NUMBER
+    number: '27'
+    value: 13A
+sourceurl: !!python/unicode 20071015
+type: single
