@@ -1,0 +1,565 @@
+countraw: 7
+countrows: 5
+filename: 313579.fec
+header: {}
+rows:
+- input: 'F5A,C90005786,LEAGUE OF CONSERVATION VOTERS INC,1920 L STREET NW #800,,WASHINGTON,DC,20036,,Y,,,,,,,20071129,20071219,.00,13717.70,Barbara
+    Gonzalez-McIntosh,20071220,,,,48'
+  record: fec.version.v5_3.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LEAGUE OF CONSERVATION VOTERS INC
+  - name: STREET 1
+    number: '4'
+    value: '1920 L STREET NW #800'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: Y
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20071129'
+  - name: Coverage To
+    number: 18-
+    value: '20071219'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '13717.70'
+  - name: Person Completing Form
+    number: 21-
+    value: Barbara Gonzalez-McIntosh
+  - name: Signed
+    number: 22-
+    value: '20071220'
+  - name: SPACE HOLDER
+    number: '23'
+    value: ''
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: M+R Strategic Services
+  - name: STREET 1
+    number: '5'
+    value: 2120 L St NW
+  - name: STREET 2
+    number: '6'
+    value: 6th Floor
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20037'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Email Fundraising
+  - name: Of Expenditure
+    number: 11-
+    value: '20071130'
+  - name: AMOUNT
+    number: '12'
+    value: '415.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Donna Edwards
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MD
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000001
+  - name: CATEGORY CODE
+    number: '33'
+    value: '003'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '415.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90005786,ORG,M+R Strategic Services,2120 L St NW,6th Floor,Washington,DC,20037,Email
+    Fundraising,20071130,415.00,S,,Donna Edwards,H,MD,04,,,,,,,,,,,,,,F57.000001,003,,415.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: M+R Strategic Services
+  - name: STREET 1
+    number: '5'
+    value: 2120 L St NW
+  - name: STREET 2
+    number: '6'
+    value: 6th Floor
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20037'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Email Fundraising
+  - name: Of Expenditure
+    number: 11-
+    value: '20071204'
+  - name: AMOUNT
+    number: '12'
+    value: '415.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Donna Edwards
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MD
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000002
+  - name: CATEGORY CODE
+    number: '33'
+    value: '003'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '830.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90005786,ORG,M+R Strategic Services,2120 L St NW,6th Floor,Washington,DC,20037,Email
+    Fundraising,20071204,415.00,S,,Donna Edwards,H,MD,04,,,,,,,,,,,,,,F57.000002,003,,830.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Winning Connections
+  - name: STREET 1
+    number: '5'
+    value: 317 Pennsylvania Ave SE
+  - name: STREET 2
+    number: '6'
+    value: 2nd Floor
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Automated phone calls
+  - name: Of Expenditure
+    number: 11-
+    value: '20071215'
+  - name: AMOUNT
+    number: '12'
+    value: '1766.70'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Donna Edwards
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MD
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000003
+  - name: CATEGORY CODE
+    number: '33'
+    value: '003'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '2596.70'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90005786,ORG,Winning Connections,317 Pennsylvania Ave SE,2nd Floor,Washington,DC,20003,Automated
+    phone calls,20071215,1766.70,S,,Donna Edwards,H,MD,04,,,,,,,,,,,,,,F57.000003,003,,2596.70,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005786
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Terris Barnes Walters
+  - name: STREET 1
+    number: '5'
+    value: 400 Montgomery St
+  - name: STREET 2
+    number: '6'
+    value: Suite 700
+  - name: CITY
+    number: '7'
+    value: San Franciso
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94104'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Direct Mail
+  - name: Of Expenditure
+    number: 11-
+    value: '20071217'
+  - name: AMOUNT
+    number: '12'
+    value: '11121.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Donna Edwards
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: MD
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000004
+  - name: CATEGORY CODE
+    number: '33'
+    value: '003'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '13717.70'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90005786,ORG,Terris Barnes Walters,400 Montgomery St,Suite 700,San Franciso,CA,94104,Direct
+    Mail,20071217,11121.00,S,,Donna Edwards,H,MD,04,,,,,,,,,,,,,,F57.000004,003,,13717.70,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20071220
+type: single
