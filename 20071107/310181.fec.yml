@@ -1,0 +1,408 @@
+countraw: 4
+countrows: 2
+filename: 310181.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409441
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Braley for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 390
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Waterloo
+  - name: STATE
+    number: '7'
+    value: IA
+  - name: ZIP
+    number: '8'
+    value: '50704'
+  - name: Submitted
+    number: 9-
+    value: '20071107'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H6IA01098
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: Bruce L Braley
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: IA
+  - name: CAN/DIST
+    number: 17-5.
+    value: '1'
+  - name: PARTY CODE
+    number: 18-5.
+    value: DEM
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: None
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: Janica Kyriacopoulos
+  - name: STREET 1
+    number: 30-7.
+    value: PO Box 390
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: Waterloo
+  - name: STATE
+    number: 33-7.
+    value: IA
+  - name: ZIP
+    number: 34-7.
+    value: '50704'
+  - name: TITLE
+    number: 35-7.
+    value: Campaign Accountant
+  - name: TELEPHONE
+    number: 36-7.
+    value: '3014670360'
+  - name: Treasurer
+    number: '37-8. '
+    value: H. Daniel Holm
+  - name: STREET 1
+    number: 38-8.
+    value: ' Jr.'
+  - name: STREET 2
+    number: 39-8.
+    value: 808 Ellen St.
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Cedar Falls
+  - name: ZIP
+    number: 42-8.
+    value: IA
+  - name: TITLE
+    number: 43-8.
+    value: '50163'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '3192342638'
+  - name: STREET 1
+    number: 46-8.
+    value: Janica Kyriacopoulos
+  - name: STREET 2
+    number: 47-8.
+    value: PO Box 390
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: Waterloo
+  - name: ZIP
+    number: 50-8.
+    value: IA
+  - name: TITLE
+    number: 51-8.
+    value: '50704'
+  - name: TELEPHONE
+    number: 52-8.
+    value: Assistant Treasurer
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '3014670360'
+  - name: STREET 1
+    number: 54-9.
+    value: Veridian Credit Union
+  - name: STREET 2
+    number: 55-9.
+    value: 1827 Ansborough Ave.
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: Waterloo
+  - name: ZIP
+    number: 58-9.
+    value: IA
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '50701'
+  - name: Signed
+    number: 60-
+    value: H. Daniel Holm
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ' Jr.'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20071107'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: bruce@brucebraley.com
+  - value: http://www.brucebraley.com
+  - value: '2024782925'
+  expected_count: 63
+  input: '"F1A","C00409441","Braley for Congress","PO Box 390","","Waterloo","IA","50704","20071107","","","A","H6IA01098","Bruce
+    L Braley","H","IA","1","DEM","","","None","","","","","","","","Janica Kyriacopoulos","PO
+    Box 390","","Waterloo","IA","50704","Campaign Accountant","3014670360","H. Daniel
+    Holm, Jr.","808 Ellen St.","","Cedar Falls","IA","50163","Treasurer","3192342638","Janica
+    Kyriacopoulos","PO Box 390","","Waterloo","IA","50704","Assistant Treasurer","3014670360","Veridian
+    Credit Union","1827 Ansborough Ave.","","Waterloo","IA","50701","H. Daniel Holm,
+    Jr.","20071107","bruce@brucebraley.com","http://www.brucebraley.com","2024782925"'
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409441
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Bank of America
+  - name: STREET 1
+    number: 54-9.
+    value: ' NA'
+  - name: STREET 2
+    number: 55-9.
+    value: 730 15th St
+  - name: CITY
+    number: 56-9.
+    value: ' NW'
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: DC
+  - name: Signed
+    number: 60-
+    value: '20005'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 63
+  input: '"F1S","C00409441","","","","","","","","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Bank
+    of America, NA","730 15th St, NW","","Washington","DC","20005","","","","",""'
+  input_count: 65
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20071107
+type: single
