@@ -1,0 +1,568 @@
+countraw: 9
+countrows: 7
+filename: 312559.fec
+header: {}
+rows:
+- input: F6,C00441014,ROB WITTMAN FOR CONGRESS,PO BOX 999,,MONTROSS,VA,22520,H8VA01147,WITTMAN^ROBERT
+    J.^^,H,VA,01,20071210
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ROB WITTMAN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 999
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MONTROSS
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22520'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '10'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: VA
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20071210'
+- input: F65,C00441014,IND,Brown^Robert R.^^,2 Island Ct,,Poquoson,VA,23662,Robert
+    Brown & Associates Inc.,commercial real estate,20071208,1000.00,C00441014,H8VA01147,WITTMAN^ROBERT
+    J.^^,H,VA,01,,,,,,,,F6.5176
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brown^Robert R.^^
+  - name: STREET 1
+    number: '5'
+    value: 2 Island Ct
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Poquoson
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23662'
+  - name: INDEMP
+    number: '10'
+    value: Robert Brown & Associates Inc.
+  - name: INDOCC
+    number: '11'
+    value: commercial real estate
+  - name: Of Contribution
+    number: 12-
+    value: '20071208'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5176
+- input: F65,C00441014,IND,Cale^J. Hatcher^^Jr.,141 Holly Hills Dr,,Williamsburg,VA,23185,Cale
+    Realty Co.,real estate/President,20071208,2000.00,C00441014,H8VA01147,WITTMAN^ROBERT
+    J.^^,H,VA,01,,,,,,,,F6.5177
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cale^J. Hatcher^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: 141 Holly Hills Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Williamsburg
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23185'
+  - name: INDEMP
+    number: '10'
+    value: Cale Realty Co.
+  - name: INDOCC
+    number: '11'
+    value: real estate/President
+  - name: Of Contribution
+    number: 12-
+    value: '20071208'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5177
+- input: F65,C00441014,IND,Casey^Arthur S.^^,813 Diligence Dr Ste 116,,Newport News,VA,23606,Casey
+    Auto Group,auto dealer,20071208,2000.00,C00441014,H8VA01147,WITTMAN^ROBERT J.^^,H,VA,01,,,,,,,,F6.5178
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Casey^Arthur S.^^
+  - name: STREET 1
+    number: '5'
+    value: 813 Diligence Dr Ste 116
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Newport News
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23606'
+  - name: INDEMP
+    number: '10'
+    value: Casey Auto Group
+  - name: INDOCC
+    number: '11'
+    value: auto dealer
+  - name: Of Contribution
+    number: 12-
+    value: '20071208'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5178
+- input: 'F65,C00441014,IND,Freeman^Robert L.^^,735 Thimble Shoals Blvd #100,,Newport
+    News,VA,23606,retired,retired,20071208,2000.00,C00441014,H8VA01147,WITTMAN^ROBERT
+    J.^^,H,VA,01,,,,,,,,F6.5179'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Freeman^Robert L.^^
+  - name: STREET 1
+    number: '5'
+    value: '735 Thimble Shoals Blvd #100'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Newport News
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23606'
+  - name: INDEMP
+    number: '10'
+    value: retired
+  - name: INDOCC
+    number: '11'
+    value: retired
+  - name: Of Contribution
+    number: 12-
+    value: '20071208'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5179
+- input: F65,C00441014,IND,Trible^Paul S.^^Jr.,812 Riverside Dr,,Newport News,VA,23606,Christopher
+    Newport University,President,20071208,1000.00,C00441014,H8VA01147,WITTMAN^ROBERT
+    J.^^,H,VA,01,,,,,,,,F6.5180
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Trible^Paul S.^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: 812 Riverside Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Newport News
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23606'
+  - name: INDEMP
+    number: '10'
+    value: Christopher Newport University
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20071208'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5180
+- input: F65,C00441014,PAC,ASSOCIATED BUILDERS AND CONTRACTORS PAC,4250 North Fairfax
+    Drive 9th Floor,.,Arlington,VA,22203,,,20071208,5000.00,C00441014,H8VA01147,WITTMAN^ROBERT
+    J.^^,H,VA,01,,,,,,,,F6.5175
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00441014
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ASSOCIATED BUILDERS AND CONTRACTORS PAC
+  - name: STREET 1
+    number: '5'
+    value: 4250 North Fairfax Drive 9th Floor
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22203'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20071208'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00441014
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8VA01147
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WITTMAN^ROBERT J.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5175
+sourceurl: !!python/unicode 20071210
+type: single
