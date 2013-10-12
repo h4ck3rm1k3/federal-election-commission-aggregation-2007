@@ -1,0 +1,121 @@
+countraw: 3
+countrows: 1
+filename: 309603.fec
+header: {}
+rows:
+- input: F2N,H4PA21051,,530 West Sixth Street,,Erie,PA,16507,REP,H,PA,03,2008,C00283606,PEOPLE
+    FOR ENGLISH,PO BOX 1940,,ERIE,PA,16507,C00439752,2008 HOUSE-RNC VICTORY COMMITTEE;
+    THE,310 FIRST STREET SE,,WASHINGTON,DC,20003,ENGLISH^PHILIP S.^^,20071029,0.00,0.00,ENGLISH,PHILIP
+    S.,,,
+  record: fec.version.v5_3.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4PA21051
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 530 West Sixth Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Erie
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '16507'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: PA
+  - name: CAN/DIST
+    number: '12'
+    value: '03'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00283606
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: PEOPLE FOR ENGLISH
+  - name: STREET 1
+    number: '16'
+    value: PO BOX 1940
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: ERIE
+  - name: STATE
+    number: '19'
+    value: PA
+  - name: ZIP
+    number: '20'
+    value: '16507'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00439752
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: 2008 HOUSE-RNC VICTORY COMMITTEE; THE
+  - name: STREET 1
+    number: '23'
+    value: 310 FIRST STREET SE
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: WASHINGTON
+  - name: STATE
+    number: '26'
+    value: DC
+  - name: ZIP
+    number: '27'
+    value: '20003'
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ENGLISH^PHILIP S.^^
+  - name: Signed
+    number: 29-
+    value: '20071029'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: ENGLISH
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: PHILIP S.
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+sourceurl: !!python/unicode 20071029
+type: single
