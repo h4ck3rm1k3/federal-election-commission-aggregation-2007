@@ -1,0 +1,824 @@
+countraw: 12
+countrows: 10
+filename: 302494.fec
+header: {}
+rows:
+- input: '"F6","C00431049","Finegold Committee","34 Essex Street","","Andover","MA","01810","","Barry
+    R. Finegold","H","MA","5","20070828"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Finegold Committee
+  - name: STREET 1
+    number: '4'
+    value: 34 Essex Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Andover
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 01810
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Barry R. Finegold
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MA
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20070828'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bekenstein^Joshua
+  - name: STREET 1
+    number: '5'
+    value: 52 High Rock Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wayland
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01778
+  - name: INDEMP
+    number: '10'
+    value: bain capital
+  - name: INDOCC
+    number: '11'
+    value: ' inc'
+  - name: Of Contribution
+    number: 12-
+    value: partner
+  - name: AMOUNT
+    number: '13'
+    value: '20070827'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4600.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C1715725
+  expected_count: 27
+  input: '"F65","C00431049","IND","Bekenstein^Joshua","52 High Rock Road","","Wayland","MA","01778","bain
+    capital, inc","partner","20070827","4600.00","","","","","","","","","","","","","","C1715725"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00431049","IND","Chouinard^Nicol","83 Academy Rd","","North Andover","MA","01845","","","20070827","1400.00","","","","","","","","","","","","","","C1715848"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Chouinard^Nicol
+  - name: STREET 1
+    number: '5'
+    value: 83 Academy Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: North Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01845
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '1400.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715848
+- input: '"F65","C00431049","IND","Cowie^Peter C","49 Salem Street","","Andover","MA","01810","CBE
+    Technologies","CEO","20070827","2500.00","","","","","","","","","","","","","","C1715730"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cowie^Peter C
+  - name: STREET 1
+    number: '5'
+    value: 49 Salem Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01810
+  - name: INDEMP
+    number: '10'
+    value: CBE Technologies
+  - name: INDOCC
+    number: '11'
+    value: CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715730
+- input: '"F65","C00431049","IND","Cowie^Wendy B","49 Salem Street","","Andover","MA","01810","n/a","homemaker","20070827","2500.00","","","","","","","","","","","","","","C1715733"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cowie^Wendy B
+  - name: STREET 1
+    number: '5'
+    value: 49 Salem Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01810
+  - name: INDEMP
+    number: '10'
+    value: n/a
+  - name: INDOCC
+    number: '11'
+    value: homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715733
+- input: '"F65","C00431049","IND","Dalton^Dana M","304 N Main St","","Andover","MA","018103003","N/a","Home
+    Maker","20070827","2300.00","","","","","","","","","","","","","","C1715768"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dalton^Dana M
+  - name: STREET 1
+    number: '5'
+    value: 304 N Main St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 018103003
+  - name: INDEMP
+    number: '10'
+    value: N/a
+  - name: INDOCC
+    number: '11'
+    value: Home Maker
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715768
+- input: '"F65","C00431049","IND","Dalton^William J","304 N Main St","","Andover","MA","018103003","Dalton
+    & Finegold","Attorney","20070827","2300.00","","","","","","","","","","","","","","C1715769"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dalton^William J
+  - name: STREET 1
+    number: '5'
+    value: 304 N Main St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 018103003
+  - name: INDEMP
+    number: '10'
+    value: Dalton & Finegold
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715769
+- input: '"F65","C00431049","IND","Finegold^Amy","42 Stirling Street","","Andover","MA","01810","self","retail
+    store","20070827","2300.00","","","","","","","","","","","","","","C1715767"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Finegold^Amy
+  - name: STREET 1
+    number: '5'
+    value: 42 Stirling Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01810
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: retail store
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '2300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715767
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Finegold^Barry
+  - name: STREET 1
+    number: '5'
+    value: 42 Stirling Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Andover
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01810
+  - name: INDEMP
+    number: '10'
+    value: Dalton and Finegold
+  - name: INDOCC
+    number: '11'
+    value: ' LLP'
+  - name: Of Contribution
+    number: 12-
+    value: Lawyer
+  - name: AMOUNT
+    number: '13'
+    value: '20070827'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2300.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C1715766
+  expected_count: 27
+  input: '"F65","C00431049","IND","Finegold^Barry","42 Stirling Street","","Andover","MA","01810","Dalton
+    and Finegold, LLP","Lawyer","20070827","2300.00","","","","","","","","","","","","","","C1715766"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00431049","IND","McFadden^Carl","33 Wakefield St","","Reading","MA","018671850","First
+    Call Mortgage","Self-Employed","20070827","4600.00","","","","","","","","","","","","","","C1715753"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00431049
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McFadden^Carl
+  - name: STREET 1
+    number: '5'
+    value: 33 Wakefield St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Reading
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 018671850
+  - name: INDEMP
+    number: '10'
+    value: First Call Mortgage
+  - name: INDOCC
+    number: '11'
+    value: Self-Employed
+  - name: Of Contribution
+    number: 12-
+    value: '20070827'
+  - name: AMOUNT
+    number: '13'
+    value: '4600.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C1715753
+sourceurl: !!python/unicode 20070828
+type: single
