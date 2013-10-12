@@ -1,0 +1,208 @@
+countraw: 3
+countrows: 1
+filename: 304714.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00035766
+  - name: COMMITTEE NAME
+    number: '3'
+    value: OREGON MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 11740 SW 68TH PARKWAY
+  - name: STREET 2
+    number: '5'
+    value: SUITE 100
+  - name: CITY
+    number: '6'
+    value: PORTLAND
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '972239038'
+  - name: Submitted
+    number: 9-
+    value: '20060601'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: X
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Oregon Medical Association
+  - name: STREET 1
+    number: 22-6.
+    value: 11740 SW 68th Parkway
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Portland
+  - name: STATE
+    number: 25-6.
+    value: OR
+  - name: ZIP
+    number: 26-6.
+    value: '97223'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Connected
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: M
+  - name: Custodian Name
+    number: '29-7. '
+    value: Lewis^Jennifer Marie^^
+  - name: STREET 1
+    number: 30-7.
+    value: 11740 SW 68th Parkway
+  - name: STREET 2
+    number: 31-7.
+    value: ' Suite 100'
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: Portland
+  - name: ZIP
+    number: 34-7.
+    value: OR
+  - name: TITLE
+    number: 35-7.
+    value: '97223'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Admin Assistant
+  - name: Treasurer
+    number: '37-8. '
+    value: '5036198000'
+  - name: STREET 1
+    number: 38-8.
+    value: GALLANT^SCOTT^^
+  - name: STREET 2
+    number: 39-8.
+    value: Oregon Medical Association
+  - name: CITY
+    number: 40-8.
+    value: 11740 SW 68th Parkway
+  - name: STATE
+    number: 41-8.
+    value: Portland
+  - name: ZIP
+    number: 42-8.
+    value: OR
+  - name: TITLE
+    number: 43-8.
+    value: '97223'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer OMPAC
+  - name: Designated Agent
+    number: '45-8. '
+    value: '5036198000'
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: US BANK
+  - name: STREET 2
+    number: 55-9.
+    value: POB 1800
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ST PAUL
+  - name: ZIP
+    number: 58-9.
+    value: MN
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '551010800'
+  - name: Signed
+    number: 60-
+    value: GALLANT^SCOTT^^
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20070926'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: jen@theoma.org
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: '5036190609'
+  expected_count: 63
+  input: F1A,C00035766,OREGON MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE,11740
+    SW 68TH PARKWAY,SUITE 100,PORTLAND,OR,972239038,20060601,,X,E,,,,,,,NAT,,Oregon
+    Medical Association,11740 SW 68th Parkway,,Portland,OR,97223,Connected,M,Lewis^Jennifer
+    Marie^^,"11740 SW 68th Parkway, Suite 100",,Portland,OR,97223,Admin Assistant,5036198000,GALLANT^SCOTT^^,Oregon
+    Medical Association,11740 SW 68th Parkway,Portland,OR,97223,Treasurer OMPAC,5036198000,,,,,,,,,US
+    BANK,POB 1800,,ST PAUL,MN,551010800,GALLANT^SCOTT^^,20070926,jen@theoma.org,,5036190609
+  input_count: 64
+  record: fec.version.v5_3.F1
+  result: []
+sourceurl: !!python/unicode 20070926
+type: single
