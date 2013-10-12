@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 309302.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6PA07105
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 16
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Media
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '19063'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: PA
+  - name: CAN/DIST
+    number: '12'
+    value: '7'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2008'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00419291
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Sestak For Congress
+  - name: STREET 1
+    number: '16'
+    value: P.O. Box 16
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Media
+  - name: STATE
+    number: '19'
+    value: PA
+  - name: ZIP
+    number: '20'
+    value: '19063'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00425694
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: IA Vets For Congress
+  - name: STREET 1
+    number: '23'
+    value: 1123 Broadway
+  - name: STREET 2
+    number: '24'
+    value: Suite 700
+  - name: CITY
+    number: '25'
+    value: New York
+  - name: STATE
+    number: '26'
+    value: NY
+  - name: ZIP
+    number: '27'
+    value: '10010'
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Joseph A. Sestak
+  - name: Signed
+    number: 29-
+    value: ' Jr.'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20071024'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Sestak
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Joseph
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: A.
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: Jr.
+  expected_count: 36
+  input: '"F2N","H6PA07105","","P.O. Box 16","","Media","PA","19063","DEM","H","PA","7","2008","C00419291","Sestak
+    For Congress","P.O. Box 16","","Media","PA","19063","C00425694","IA Vets For Congress","1123
+    Broadway","Suite 700","New York","NY","10010","Joseph A. Sestak, Jr.","20071024","0.00","0.00","Sestak","Joseph","A.","","Jr."'
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20071024
+type: single
