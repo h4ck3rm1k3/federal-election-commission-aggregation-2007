@@ -1,0 +1,332 @@
+countraw: 6
+countrows: 3
+filename: 311865.fec
+header: {}
+rows:
+- input: F24,C00193433,EMILY's List,1120 Connecticut Avenue NW,Ste 1100,Washington,DC,20036,Fines^Caroline,20071126,48
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: COMMITTEE NAME
+    number: '3'
+    value: EMILY's List
+  - name: STREET 1
+    number: '4'
+    value: 1120 Connecticut Avenue NW
+  - name: STREET 2
+    number: '5'
+    value: Ste 1100
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Fines^Caroline
+  - name: Signed
+    number: 10-
+    value: '20071126'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- input: '"SE24","C00193433","ORG","Yahoo","701 First Avenue","","Sunnyvale","CA","94089","Web
+    Ads","20071126","13196.04","S","P00003392","Clinton^Hillary Rodham","P","","","C00431569","","","","","","","","","","","","Fines^Caroline","20071126","","","","","SE48-87014","","Estimate","","","P2008","","","","98943.36"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Yahoo
+  - name: STREET 1
+    number: '5'
+    value: 701 First Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sunnyvale
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94089'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Web Ads
+  - name: DATE
+    number: '11'
+    value: '20071126'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '13196.04'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003392
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Clinton^Hillary Rodham
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431569
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Fines^Caroline
+  - name: Signed
+    number: 32-
+    value: '20071126'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE48-87014
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: Estimate
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2008
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '98943.36'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00193433
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Google
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1600 Amphitheatre Parkway
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Mountain View
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '94043'
+  - name: DATE
+    number: '11'
+    value: Web Ads
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071126'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '6086.99'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003392
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Clinton^Hillary Rodham
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00431569
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Fines^Caroline
+  - name: Notarized
+    number: 33-
+    value: '20071126'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE48-87015
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: Estimate
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2008
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '98943.36'
+  expected_count: 46
+  input: '"SE24","C00193433","ORG","Google, Inc.","1600 Amphitheatre Parkway","","Mountain
+    View","CA","94043","Web Ads","20071126","6086.99","S","P00003392","Clinton^Hillary
+    Rodham","P","","","C00431569","","","","","","","","","","","","Fines^Caroline","20071126","","","","","SE48-87015","","Estimate","","","P2008","","","","98943.36"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20071126
+type: single
