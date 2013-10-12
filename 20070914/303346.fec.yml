@@ -1,0 +1,207 @@
+countraw: 3
+countrows: 1
+filename: 303346.fec
+header: {}
+rows:
+- input: '"F1A","C00113753","Tyco International Management Company Employee PAC(Tyco
+    International Employee PAC)","9 Roszel Road","","Princeton","NJ","08540","20070911","X","","E","","","","",0,"","","","Tyco
+    International Management Company","9 Roszel Road","","Princeton","NJ","08540","Connected
+    Organization","C","Fruzsina M. Harsanyi","607 14th St. NW","Ste. 550","Washington","DC","20005","Custodian
+    of Records",2023506902,"C.A. (John) Davidson","9 Roszel Road","","Princeton","NJ","08540","Treasurer",6097204200,"Fruzsina
+    M. Harsanyi","607 14th St. NW","Ste. 550","Washington","DC","20005","Assistant
+    Treasurer",2023506902,"Bank of America","7810 Old Branch Avenue","","Clinton","MD","20735","C.A.
+    (John) Davidson","20070911","fharsanyi@tyco.com","",""'
+  record: fec.version.v5_3.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00113753
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tyco International Management Company Employee PAC(Tyco International Employee
+      PAC)
+  - name: STREET 1
+    number: '4'
+    value: 9 Roszel Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Princeton
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: 08540
+  - name: Submitted
+    number: 9-
+    value: '20070911'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: X
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: '0'
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Tyco International Management Company
+  - name: STREET 1
+    number: 22-6.
+    value: 9 Roszel Road
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Princeton
+  - name: STATE
+    number: 25-6.
+    value: NJ
+  - name: ZIP
+    number: 26-6.
+    value: 08540
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Connected Organization
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: C
+  - name: Custodian Name
+    number: '29-7. '
+    value: Fruzsina M. Harsanyi
+  - name: STREET 1
+    number: 30-7.
+    value: 607 14th St. NW
+  - name: STREET 2
+    number: 31-7.
+    value: Ste. 550
+  - name: CITY
+    number: 32-7.
+    value: Washington
+  - name: STATE
+    number: 33-7.
+    value: DC
+  - name: ZIP
+    number: 34-7.
+    value: '20005'
+  - name: TITLE
+    number: 35-7.
+    value: Custodian of Records
+  - name: TELEPHONE
+    number: 36-7.
+    value: '2023506902'
+  - name: Treasurer
+    number: '37-8. '
+    value: C.A. (John) Davidson
+  - name: STREET 1
+    number: 38-8.
+    value: 9 Roszel Road
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: Princeton
+  - name: STATE
+    number: 41-8.
+    value: NJ
+  - name: ZIP
+    number: 42-8.
+    value: 08540
+  - name: TITLE
+    number: 43-8.
+    value: Treasurer
+  - name: TELEPHONE
+    number: 44-8.
+    value: '6097204200'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Fruzsina M. Harsanyi
+  - name: STREET 1
+    number: 46-8.
+    value: 607 14th St. NW
+  - name: STREET 2
+    number: 47-8.
+    value: Ste. 550
+  - name: CITY
+    number: 48-8.
+    value: Washington
+  - name: STATE
+    number: 49-8.
+    value: DC
+  - name: ZIP
+    number: 50-8.
+    value: '20005'
+  - name: TITLE
+    number: 51-8.
+    value: Assistant Treasurer
+  - name: TELEPHONE
+    number: 52-8.
+    value: '2023506902'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Bank of America
+  - name: STREET 1
+    number: 54-9.
+    value: 7810 Old Branch Avenue
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Clinton
+  - name: STATE
+    number: 57-9.
+    value: MD
+  - name: ZIP
+    number: 58-9.
+    value: '20735'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: C.A. (John) Davidson
+  - name: Signed
+    number: 60-
+    value: '20070911'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: fharsanyi@tyco.com
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+sourceurl: !!python/unicode 20070914
+type: single
