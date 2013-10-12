@@ -1,0 +1,608 @@
+countraw: 5
+countrows: 3
+filename: 302090.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00197160
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Texans for Lamar Smith
+  - name: STREET 1
+    number: '4'
+    value: PO Box 6155
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Antonio
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '782090155'
+  - name: Submitted
+    number: 9-
+    value: '20070821'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H6TX21012
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: 'Smith^Lamar '
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: TX
+  - name: CAN/DIST
+    number: 17-5.
+    value: '21'
+  - name: PARTY CODE
+    number: 18-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: None
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: PayMaster
+  - name: STREET 1
+    number: 30-7.
+    value: ' Inc.^Talent^^'
+  - name: STREET 2
+    number: 31-7.
+    value: 7315 Wisconsin Avenue
+  - name: CITY
+    number: 32-7.
+    value: Suite 705
+  - name: STATE
+    number: 33-7.
+    value: Bethesda
+  - name: ZIP
+    number: 34-7.
+    value: MD
+  - name: TITLE
+    number: 35-7.
+    value: '208143202'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Custodian of Records
+  - name: Treasurer
+    number: '37-8. '
+    value: '3016568088'
+  - name: STREET 1
+    number: 38-8.
+    value: Powers^Pike^^
+  - name: STREET 2
+    number: 39-8.
+    value: PO Box 6155
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: San Antonio
+  - name: ZIP
+    number: 42-8.
+    value: TX
+  - name: TITLE
+    number: 43-8.
+    value: '782090155'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '5124745201'
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: Wachovia Bank
+  - name: STREET 2
+    number: 55-9.
+    value: ' N.A.'
+  - name: CITY
+    number: 56-9.
+    value: 7901 Wisconsin Avenue
+  - name: STATE
+    number: 57-9.
+    value: MD1010
+  - name: ZIP
+    number: 58-9.
+    value: Bethesda
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: MD
+  - name: Signed
+    number: 60-
+    value: '208143619'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Powers^Pike
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20070821'
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: cfs@talentpaymaster.com
+  - value: www.texansforlamarsmith.com
+  - value: '3016568343'
+  expected_count: 63
+  input: '"F1A","C00197160","Texans for Lamar Smith","PO Box 6155","","San Antonio","TX","782090155","20070821","","","A","H6TX21012","Smith^Lamar
+    ","H","TX","21","REP","","","None","","","","","","","","PayMaster, Inc.^Talent^^","7315
+    Wisconsin Avenue","Suite 705","Bethesda","MD","208143202","Custodian of Records","3016568088","Powers^Pike^^","PO
+    Box 6155","","San Antonio","TX","782090155","Treasurer","5124745201","","","","","","","","","Wachovia
+    Bank, N.A.","7901 Wisconsin Avenue","MD1010","Bethesda","MD","208143619","Powers^Pike","20070821","cfs@talentpaymaster.com","www.texansforlamarsmith.com","3016568343"'
+  input_count: 65
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00197160
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Texans for Lamar Smith
+  - name: STREET 1
+    number: '4'
+    value: PO Box 6155
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Antonio
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '782090155'
+  - name: Submitted
+    number: 9-
+    value: '20070821'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H6TX21012
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: 'Smith^Lamar '
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: TX
+  - name: CAN/DIST
+    number: 17-5.
+    value: '21'
+  - name: PARTY CODE
+    number: 18-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: PayMaster
+  - name: STREET 1
+    number: 30-7.
+    value: ' Inc.^Talent^^'
+  - name: STREET 2
+    number: 31-7.
+    value: 7315 Wisconsin Avenue
+  - name: CITY
+    number: 32-7.
+    value: Suite 705
+  - name: STATE
+    number: 33-7.
+    value: Bethesda
+  - name: ZIP
+    number: 34-7.
+    value: MD
+  - name: TITLE
+    number: 35-7.
+    value: '208143202'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Custodian of Records
+  - name: Treasurer
+    number: '37-8. '
+    value: '3016568088'
+  - name: STREET 1
+    number: 38-8.
+    value: Powers^Pike^^
+  - name: STREET 2
+    number: 39-8.
+    value: PO Box 6155
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: San Antonio
+  - name: ZIP
+    number: 42-8.
+    value: TX
+  - name: TITLE
+    number: 43-8.
+    value: '782090155'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '5124745201'
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: Frost National Bank
+  - name: STREET 2
+    number: 55-9.
+    value: PO Box 1600
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: San Antonio
+  - name: ZIP
+    number: 58-9.
+    value: TX
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '782961600'
+  - name: Signed
+    number: 60-
+    value: Powers^Pike
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20070821'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: cfs@talentpaymaster.com
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: www.texansforlamarsmith.com
+  - value: '3016568343'
+  expected_count: 63
+  input: '"F1S","C00197160","Texans for Lamar Smith","PO Box 6155","","San Antonio","TX","782090155","20070821","","","A","H6TX21012","Smith^Lamar
+    ","H","TX","21","REP","","","","","","","","","","","PayMaster, Inc.^Talent^^","7315
+    Wisconsin Avenue","Suite 705","Bethesda","MD","208143202","Custodian of Records","3016568088","Powers^Pike^^","PO
+    Box 6155","","San Antonio","TX","782090155","Treasurer","5124745201","","","","","","","","","Frost
+    National Bank","PO Box 1600","","San Antonio","TX","782961600","Powers^Pike","20070821","cfs@talentpaymaster.com","www.texansforlamarsmith.com","3016568343"'
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00197160
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Texans for Lamar Smith
+  - name: STREET 1
+    number: '4'
+    value: PO Box 6155
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Antonio
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '782090155'
+  - name: Submitted
+    number: 9-
+    value: '20070821'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: A
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: H6TX21012
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: 'Smith^Lamar '
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: H
+  - name: CAN/STATE
+    number: 16-5.
+    value: TX
+  - name: CAN/DIST
+    number: 17-5.
+    value: '21'
+  - name: PARTY CODE
+    number: 18-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: PayMaster
+  - name: STREET 1
+    number: 30-7.
+    value: ' Inc.^Talent^^'
+  - name: STREET 2
+    number: 31-7.
+    value: 7315 Wisconsin Avenue
+  - name: CITY
+    number: 32-7.
+    value: Suite 705
+  - name: STATE
+    number: 33-7.
+    value: Bethesda
+  - name: ZIP
+    number: 34-7.
+    value: MD
+  - name: TITLE
+    number: 35-7.
+    value: '208143202'
+  - name: TELEPHONE
+    number: 36-7.
+    value: Custodian of Records
+  - name: Treasurer
+    number: '37-8. '
+    value: '3016568088'
+  - name: STREET 1
+    number: 38-8.
+    value: Powers^Pike^^
+  - name: STREET 2
+    number: 39-8.
+    value: PO Box 6155
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: San Antonio
+  - name: ZIP
+    number: 42-8.
+    value: TX
+  - name: TITLE
+    number: 43-8.
+    value: '782090155'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '5124745201'
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: Citigroup / SmithBarney
+  - name: STREET 2
+    number: 55-9.
+    value: 9311 San Pedro Avenue
+  - name: CITY
+    number: 56-9.
+    value: Floor 14
+  - name: STATE
+    number: 57-9.
+    value: San Antonio
+  - name: ZIP
+    number: 58-9.
+    value: TX
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: '782164458'
+  - name: Signed
+    number: 60-
+    value: Powers^Pike
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20070821'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: cfs@talentpaymaster.com
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: www.texansforlamarsmith.com
+  - value: '3016568343'
+  expected_count: 63
+  input: '"F1S","C00197160","Texans for Lamar Smith","PO Box 6155","","San Antonio","TX","782090155","20070821","","","A","H6TX21012","Smith^Lamar
+    ","H","TX","21","REP","","","","","","","","","","","PayMaster, Inc.^Talent^^","7315
+    Wisconsin Avenue","Suite 705","Bethesda","MD","208143202","Custodian of Records","3016568088","Powers^Pike^^","PO
+    Box 6155","","San Antonio","TX","782090155","Treasurer","5124745201","","","","","","","","","Citigroup
+    / SmithBarney","9311 San Pedro Avenue","Floor 14","San Antonio","TX","782164458","Powers^Pike","20070821","cfs@talentpaymaster.com","www.texansforlamarsmith.com","3016568343"'
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+sourceurl: !!python/unicode 20070821
+type: single
