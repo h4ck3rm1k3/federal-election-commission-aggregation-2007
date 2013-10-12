@@ -1,0 +1,237 @@
+countraw: 4
+countrows: 2
+filename: 303544.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433490
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Covidien Political Action Committee (Covidien PAC)
+  - name: STREET 1
+    number: '4'
+    value: 900 7th Street N.W.
+  - name: STREET 2
+    number: '5'
+    value: Suite 975
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20001'
+  - name: Submitted
+    number: 9-
+    value: '20070911'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: X
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: NAT
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Covidien
+  - name: STREET 1
+    number: 22-6.
+    value: 15 Hampshire Street
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Mansfield
+  - name: STATE
+    number: 25-6.
+    value: MA
+  - name: ZIP
+    number: 26-6.
+    value: 02048
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Connected
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: C
+  - name: Custodian Name
+    number: '29-7. '
+    value: Collard^Jonathan^^
+  - name: STREET 1
+    number: 30-7.
+    value: 900 7th Street N.W.
+  - name: STREET 2
+    number: 31-7.
+    value: Suite 975
+  - name: CITY
+    number: 32-7.
+    value: Washington
+  - name: STATE
+    number: 33-7.
+    value: DC
+  - name: ZIP
+    number: 34-7.
+    value: '20001'
+  - name: TITLE
+    number: 35-7.
+    value: Dir Govt Affairs
+  - name: TELEPHONE
+    number: 36-7.
+    value: '2023105120'
+  - name: Treasurer
+    number: '37-8. '
+    value: DaSilva^Kevin^^
+  - name: STREET 1
+    number: 38-8.
+    value: 15 Hampshire Street
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: Mansfield
+  - name: STATE
+    number: 41-8.
+    value: MA
+  - name: ZIP
+    number: 42-8.
+    value: 02048
+  - name: TITLE
+    number: 43-8.
+    value: Treasurer
+  - name: TELEPHONE
+    number: 44-8.
+    value: '5082618000'
+  - name: Designated Agent
+    number: '45-8. '
+    value: Grossman^Scott^^
+  - name: STREET 1
+    number: 46-8.
+    value: 15 Hampshire Street
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: Mansfield
+  - name: STATE
+    number: 49-8.
+    value: MA
+  - name: ZIP
+    number: 50-8.
+    value: 02048
+  - name: TITLE
+    number: 51-8.
+    value: Assistant Treasurer
+  - name: TELEPHONE
+    number: 52-8.
+    value: '5082618000'
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Bank of America
+  - name: STREET 1
+    number: 54-9.
+    value: 7810 Old Branch Avenue
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Clinton
+  - name: STATE
+    number: 57-9.
+    value: MD
+  - name: ZIP
+    number: 58-9.
+    value: '20735'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: DaSilva^Kevin^^
+  - name: Signed
+    number: 60-
+    value: '20070917'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: jonathan.collard@covidien.com
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: 202-310-5137
+  - value: ''
+  expected_count: 63
+  input: F1A,C00433490,"Covidien Political Action Committee (Covidien PAC)",900 7th
+    Street N.W.,Suite 975,Washington,DC,20001,20070911,X,,E,,,,,,,NAT,,"Covidien",15
+    Hampshire Street,,Mansfield,MA,02048,Connected,C,Collard^Jonathan^^,900 7th Street
+    N.W.,Suite 975,Washington,DC,20001,Dir Govt Affairs,2023105120,DaSilva^Kevin^^,15
+    Hampshire Street,,Mansfield,MA,02048,Treasurer,5082618000,Grossman^Scott^^,15
+    Hampshire Street,,Mansfield,MA,02048,Assistant Treasurer,5082618000,Bank of America,7810
+    Old Branch Avenue,,Clinton,MD,20735,DaSilva^Kevin^^,20070917,jonathan.collard@covidien.com,,202-310-5137,
+  input_count: 64
+  record: fec.version.v5_3.F1
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amended registration is being filed to update the name of the PAC
+  - name: AMENDED CD
+    number: '5'
+    value: ' the name and address of the corporation (connected organizaiont)'
+  - value: ' the PAC''s fax number and the contact information (address and phone
+      number) for the Treasurer and Assistant Treasurer. It also indicates that Coviden
+      PAC is now unaffiliated according to AO-2007-12.'
+  expected_count: 5
+  input: TEXT,F1A,,"This amended registration is being filed to update the name of
+    the PAC, the name and address of the corporation (connected organizaiont), the
+    PAC's fax number and the contact information (address and phone number) for the
+    Treasurer and Assistant Treasurer. It also indicates that Coviden PAC is now unaffiliated
+    according to AO-2007-12."
+  input_count: 6
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070917
+type: single
