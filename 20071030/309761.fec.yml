@@ -1,0 +1,631 @@
+countraw: 7
+countrows: 5
+filename: 309761.fec
+header: {}
+rows:
+- input: F24,C00432260,CLUB FOR GROWTH PAC,2001 L ST NW SUITE 600,,WASHINGTON,DC,20036,Toomey^Pat^^,20071030,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00432260
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CLUB FOR GROWTH PAC
+  - name: STREET 1
+    number: '4'
+    value: 2001 L ST NW SUITE 600
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Toomey^Pat^^
+  - name: Signed
+    number: 10-
+    value: '20071030'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00432260
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: 2001 L St.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Ste. 600
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: email costs (from advance line 21)
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071023'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '236.87'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Buehrer^Steve^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: OH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: C00432260
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20071030'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.19667
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: S2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Special-Primary
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '236.87'
+  expected_count: 46
+  input: SE24,C00432260,ORG,Club for Growth,"2001 L St., NW",Ste. 600,Washington,DC,20036,email
+    costs (from advance line 21),20071023,236.87,S,,Buehrer^Steve^^,H,OH,05,C00432260,,,,,,,,,,,,,20071030,,,,,SE24.19667,,,,,S2007,Special-Primary,,,236.87
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00432260
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: 2001 L St.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Ste. 600
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: press release (from advance line 21)
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071030'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '144.10'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Latta^Robert Edward^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: OH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '5'
+  - name: Unused field
+    number: '20'
+    value: C00432260
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20071030'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.19665
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: S2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Special-Primary
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '105951.10'
+  expected_count: 46
+  input: SE24,C00432260,ORG,Club for Growth,"2001 L St., NW",Ste. 600,Washington,DC,20036,press
+    release (from advance line 21),20071030,144.10,O,,Latta^Robert Edward^^,H,OH,5,C00432260,,,,,,,,,,,,,20071030,,,,,SE24.19665,,,,,S2007,Special-Primary,,,105951.10
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00432260
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: 2001 L St.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Ste. 600
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: tv ad production cost(from adv. line 21)
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20071030'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '675.69'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Latta^Robert Edward^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: OH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '5'
+  - name: Unused field
+    number: '20'
+    value: C00432260
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20071030'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.19666
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: S2007
+  - name: CATEGORY CODE
+    number: '44'
+    value: Special-Primary
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '106626.79'
+  expected_count: 46
+  input: SE24,C00432260,ORG,Club for Growth,"2001 L St., NW",Ste. 600,Washington,DC,20036,tv
+    ad production cost(from adv. line 21),20071030,675.69,O,,Latta^Robert Edward^^,H,OH,5,C00432260,,,,,,,,,,,,,20071030,,,,,SE24.19666,,,,,S2007,Special-Primary,,,106626.79
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00432260
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Red Sea
+  - name: STREET 1
+    number: '5'
+    value: ' LLC'
+  - name: STREET 2
+    number: '6'
+    value: Air Rights Center
+  - name: CITY
+    number: '7'
+    value: ' N. Tower'
+  - name: STATE
+    number: '8'
+    value: ' #906'
+  - name: ZIP
+    number: '9'
+    value: 4550 Montgomery Ave.
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Behtesda
+  - name: DATE
+    number: '11'
+    value: MD
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20814'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: tv ad air buy
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ' production costs'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '20071030'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: '105807.00'
+  - name: S/O STATE
+    number: '17'
+    value: O
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Latta^Robert Edward^^
+  - name: Unused field
+    number: '20'
+    value: H
+  - name: Unused field
+    number: '21'
+    value: OH
+  - name: Unused field
+    number: '22'
+    value: '5'
+  - name: Unused field
+    number: '23'
+    value: C00432260
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: '20071030'
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: SE24.19664
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: S2007
+  - value: Special-Primary
+  - value: ''
+  - value: ''
+  - value: '105807.00'
+  expected_count: 46
+  input: 'SE24,C00432260,ORG,"Red Sea, LLC","Air Rights Center, N. Tower, #906",4550
+    Montgomery Ave.,Behtesda,MD,20814,"tv ad air buy, production costs",20071030,105807.00,O,,Latta^Robert
+    Edward^^,H,OH,5,C00432260,,,,,,,,,,,,,20071030,,,,,SE24.19664,,,,,S2007,Special-Primary,,,105807.00'
+  input_count: 50
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20071030
+type: single
