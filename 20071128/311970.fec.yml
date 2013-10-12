@@ -1,0 +1,164 @@
+countraw: 3
+countrows: 1
+filename: 311970.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00430397
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Hanger Orthopedic Group Inc. PAC
+  - name: STREET 1
+    number: '4'
+    value: 2 Bethesda Metro Center
+  - name: STREET 2
+    number: '5'
+    value: ' Ste 1200'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Bethesda
+  - name: ZIP
+    number: '8'
+    value: MD
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: '20814'
+  - name: Of Affiliation
+    number: 10-
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: S4IA00020
+  - name: CAN/OFFICE
+    number: '15'
+    value: Harkin
+  - name: CAN/STATE
+    number: '16'
+    value: ' Thomas Richard'
+  - name: CAN/DIST
+    number: '17'
+    value: S
+  - name: Of Contribution
+    number: 18-
+    value: IA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: CANDIDATE NAME
+    number: '20'
+    value: '20070516'
+  - name: CAN/OFFICE
+    number: '21'
+    value: H6NY19029
+  - name: CAN/STATE
+    number: '22'
+    value: Rangel
+  - name: CAN/DIST
+    number: '23'
+    value: ' Charles B.'
+  - name: Of Contribution
+    number: 24-
+    value: H
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: NY
+  - name: CANDIDATE NAME
+    number: '26'
+    value: '15'
+  - name: CAN/OFFICE
+    number: '27'
+    value: '20070517'
+  - name: CAN/STATE
+    number: '28'
+    value: S6PA00100
+  - name: CAN/DIST
+    number: '29'
+    value: Specter
+  - name: Of Contribution
+    number: 30-
+    value: ' Arlen'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: S
+  - name: CANDIDATE NAME
+    number: '32'
+    value: PA
+  - name: CAN/OFFICE
+    number: '33'
+    value: '00'
+  - name: CAN/STATE
+    number: '34'
+    value: '20070709'
+  - name: CAN/DIST
+    number: '35'
+    value: S6LA00227
+  - name: Of Contribution
+    number: 36-
+    value: Landrieu
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: ' Mary L.'
+  - name: CANDIDATE NAME
+    number: '38'
+    value: S
+  - name: CAN/OFFICE
+    number: '39'
+    value: LA
+  - name: CAN/STATE
+    number: '40'
+    value: '00'
+  - name: CAN/DIST
+    number: '41'
+    value: '20071016'
+  - name: Of Contribution
+    number: 42-
+    value: S6IL00151
+  - name: Of 51st Contributor
+    number: 43-
+    value: Durbin
+  - name: Of Orig Registration
+    number: 44-
+    value: ' Richard J.'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: S
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: IL
+  - name: Signed
+    number: 47-
+    value: '00'
+  - value: '20071030'
+  - value: '20070302'
+  - value: '20061108'
+  - value: '20071030'
+  - value: Hai Tran
+  - value: '20071128'
+  expected_count: 47
+  input: '"F1MN","C00430397","Hanger Orthopedic Group Inc. PAC","2 Bethesda Metro
+    Center, Ste 1200","","Bethesda","MD","20814","N",,"","","S4IA00020","Harkin, Thomas
+    Richard","S","IA",00,20070516,"H6NY19029","Rangel, Charles B.","H","NY",15,20070517,"S6PA00100","Specter,
+    Arlen","S","PA",00,20070709,"S6LA00227","Landrieu, Mary L.","S","LA",00,20071016,"S6IL00151","Durbin,
+    Richard J.","S","IL",00,20071030,20070302,20061108,20071030,"Hai Tran",20071128'
+  input_count: 53
+  record: fec.version.v5_3.F1M
+  result: []
+sourceurl: !!python/unicode 20071128
+type: single
