@@ -1,0 +1,296 @@
+countraw: 5
+countrows: 3
+filename: 307576.fec
+header: {}
+rows:
+- input: F5N,C00439091,J E W KENNEDY BANKS FOR PRESIDENT COMMITTEE,1052 EDISON ST,,YORK,,17403,,,,,Q3,,,,20070701,20070930,100.00,100.00,Paula
+    Hill,20071015,,,,
+  record: fec.version.v5_3.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00439091
+  - name: COMMITTEE NAME
+    number: '3'
+    value: J E W KENNEDY BANKS FOR PRESIDENT COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1052 EDISON ST
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: YORK
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: '17403'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: Q3
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20070701'
+  - name: Coverage To
+    number: 18-
+    value: '20070930'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '100.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '100.00'
+  - name: Person Completing Form
+    number: 21-
+    value: Paula Hill
+  - name: Signed
+    number: 22-
+    value: '20071015'
+  - name: SPACE HOLDER
+    number: '23'
+    value: ''
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00439091
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kennedy Banks^J.E.W.^^
+  - name: STREET 1
+    number: '5'
+    value: 1052 Edison St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: York
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '17403'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: candidate
+  - name: Of Contribution
+    number: 12-
+    value: '20070930'
+  - name: AMOUNT
+    number: '13'
+    value: '100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F56.000001
+  - value: ''
+  expected_count: 27
+  input: F56,C00439091,IND,Kennedy Banks^J.E.W.^^,1052 Edison St.,,York,PA,17403,self,candidate,20070930,100.00,,,,,,,,,,,,,,F56.000001,
+  input_count: 28
+  record: fec.version.v5_3.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00439091
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Kennedy Banks^J.E.W.^^
+  - name: STREET 1
+    number: '5'
+    value: 1052 Edison St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: York
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '17403'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: travel to Wash.DC to file for office
+  - name: Of Expenditure
+    number: 11-
+    value: '20070930'
+  - name: AMOUNT
+    number: '12'
+    value: '100.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: J.E.W. Kennedy Banks
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: PA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000001
+  - name: CATEGORY CODE
+    number: '33'
+    value: '002'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '2008.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00439091,IND,Kennedy Banks^J.E.W.^^,1052 Edison St.,,York,PA,17403,travel
+    to Wash.DC to file for office,20070930,100.00,S,,J.E.W. Kennedy Banks,P,PA,,,,,,,,,,,,,,,F57.000001,002,,2008.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20071016
+type: single
