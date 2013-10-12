@@ -1,0 +1,190 @@
+countraw: 4
+countrows: 2
+filename: 306099.fec
+header: {}
+rows:
+- input: F1MN,C00410316,MONEYGRAM INTERNATIONAL INC GOOD GOVERNMENT FUND,1550 UTICA
+    AVENUE SOUTH MS 8020,,MINNEAPOLIS,MN,55416,N,,,-,,Royce^Ed^^,H,CA,40,20050531,,Kyl^Jon^^,S,AZ,,20051219,,Kennedy^Mark^^,S,MN,,20051219,,Frank^Barney^^,H,NY,04,20060927,,Bennett^Robert^^,S,UT,,20060927,20050630,20050316,20060927,Gallaher^Timothy^^,20071010
+  record: fec.version.v5_3.F1M
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410316
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MONEYGRAM INTERNATIONAL INC GOOD GOVERNMENT FUND
+  - name: STREET 1
+    number: '4'
+    value: 1550 UTICA AVENUE SOUTH MS 8020
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MINNEAPOLIS
+  - name: STATE
+    number: '7'
+    value: MN
+  - name: ZIP
+    number: '8'
+    value: '55416'
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: N
+  - name: Of Affiliation
+    number: 10-
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: '-'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: Royce^Ed^^
+  - name: CAN/OFFICE
+    number: '15'
+    value: H
+  - name: CAN/STATE
+    number: '16'
+    value: CA
+  - name: CAN/DIST
+    number: '17'
+    value: '40'
+  - name: Of Contribution
+    number: 18-
+    value: '20050531'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '20'
+    value: Kyl^Jon^^
+  - name: CAN/OFFICE
+    number: '21'
+    value: S
+  - name: CAN/STATE
+    number: '22'
+    value: AZ
+  - name: CAN/DIST
+    number: '23'
+    value: ''
+  - name: Of Contribution
+    number: 24-
+    value: '20051219'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '26'
+    value: Kennedy^Mark^^
+  - name: CAN/OFFICE
+    number: '27'
+    value: S
+  - name: CAN/STATE
+    number: '28'
+    value: MN
+  - name: CAN/DIST
+    number: '29'
+    value: ''
+  - name: Of Contribution
+    number: 30-
+    value: '20051219'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '32'
+    value: Frank^Barney^^
+  - name: CAN/OFFICE
+    number: '33'
+    value: H
+  - name: CAN/STATE
+    number: '34'
+    value: NY
+  - name: CAN/DIST
+    number: '35'
+    value: '04'
+  - name: Of Contribution
+    number: 36-
+    value: '20060927'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '38'
+    value: Bennett^Robert^^
+  - name: CAN/OFFICE
+    number: '39'
+    value: S
+  - name: CAN/STATE
+    number: '40'
+    value: UT
+  - name: CAN/DIST
+    number: '41'
+    value: ''
+  - name: Of Contribution
+    number: 42-
+    value: '20060927'
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20050630'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20050316'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20060927'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: Gallaher^Timothy^^
+  - name: Signed
+    number: 47-
+    value: '20071010'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1MN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: We would like to notify you that MoneyGram International Inc.
+  - name: AMENDED CD
+    number: '5'
+    value: ' Good Government Fund (''MoneyGram Fund'') has reached the criteria for
+      multicandidate status. The MoneyGram Fund met the criteria on September 27'
+  - value: ' 2006'
+  - value: ' but inadvertently failed to report the change in status within 10 days
+      of meeting the requirement. During this time'
+  - value: ' the committee continued to operate as a non-multicandidate PAC. The MoneyGram
+      Fund''s Steering Committee is voluntarily reporting the late filing of the PAC''s
+      multi-candidate status. We are committed to internal compliance with the FEC
+      regulations'
+  - value: ' and have instituted measures to ensure timely and accurate filings.'
+  expected_count: 5
+  input: TEXT,F1MN,,"We would like to notify you that MoneyGram International Inc.,
+    Good Government Fund ('MoneyGram Fund') has reached the criteria for multicandidate
+    status. The MoneyGram Fund met the criteria on September 27, 2006, but inadvertently
+    failed to report the change in status within 10 days of meeting the requirement.
+    During this time, the committee continued to operate as a non-multicandidate PAC.
+    The MoneyGram Fund's Steering Committee is voluntarily reporting the late filing
+    of the PAC's multi-candidate status. We are committed to internal compliance with
+    the FEC regulations, and have instituted measures to ensure timely and accurate
+    filings."
+  input_count: 9
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20071010
+type: single
