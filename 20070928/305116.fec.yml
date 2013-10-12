@@ -1,0 +1,436 @@
+countraw: 5
+countrows: 3
+filename: 305116.fec
+header: {}
+rows:
+- input: '"F1N","C00347385","Level 3 Communications Inc. Political Action Committee","1025
+    El Dorado Blvd.","","Broomfield","CO","80021","20070928","","","E","","","","",,"","","","Level
+    3 Communications","1025 Eldorado Blvd","","Broomfield","CO","80021","Connected","C","Montoya^Theresa^^","1025
+    Eldorado Blvd","","Broomfield","CO","80021","Administrative Assis",7208882549,"Pribyl^James^Mr.^","1025
+    Eldorado Blvd","","Broomfield","CO","80021","Vice President",7208887328,"","","","","","","",,"U
+    S Bank","950 17th Street","","Denver","CO","80202","Pribyl^James^Mr.^","20070928","theresa.montoya@level3.com","","720-888-5134"'
+  record: fec.version.v5_3.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00347385
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Level 3 Communications Inc. Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 1025 El Dorado Blvd.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Broomfield
+  - name: STATE
+    number: '7'
+    value: CO
+  - name: ZIP
+    number: '8'
+    value: '80021'
+  - name: Submitted
+    number: 9-
+    value: '20070928'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Level 3 Communications
+  - name: STREET 1
+    number: 22-6.
+    value: 1025 Eldorado Blvd
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: Broomfield
+  - name: STATE
+    number: 25-6.
+    value: CO
+  - name: ZIP
+    number: 26-6.
+    value: '80021'
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: Connected
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: C
+  - name: Custodian Name
+    number: '29-7. '
+    value: Montoya^Theresa^^
+  - name: STREET 1
+    number: 30-7.
+    value: 1025 Eldorado Blvd
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: Broomfield
+  - name: STATE
+    number: 33-7.
+    value: CO
+  - name: ZIP
+    number: 34-7.
+    value: '80021'
+  - name: TITLE
+    number: 35-7.
+    value: Administrative Assis
+  - name: TELEPHONE
+    number: 36-7.
+    value: '7208882549'
+  - name: Treasurer
+    number: '37-8. '
+    value: Pribyl^James^Mr.^
+  - name: STREET 1
+    number: 38-8.
+    value: 1025 Eldorado Blvd
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: Broomfield
+  - name: STATE
+    number: 41-8.
+    value: CO
+  - name: ZIP
+    number: 42-8.
+    value: '80021'
+  - name: TITLE
+    number: 43-8.
+    value: Vice President
+  - name: TELEPHONE
+    number: 44-8.
+    value: '7208887328'
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: U S Bank
+  - name: STREET 1
+    number: 54-9.
+    value: 950 17th Street
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: Denver
+  - name: STATE
+    number: 57-9.
+    value: CO
+  - name: ZIP
+    number: 58-9.
+    value: '80202'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Pribyl^James^Mr.^
+  - name: Signed
+    number: 60-
+    value: '20070928'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: theresa.montoya@level3.com
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: 720-888-5134
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00347385
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: ''
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: Submitted
+    number: 9-
+    value: ''
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: Broadwing Communications PAC
+  - name: STREET 1
+    number: 22-6.
+    value: 200 N. LaSalle
+  - name: STREET 2
+    number: 23-6.
+    value: ' Suite 1100'
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: Chicago
+  - name: ZIP
+    number: 26-6.
+    value: IL
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: '60601'
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: Affiliated
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: ''
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: ''
+  - name: ZIP
+    number: 42-8.
+    value: ''
+  - name: TITLE
+    number: 43-8.
+    value: ''
+  - name: TELEPHONE
+    number: 44-8.
+    value: ''
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: ''
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: ''
+  expected_count: 63
+  input: '"F1S","C00347385","","","","","","","","","","","","","","",,"","","","Broadwing
+    Communications PAC","200 N. LaSalle, Suite 1100","","Chicago","IL","60601","Affiliated","","","","","","","","",,"","","","","","","",,"","","","","","","",,"","","","","","","","","","",""'
+  input_count: 64
+  record: fec.version.v5_3.F1S
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This is in response to the Federal Election Commission letter dated August
+      29
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2007'
+  - value: ' referencing the Level 3 Communications Political Action Committee (PAC)
+      June Monthly Report.  The Level 3 Communications PAC became affiliated with
+      the Broadwing Communications PAC on January 3'
+  - value: ' 2007 as a result of a corporate merger.  On May 18'
+  - value: ' 2007'
+  - value: ' $18'
+  - value: 640.97 was transferred from Broadwing Communications PAC to the Level 3
+      Communications PAC.
+  expected_count: 5
+  input: '"TEXT","F1N","","This is in response to the Federal Election Commission
+    letter dated August 29, 2007, referencing the Level 3 Communications Political
+    Action Committee (PAC) June Monthly Report.  The Level 3 Communications PAC became
+    affiliated with the Broadwing Communications PAC on January 3, 2007 as a result
+    of a corporate merger.  On May 18, 2007, $18,640.97 was transferred from Broadwing
+    Communications PAC to the Level 3 Communications PAC."'
+  input_count: 10
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20070928
+type: single
